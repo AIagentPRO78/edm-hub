@@ -45,6 +45,9 @@ export function createDeckBar(player: Player, options: { onTip?: () => void } = 
     bar.style.setProperty('--accent', artist.accent);
     title.textContent = `${artist.name} — ${track.title}`;
     sub.textContent = `▶ now playing · via ${SOURCE_LABEL[track.platform]}`;
+    // SoundCloud uses the tall visual waveform (big, clickable seek area), so
+    // give the deck more height when a SoundCloud track is active.
+    bar.classList.toggle('deck--sc', track.platform === 'soundcloud');
 
     if (!iframe) {
       iframe = document.createElement('iframe');

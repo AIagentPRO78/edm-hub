@@ -14,4 +14,7 @@ describe('soundcloudEmbedSrc', () => {
   it('auto-plays by default', () => {
     expect(soundcloudEmbedSrc('https://soundcloud.com/a/b').includes('auto_play=true')).toBe(true);
   });
+  it('uses the visual waveform player (large click-to-seek area)', () => {
+    expect(soundcloudEmbedSrc('https://soundcloud.com/a/b').includes('visual=true')).toBe(true);
+  });
 });

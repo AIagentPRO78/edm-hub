@@ -6,7 +6,7 @@ export function soundcloudEmbedSrc(ref: string, autoplay = true): string {
     show_comments: 'false',
     show_user: 'true',
     show_reposts: 'false',
-    visual: 'false',
+    visual: 'true',
     color: 'ff2bd6',
   });
   return `https://w.soundcloud.com/player/?${params.toString()}`;

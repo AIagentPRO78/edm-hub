@@ -52,4 +52,17 @@ describe('createDeckBar', () => {
     const el = createDeckBar(createPlayer());
     expect(el.querySelector('.tip-button')).toBeNull();
   });
+
+  it('flags the deck for the tall visual player only while a SoundCloud track plays', () => {
+    const player = createPlayer();
+    const el = createDeckBar(player);
+    const sc: Artist = {
+      id: 'sc', name: 'SC', genres: ['Trance'], accent: '#19f0ff',
+      tracks: [{ title: 't', platform: 'soundcloud', ref: 'https://soundcloud.com/a/b', kind: 'track' }],
+    };
+    player.play(sc, sc.tracks[0]!);
+    expect(el.classList.contains('deck--sc')).toBe(true);
+    player.play(artist, artist.tracks[0]!); // youtube
+    expect(el.classList.contains('deck--sc')).toBe(false);
+  });
 });
