@@ -33,6 +33,13 @@ declare global {
   }
 }
 
+/**
+ * Nonce shared between the CSP `script-src` directive (vercel.json) and the
+ * PayPal SDK's `data-csp-nonce` attribute. PayPal stamps this onto the inline
+ * scripts it injects so they satisfy a strict CSP without `'unsafe-inline'`.
+ */
+export const PAYPAL_CSP_NONCE = 'ZGpzZXQtcGF5cGFsLW5vbmNl';
+
 /** Build the PayPal JS SDK URL. The client id is public (safe in the bundle). */
 export function paypalSdkSrc(clientId: string, currency = 'USD'): string {
   const params = new URLSearchParams({
@@ -54,6 +61,9 @@ export function loadPayPal(clientId: string, currency = 'USD'): Promise<PayPalNa
     const script = document.createElement('script');
     script.src = paypalSdkSrc(clientId, currency);
     script.async = true;
+    // PayPal propagates this nonce onto the inline scripts it injects, so they
+    // pass a strict CSP (matching 'nonce-...' in script-src).
+    script.setAttribute('data-csp-nonce', PAYPAL_CSP_NONCE);
     script.onload = () => {
       if (window.paypal) resolve(window.paypal);
       else reject(new Error('PayPal SDK loaded but window.paypal is undefined'));
