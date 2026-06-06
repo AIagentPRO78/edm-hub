@@ -1,4 +1,4 @@
-import type { Artist, Track } from '../types';
+import { type Artist, type Track, PLATFORMS, KINDS } from '../types';
 import seed from './artists.seed.json';
 
 const ACCENTS = ['#ff2bd6', '#19f0ff', '#b14bff', '#ff5ab1', '#2bff9e', '#ffd23d', '#ff7a3d', '#5a8cff'] as const;
@@ -19,9 +19,6 @@ interface SeedArtist {
   notes: string;
   image?: string;
 }
-
-const PLATFORMS = new Set(['soundcloud', 'youtube', 'mixcloud']);
-const KINDS = new Set(['track', 'set']);
 
 function toTrack(s: SeedTrack): Track | null {
   if (!s.verified) return null;
@@ -45,8 +42,9 @@ export const ARTISTS: Artist[] = (seed as SeedArtist[])
   }))
   .filter((a) => {
     if (a.tracks.length === 0) {
-      // eslint-disable-next-line no-console
-      console.warn(`[artists] dropping "${a.id}" — no verified tracks`);
+      if (import.meta.env.DEV) {
+        console.warn(`[artists] dropping "${a.id}" — no verified tracks`);
+      }
       return false;
     }
     return true;

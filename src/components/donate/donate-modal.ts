@@ -14,14 +14,14 @@ interface DonateModalConfig {
   loadPayPal?: (clientId: string, currency: string) => Promise<PayPalNamespace>;
 }
 
-const DEFAULT_AMOUNT = 3;
+const DEFAULT_AMOUNT = DONATION_PRESETS[1] ?? DONATION_PRESETS[0] ?? 1;
 
 export function createDonateModal(config: DonateModalConfig = {}): DonateModal {
-  const clientId = config.clientId ?? (import.meta.env.VITE_PAYPAL_CLIENT_ID as string | undefined) ?? '';
-  const currency = config.currency ?? (import.meta.env.VITE_PAYPAL_CURRENCY as string | undefined) ?? 'USD';
+  const clientId = config.clientId ?? import.meta.env.VITE_PAYPAL_CLIENT_ID ?? '';
+  const currency = config.currency ?? import.meta.env.VITE_PAYPAL_CURRENCY ?? 'USD';
   const load = config.loadPayPal ?? loadPayPal;
 
-  let currentAmount = DEFAULT_AMOUNT;
+  let currentAmount: number = DEFAULT_AMOUNT;
   let buttonsRendered = false;
 
   const el = document.createElement('aside');
@@ -91,7 +91,8 @@ export function createDonateModal(config: DonateModalConfig = {}): DonateModal {
 
   customInput.addEventListener('input', () => {
     if (customInput.value.trim() === '') {
-      setActiveChip(currentAmount);
+      currentAmount = DEFAULT_AMOUNT;
+      setActiveChip(DEFAULT_AMOUNT);
       clearError();
       return;
     }
@@ -159,31 +160,39 @@ export function createDonateModal(config: DonateModalConfig = {}): DonateModal {
       showFatal('Could not load PayPal. Please try again later.');
       return;
     }
-    buttonsRendered = true;
-    await paypal
-      .Buttons({
-        style: { layout: 'vertical', color: 'gold', shape: 'pill', label: 'paypal' },
-        createOrder: (_data: unknown, actions: PayPalOrderActions) => {
-          const amt = normalizeAmount(currentAmount);
-          return actions.order.create({
-            intent: 'CAPTURE',
-            purchase_units: [
-              {
-                amount: { value: amt.ok ? amt.value : DEFAULT_AMOUNT.toFixed(2), currency_code: currency },
-                description: 'DJ SET — supporter tip',
-              },
-            ],
-          });
-        },
-        onApprove: async (_data: unknown, actions: PayPalOrderActions) => {
-          await actions.order.capture();
-          showSuccess();
-        },
-        onError: () => {
-          showError('Payment could not be completed. Please try again.');
-        },
-      })
-      .render(paypalSlot);
+    try {
+      await paypal
+        .Buttons({
+          style: { layout: 'vertical', color: 'gold', shape: 'pill', label: 'paypal' },
+          createOrder: (_data: unknown, actions: PayPalOrderActions) => {
+            const amt = normalizeAmount(currentAmount);
+            return actions.order.create({
+              intent: 'CAPTURE',
+              purchase_units: [
+                {
+                  amount: { value: amt.ok ? amt.value : DEFAULT_AMOUNT.toFixed(2), currency_code: currency },
+                  description: 'DJ SET — supporter tip',
+                },
+              ],
+            });
+          },
+          onApprove: async (_data: unknown, actions: PayPalOrderActions) => {
+            await actions.order.capture();
+            showSuccess();
+          },
+          onError: (err: unknown) => {
+            console.error('[donate] PayPal button error', err);
+            showError('Payment could not be completed. Please try again.');
+          },
+        })
+        .render(paypalSlot);
+      // Only mark rendered after render() actually resolves, so a render
+      // failure leaves the modal retryable instead of stranding the user.
+      buttonsRendered = true;
+    } catch (err) {
+      console.error('[donate] PayPal render failed', err);
+      showFatal('Could not load the PayPal buttons. Please try again.');
+    }
   }
 
   function open(): Promise<void> {

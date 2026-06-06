@@ -50,6 +50,10 @@ export function createDeckBar(player: Player, options: { onTip?: () => void } = 
       iframe = document.createElement('iframe');
       iframe.className = 'deck__iframe';
       iframe.allow = 'autoplay; encrypted-media; fullscreen';
+      // Defence-in-depth: constrain the embedded player. allow-same-origin +
+      // allow-scripts are required for the SoundCloud/Mixcloud/YouTube widgets
+      // to run; top-navigation and forms are intentionally withheld.
+      iframe.setAttribute('sandbox', 'allow-scripts allow-same-origin allow-presentation allow-popups');
       iframe.setAttribute('loading', 'eager');
       playerSlot.append(iframe);
     }

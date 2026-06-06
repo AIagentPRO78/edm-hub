@@ -20,8 +20,8 @@ export interface Artist {
   image?: string;
 }
 
-const PLATFORMS: ReadonlySet<string> = new Set(['soundcloud', 'youtube', 'mixcloud']);
-const KINDS: ReadonlySet<string> = new Set(['track', 'set']);
+export const PLATFORMS: ReadonlySet<string> = new Set(['soundcloud', 'youtube', 'mixcloud']);
+export const KINDS: ReadonlySet<string> = new Set(['track', 'set']);
 
 function isTrack(v: unknown): v is Track {
   if (typeof v !== 'object' || v === null) return false;

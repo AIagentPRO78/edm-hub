@@ -35,8 +35,18 @@ declare global {
 
 /**
  * Nonce shared between the CSP `script-src` directive (vercel.json) and the
- * PayPal SDK's `data-csp-nonce` attribute. PayPal stamps this onto the inline
- * scripts it injects so they satisfy a strict CSP without `'unsafe-inline'`.
+ * PayPal SDK's `data-csp-nonce` attribute, so PayPal's injected inline scripts
+ * pass our CSP without a blanket `'unsafe-inline'`.
+ *
+ * SECURITY NOTE: on a static host this nonce is a FIXED, publicly-visible value
+ * (it ships in the JS bundle and in the response header), so it does NOT defend
+ * against XSS the way a per-request, server-generated nonce would — injected
+ * markup could read and reuse it. It is kept only because the PayPal SDK needs a
+ * nonce (or `'unsafe-inline'`) to run its inline bootstrap. The residual XSS
+ * surface is minimal: the app emits no inline scripts of its own and never
+ * injects untrusted HTML (all DOM is built via textContent/createElement). For
+ * real per-request nonce protection, move the CSP header into a Vercel Edge
+ * Middleware that injects a fresh nonce per response.
  */
 export const PAYPAL_CSP_NONCE = 'ZGpzZXQtcGF5cGFsLW5vbmNl';
 
@@ -54,8 +64,13 @@ let loadPromise: Promise<PayPalNamespace> | null = null;
 
 /** Load the PayPal SDK once, lazily, and resolve the global `paypal` namespace. */
 export function loadPayPal(clientId: string, currency = 'USD'): Promise<PayPalNamespace> {
-  if (window.paypal) return Promise.resolve(window.paypal);
+  // The cached promise is the single source of truth once a load has started,
+  // so a successful load is never re-attempted and concurrent callers share it.
   if (loadPromise) return loadPromise;
+  if (window.paypal) {
+    loadPromise = Promise.resolve(window.paypal);
+    return loadPromise;
+  }
 
   loadPromise = new Promise<PayPalNamespace>((resolve, reject) => {
     const script = document.createElement('script');
