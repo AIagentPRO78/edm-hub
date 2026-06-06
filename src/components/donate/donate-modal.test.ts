@@ -1,4 +1,4 @@
-import { describe, it, expect, beforeEach } from 'vitest';
+import { describe, it, expect, beforeEach, vi } from 'vitest';
 import { createDonateModal } from './donate-modal';
 import type { PayPalNamespace } from '../../lib/donate/paypal';
 
@@ -11,6 +11,7 @@ function fakePayPal(): PayPalNamespace {
         container.appendChild(b);
         return Promise.resolve();
       },
+      close: () => Promise.resolve(),
     }),
   };
 }
@@ -61,7 +62,7 @@ describe('createDonateModal', () => {
 
   it('shows a fatal message if the PayPal buttons fail to render', async () => {
     const failing: PayPalNamespace = {
-      Buttons: () => ({ render: () => Promise.reject(new Error('render failed')) }),
+      Buttons: () => ({ render: () => Promise.reject(new Error('render failed')), close: () => Promise.resolve() }),
     };
     const m = createDonateModal({ clientId: 'test', loadPayPal: () => Promise.resolve(failing) });
     await m.open();
@@ -78,5 +79,24 @@ describe('createDonateModal', () => {
     custom.dispatchEvent(new Event('input'));
     const active = m.el.querySelector('.donate__chip[aria-pressed="true"]') as HTMLButtonElement;
     expect(active.dataset.amount).toBe('3');
+  });
+
+  it('re-renders the PayPal buttons when the amount changes so the charge matches the selection', async () => {
+    vi.useFakeTimers();
+    let renders = 0;
+    const ns: PayPalNamespace = {
+      Buttons: () => ({
+        render: () => { renders += 1; return Promise.resolve(); },
+        close: () => Promise.resolve(),
+      }),
+    };
+    const m = createDonateModal({ clientId: 'test', loadPayPal: () => Promise.resolve(ns) });
+    document.body.append(m.el);
+    await m.open();
+    expect(renders).toBe(1);
+    (m.el.querySelector('.donate__chip[data-amount="5"]') as HTMLButtonElement).click();
+    await vi.advanceTimersByTimeAsync(350);
+    expect(renders).toBe(2);
+    vi.useRealTimers();
   });
 });

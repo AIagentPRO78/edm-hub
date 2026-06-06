@@ -21,6 +21,7 @@ export interface PayPalButtonsConfig {
 
 export interface PayPalButtonsInstance {
   render(container: HTMLElement): Promise<void>;
+  close(): Promise<void>;
 }
 
 export interface PayPalNamespace {

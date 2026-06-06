@@ -1,6 +1,11 @@
 import './donate-modal.css';
 import { DONATION_PRESETS, normalizeAmount } from '../../lib/donate/amount';
-import { loadPayPal, type PayPalNamespace, type PayPalOrderActions } from '../../lib/donate/paypal';
+import {
+  loadPayPal,
+  type PayPalNamespace,
+  type PayPalButtonsInstance,
+  type PayPalOrderActions,
+} from '../../lib/donate/paypal';
 
 export interface DonateModal {
   el: HTMLElement;
@@ -22,7 +27,9 @@ export function createDonateModal(config: DonateModalConfig = {}): DonateModal {
   const load = config.loadPayPal ?? loadPayPal;
 
   let currentAmount: number = DEFAULT_AMOUNT;
-  let buttonsRendered = false;
+  let paypalNs: PayPalNamespace | null = null;
+  let buttonsInstance: PayPalButtonsInstance | null = null;
+  let refreshTimer: ReturnType<typeof setTimeout> | null = null;
 
   const el = document.createElement('aside');
   el.className = 'donate';
@@ -84,6 +91,7 @@ export function createDonateModal(config: DonateModalConfig = {}): DonateModal {
       customInput.value = '';
       setActiveChip(preset);
       clearError();
+      scheduleRebuild();
     });
     chips.append(chip);
   }
@@ -94,6 +102,7 @@ export function createDonateModal(config: DonateModalConfig = {}): DonateModal {
       currentAmount = DEFAULT_AMOUNT;
       setActiveChip(DEFAULT_AMOUNT);
       clearError();
+      scheduleRebuild();
       return;
     }
     const res = normalizeAmount(customInput.value);
@@ -101,6 +110,7 @@ export function createDonateModal(config: DonateModalConfig = {}): DonateModal {
       currentAmount = Number(customInput.value);
       setActiveChip(null);
       clearError();
+      scheduleRebuild();
     } else {
       showError(res.error ?? 'Enter a valid amount');
     }
@@ -147,48 +157,73 @@ export function createDonateModal(config: DonateModalConfig = {}): DonateModal {
     if (e.key === 'Escape' && el.getAttribute('aria-hidden') === 'false') close();
   });
 
-  async function ensureButtons(): Promise<void> {
-    if (buttonsRendered) return;
+  function buildButtons(paypal: PayPalNamespace): Promise<void> {
+    paypalSlot.replaceChildren();
+    buttonsInstance = paypal.Buttons({
+      style: { layout: 'vertical', color: 'gold', shape: 'pill', label: 'paypal' },
+      createOrder: (_data: unknown, actions: PayPalOrderActions) => {
+        const amt = normalizeAmount(currentAmount);
+        return actions.order.create({
+          intent: 'CAPTURE',
+          purchase_units: [
+            {
+              amount: { value: amt.ok ? amt.value : DEFAULT_AMOUNT.toFixed(2), currency_code: currency },
+              description: 'DJ SET — supporter tip',
+            },
+          ],
+        });
+      },
+      onApprove: async (_data: unknown, actions: PayPalOrderActions) => {
+        await actions.order.capture();
+        showSuccess();
+      },
+      onError: (err: unknown) => {
+        console.error('[donate] PayPal button error', err);
+        showError('Payment could not be completed. Please try again.');
+      },
+    });
+    return buttonsInstance.render(paypalSlot);
+  }
+
+  // Re-render the buttons whenever the amount changes so the order always
+  // reflects the current selection. PayPal's card form locks the amount when it
+  // opens, so a stale form must be torn down when the user picks a new amount.
+  async function rebuild(): Promise<void> {
+    if (!paypalNs) return;
+    try {
+      if (buttonsInstance) await buttonsInstance.close();
+    } catch {
+      /* already closed */
+    }
+    buttonsInstance = null;
+    try {
+      await buildButtons(paypalNs);
+    } catch (err) {
+      console.error('[donate] PayPal render failed', err);
+      showFatal('Could not load the PayPal buttons. Please try again.');
+    }
+  }
+
+  function scheduleRebuild(): void {
+    if (!paypalNs) return;
+    if (refreshTimer) clearTimeout(refreshTimer);
+    refreshTimer = setTimeout(() => { void rebuild(); }, 300);
+  }
+
+  async function ensureLoaded(): Promise<void> {
+    if (paypalNs) return;
     if (!clientId) {
       showFatal('Donations are temporarily unavailable.');
       return;
     }
-    let paypal: PayPalNamespace;
     try {
-      paypal = await load(clientId, currency);
+      paypalNs = await load(clientId, currency);
     } catch {
       showFatal('Could not load PayPal. Please try again later.');
       return;
     }
     try {
-      await paypal
-        .Buttons({
-          style: { layout: 'vertical', color: 'gold', shape: 'pill', label: 'paypal' },
-          createOrder: (_data: unknown, actions: PayPalOrderActions) => {
-            const amt = normalizeAmount(currentAmount);
-            return actions.order.create({
-              intent: 'CAPTURE',
-              purchase_units: [
-                {
-                  amount: { value: amt.ok ? amt.value : DEFAULT_AMOUNT.toFixed(2), currency_code: currency },
-                  description: 'DJ SET — supporter tip',
-                },
-              ],
-            });
-          },
-          onApprove: async (_data: unknown, actions: PayPalOrderActions) => {
-            await actions.order.capture();
-            showSuccess();
-          },
-          onError: (err: unknown) => {
-            console.error('[donate] PayPal button error', err);
-            showError('Payment could not be completed. Please try again.');
-          },
-        })
-        .render(paypalSlot);
-      // Only mark rendered after render() actually resolves, so a render
-      // failure leaves the modal retryable instead of stranding the user.
-      buttonsRendered = true;
+      await buildButtons(paypalNs);
     } catch (err) {
       console.error('[donate] PayPal render failed', err);
       showFatal('Could not load the PayPal buttons. Please try again.');
@@ -197,7 +232,7 @@ export function createDonateModal(config: DonateModalConfig = {}): DonateModal {
 
   function open(): Promise<void> {
     el.setAttribute('aria-hidden', 'false');
-    return ensureButtons();
+    return ensureLoaded();
   }
   function close(): void {
     el.setAttribute('aria-hidden', 'true');
