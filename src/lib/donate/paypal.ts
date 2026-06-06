@@ -6,6 +6,7 @@ export interface PayPalOrderActions {
         amount: { value: string; currency_code: string };
         description?: string;
       }>;
+      application_context?: { shipping_preference?: string };
     }): Promise<string>;
     capture(): Promise<unknown>;
   };

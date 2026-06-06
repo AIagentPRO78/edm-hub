@@ -165,6 +165,8 @@ export function createDonateModal(config: DonateModalConfig = {}): DonateModal {
         const amt = normalizeAmount(currentAmount);
         return actions.order.create({
           intent: 'CAPTURE',
+          // It's a digital tip — no shipping address needed.
+          application_context: { shipping_preference: 'NO_SHIPPING' },
           purchase_units: [
             {
               amount: { value: amt.ok ? amt.value : DEFAULT_AMOUNT.toFixed(2), currency_code: currency },
