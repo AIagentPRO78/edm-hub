@@ -15,23 +15,80 @@
         "verified": true
       },
       {
-        "title": "Armin van Buuren - Communication by Armin van Buuren",
-        "platform": "soundcloud",
-        "ref": "https://soundcloud.com/arminvanbuuren/armin-van-buuren-communication-original-mix",
-        "sourceUrl": "https://soundcloud.com/arminvanbuuren/armin-van-buuren-communication-original-mix",
+        "title": "Armin van Buuren feat. Sharon den Adel - In And Out Of Love (Official Music Video)",
+        "platform": "youtube",
+        "ref": "TxvpctgU_s8",
+        "sourceUrl": "https://www.youtube.com/watch?v=TxvpctgU_s8",
         "kind": "track",
         "verified": true
       },
       {
-        "title": "A State Of Trance Episode 1232 - Armin Van Buuren",
-        "platform": "mixcloud",
-        "ref": "https://www.mixcloud.com/ArminvanBuuren/a-state-of-trance-episode-1232-armin-van-buuren/",
-        "sourceUrl": "https://www.mixcloud.com/ArminvanBuuren/a-state-of-trance-episode-1232-armin-van-buuren/",
-        "kind": "set",
+        "title": "Armin van Buuren - Blah Blah Blah (Official Lyric Video)",
+        "platform": "youtube",
+        "ref": "mfJhMfOPWdE",
+        "sourceUrl": "https://www.youtube.com/watch?v=mfJhMfOPWdE",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Armin van Buuren vs Vini Vici feat. Hilight Tribe - Great Spirit (Extended Mix)",
+        "platform": "youtube",
+        "ref": "yo4pmauhugo",
+        "sourceUrl": "https://www.youtube.com/watch?v=yo4pmauhugo",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Armin van Buuren feat. Susana - Shivers (Official Music Video)",
+        "platform": "youtube",
+        "ref": "NHUn3AWOw8k",
+        "sourceUrl": "https://www.youtube.com/watch?v=NHUn3AWOw8k",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Armin van Buuren - Communication",
+        "platform": "youtube",
+        "ref": "bn1ycNxQMvk",
+        "sourceUrl": "https://www.youtube.com/watch?v=bn1ycNxQMvk",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Armin van Buuren - Ping Pong (Official Music Video)",
+        "platform": "youtube",
+        "ref": "Z8V5GfFeUDs",
+        "sourceUrl": "https://www.youtube.com/watch?v=Z8V5GfFeUDs",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Armin van Buuren feat. Fiora - Waiting For The Night (Official Music Video)",
+        "platform": "youtube",
+        "ref": "1GkYZH7AoS4",
+        "sourceUrl": "https://www.youtube.com/watch?v=1GkYZH7AoS4",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Armin van Buuren feat. Laura Jansen - Sound Of The Drums",
+        "platform": "youtube",
+        "ref": "ruevzjs3dYg",
+        "sourceUrl": "https://www.youtube.com/watch?v=ruevzjs3dYg",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Armin van Buuren feat. Eric Vloeimans - Embrace",
+        "platform": "youtube",
+        "ref": "n70c3Dzw-ZM",
+        "sourceUrl": "https://www.youtube.com/watch?v=n70c3Dzw-ZM",
+        "kind": "track",
         "verified": true
       }
     ],
-    "notes": "All 3 embeds resolved via oEmbed. YouTube (BR_DFMUzX4E), SoundCloud Communication permalink, and Mixcloud ASOT 1232 all returned valid JSON with titles. Mixcloud title normalized to oEmbed value 'A State Of Trance Episode 1232 - Armin Van Buuren'."
+    "notes": "All 10 verified via YouTube oEmbed (200 + JSON with real title, none 'Video unavailable'). Uploaders: Armada Music TV for This Is What It Feels Like, In And Out Of Love, Shivers, Ping Pong, Waiting For The Night, Embrace; official 'Armin van Buuren' channel for Blah Blah Blah, Great Spirit, Communication, Sound Of The Drums. Titles updated to cleaner oEmbed-returned titles.",
+    "image": "https://i.ytimg.com/vi/BR_DFMUzX4E/hqdefault.jpg"
   },
   {
     "id": "above-and-beyond",
@@ -49,23 +106,80 @@
         "verified": true
       },
       {
-        "title": "#111 Group Therapy Radio With Above & Beyond",
-        "platform": "mixcloud",
-        "ref": "https://www.mixcloud.com/aboveandbeyond/111-group-therapy-radio-with-above-beyond/",
-        "sourceUrl": "https://www.mixcloud.com/aboveandbeyond/111-group-therapy-radio-with-above-beyond/",
-        "kind": "set",
+        "title": "Above & Beyond feat. Richard Bedford \"Thing Called Love\" Official Music Video",
+        "platform": "youtube",
+        "ref": "ZgRnLM9Vi24",
+        "sourceUrl": "https://www.youtube.com/watch?v=ZgRnLM9Vi24",
+        "kind": "track",
         "verified": true
       },
       {
-        "title": "Above & Beyond - Group Therapy 500 Live From Los Angeles by Above & Beyond",
-        "platform": "soundcloud",
-        "ref": "https://soundcloud.com/aboveandbeyond/above-beyond-group-therapy-500-live-from-los-angeles",
-        "sourceUrl": "https://soundcloud.com/aboveandbeyond/above-beyond-group-therapy-500-live-from-los-angeles",
-        "kind": "set",
+        "title": "Above & Beyond feat. Zoë Johnston - \"We're All We Need\" (Official Music Video)",
+        "platform": "youtube",
+        "ref": "phXRX1p8woY",
+        "sourceUrl": "https://www.youtube.com/watch?v=phXRX1p8woY",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Above & Beyond feat. Zoë Johnston \"Alchemy\" (Official Music Video)",
+        "platform": "youtube",
+        "ref": "xBeMQ2V3yuk",
+        "sourceUrl": "https://www.youtube.com/watch?v=xBeMQ2V3yuk",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Above & Beyond feat. Richard Bedford - Northern Soul",
+        "platform": "youtube",
+        "ref": "F3wHID_B0B0",
+        "sourceUrl": "https://www.youtube.com/watch?v=F3wHID_B0B0",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Above & Beyond feat. Zoë Johnston - You Got To Go (OFFICIAL MUSIC VIDEO)",
+        "platform": "youtube",
+        "ref": "ZfdXbJptvos",
+        "sourceUrl": "https://www.youtube.com/watch?v=ZfdXbJptvos",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Above & Beyond feat. Gemma Hayes \"Counting Down The Days\" (Official Music Video)",
+        "platform": "youtube",
+        "ref": "hS_vDkUpmaQ",
+        "sourceUrl": "https://www.youtube.com/watch?v=hS_vDkUpmaQ",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Above & Beyond feat. Zoë Johnston - Love Is Not Enough (OFFICIAL MUSIC VIDEO)",
+        "platform": "youtube",
+        "ref": "AkI6bCEHoSQ",
+        "sourceUrl": "https://www.youtube.com/watch?v=AkI6bCEHoSQ",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Above & Beyond feat. Alex Vargas - \"Blue Sky Action\" (Official Music Video)",
+        "platform": "youtube",
+        "ref": "yU8Auh5Xp-8",
+        "sourceUrl": "https://www.youtube.com/watch?v=yU8Auh5Xp-8",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Above & Beyond - Another Angel (Official Video) [@anjunabeats]",
+        "platform": "youtube",
+        "ref": "UWVAASdOM90",
+        "sourceUrl": "https://www.youtube.com/watch?v=UWVAASdOM90",
+        "kind": "track",
         "verified": true
       }
     ],
-    "notes": "All 3 embeds resolved via oEmbed. YouTube Sun & Moon (ll5ykbAumD4), Mixcloud GT #111, and SoundCloud Group Therapy 500 all returned valid JSON. Titles normalized to oEmbed values."
+    "notes": "All 10 verified via YouTube oEmbed; every upload is on the official 'Above & Beyond' channel (Anjunabeats). Titles updated to cleaner oEmbed-returned titles.",
+    "image": "https://i.ytimg.com/vi/ll5ykbAumD4/hqdefault.jpg"
   },
   {
     "id": "paul-van-dyk",
@@ -75,10 +189,10 @@
     ],
     "tracks": [
       {
-        "title": "Paul van Dyk  - For An Angel 2009",
+        "title": "Paul van Dyk - For An Angel (1998)",
         "platform": "youtube",
-        "ref": "sRvEwXDxz_I",
-        "sourceUrl": "https://www.youtube.com/watch?v=sRvEwXDxz_I",
+        "ref": "--3eIRSg2RY",
+        "sourceUrl": "https://www.youtube.com/watch?v=--3eIRSg2RY",
         "kind": "track",
         "verified": true
       },
@@ -89,9 +203,74 @@
         "sourceUrl": "https://www.youtube.com/watch?v=BuxM6OQKIOw",
         "kind": "track",
         "verified": true
+      },
+      {
+        "title": "Paul van Dyk - Tell Me Why (Official Video)",
+        "platform": "youtube",
+        "ref": "IJSDQWtYlIw",
+        "sourceUrl": "https://www.youtube.com/watch?v=IJSDQWtYlIw",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Paul van Dyk - Time of our Lives",
+        "platform": "youtube",
+        "ref": "iibyFjc_8h0",
+        "sourceUrl": "https://www.youtube.com/watch?v=iibyFjc_8h0",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Paul van Dyk - We Are Alive (Official Video)",
+        "platform": "youtube",
+        "ref": "6I64KxnINy8",
+        "sourceUrl": "https://www.youtube.com/watch?v=6I64KxnINy8",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Paul van Dyk feat. Rea Garvey - Let Go (Official Video)",
+        "platform": "youtube",
+        "ref": "9phZWySNsXY",
+        "sourceUrl": "https://www.youtube.com/watch?v=9phZWySNsXY",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Paul van Dyk - I Don't Deserve You ft. Plumb (Official Video)",
+        "platform": "youtube",
+        "ref": "ZpeJhS8POtM",
+        "sourceUrl": "https://www.youtube.com/watch?v=ZpeJhS8POtM",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Paul van Dyk - HOME feat. Johnny McDaid (Official Video)",
+        "platform": "youtube",
+        "ref": "7TmdMTm5P2c",
+        "sourceUrl": "https://www.youtube.com/watch?v=7TmdMTm5P2c",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Paul van Dyk & Sue McLaren - Guiding Light (Official Music Video)",
+        "platform": "youtube",
+        "ref": "0t6U9iRgD7k",
+        "sourceUrl": "https://www.youtube.com/watch?v=0t6U9iRgD7k",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Paul van Dyk - 'The Sun After Heartbreak' feat. Sue McLaren & Arty",
+        "platform": "youtube",
+        "ref": "uc5CQXy5Ubs",
+        "sourceUrl": "https://www.youtube.com/watch?v=uc5CQXy5Ubs",
+        "kind": "track",
+        "verified": true
       }
     ],
-    "notes": "Both YouTube embeds resolved via oEmbed. 'For An Angel 2009' (sRvEwXDxz_I) and 'Nothing But You' (BuxM6OQKIOw, the chosen candidate) both returned valid JSON with titles. Titles normalized to oEmbed values. No Mixcloud/SoundCloud set included by design."
+    "notes": "All 10 verified via YouTube oEmbed on the 'Paul van Dyk' channel / PaulvanDykVEVO (Time of our Lives). Titles updated to oEmbed-returned titles. NOTE: track #6 ref 9phZWySNsXY oEmbed-resolves to 'Let Go (feat. Rea Garvey)', NOT 'White Lies' as the candidate originally labeled it — title corrected to match the actual verified video. For An Angel is his signature anthem.",
+    "image": "https://i.ytimg.com/vi/--3eIRSg2RY/hqdefault.jpg"
   },
   {
     "id": "ferry-corsten",
@@ -100,6 +279,22 @@
       "Trance"
     ],
     "tracks": [
+      {
+        "title": "Ferry Corsten - Rock Your Body Rock (Official video)",
+        "platform": "youtube",
+        "ref": "jvnhTrY32B0",
+        "sourceUrl": "https://www.youtube.com/watch?v=jvnhTrY32B0",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "System F - Out Of The Blue (Official Video)",
+        "platform": "youtube",
+        "ref": "Qgx_V0So0qk",
+        "sourceUrl": "https://www.youtube.com/watch?v=Qgx_V0So0qk",
+        "kind": "track",
+        "verified": true
+      },
       {
         "title": "Ferry Corsten - Punk (Official video)",
         "platform": "youtube",
@@ -117,15 +312,24 @@
         "verified": true
       },
       {
-        "title": "Corsten's Countdown 606",
-        "platform": "mixcloud",
-        "ref": "https://www.mixcloud.com/FerryCorsten/corstens-countdown-606/",
-        "sourceUrl": "https://www.mixcloud.com/FerryCorsten/corstens-countdown-606/",
-        "kind": "set",
+        "title": "Ferry Corsten - Fire (Official video)",
+        "platform": "youtube",
+        "ref": "5PDe3i0sO7o",
+        "sourceUrl": "https://www.youtube.com/watch?v=5PDe3i0sO7o",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Ferry Corsten feat. Betsie Larkin - Made Of Love (Official Video)",
+        "platform": "youtube",
+        "ref": "PtuCB1j2msY",
+        "sourceUrl": "https://www.youtube.com/watch?v=PtuCB1j2msY",
+        "kind": "track",
         "verified": true
       }
     ],
-    "notes": "All 3 embeds resolved via oEmbed. Punk (-4iJ8aCH_oc, author @ferrycorsten), Beautiful (zzE0LHp6Rbg, author @ferrycorsten), and Mixcloud Corsten's Countdown 606 all returned valid JSON. Titles normalized to oEmbed values."
+    "notes": "All 6 verified via YouTube oEmbed on the official 'Ferry Corsten' channel. Out Of The Blue is credited to his System F alias (oEmbed title 'System F - Out Of The Blue') but hosted on his official channel. Fewer than 10 candidates supplied; all that were given verified. Titles updated to oEmbed-returned titles.",
+    "image": "https://i.ytimg.com/vi/jvnhTrY32B0/hqdefault.jpg"
   },
   {
     "id": "atb",
@@ -135,31 +339,64 @@
     ],
     "tracks": [
       {
-        "title": "ATB - 9 PM (Till I Come) (Official Video)",
+        "title": "Atb - 9 Pm (Till I Come)",
         "platform": "youtube",
-        "ref": "L8jAZNu41io",
-        "sourceUrl": "https://www.youtube.com/watch?v=L8jAZNu41io",
+        "ref": "1DcABTJoWCc",
+        "sourceUrl": "https://www.youtube.com/watch?v=1DcABTJoWCc",
         "kind": "track",
         "verified": true
       },
       {
-        "title": "ATB - Ecstasy",
+        "title": "ATB - Don't Stop",
         "platform": "youtube",
-        "ref": "w_rCk4GUlQ8",
-        "sourceUrl": "https://www.youtube.com/watch?v=w_rCk4GUlQ8",
+        "ref": "sXq2fHAevek",
+        "sourceUrl": "https://www.youtube.com/watch?v=sXq2fHAevek",
         "kind": "track",
         "verified": true
       },
       {
-        "title": "ATB - Killer (Official Video HD)",
+        "title": "ATB, Topic, A7S - Your Love (9PM) (Official Music Video)",
         "platform": "youtube",
-        "ref": "mrPN8TtouuA",
-        "sourceUrl": "https://www.youtube.com/watch?v=mrPN8TtouuA",
+        "ref": "9hbu9toStfc",
+        "sourceUrl": "https://www.youtube.com/watch?v=9hbu9toStfc",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "ATB - Let U Go (Official Music Video)",
+        "platform": "youtube",
+        "ref": "Y-vtlRzdqN0",
+        "sourceUrl": "https://www.youtube.com/watch?v=Y-vtlRzdqN0",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "ATB - The Fields Of Love (Official Video HD)",
+        "platform": "youtube",
+        "ref": "_zxokj1VsaY",
+        "sourceUrl": "https://www.youtube.com/watch?v=_zxokj1VsaY",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "ATB - Ecstasy (Official Video HD)",
+        "platform": "youtube",
+        "ref": "xFhZSo0dbao",
+        "sourceUrl": "https://www.youtube.com/watch?v=xFhZSo0dbao",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "ATB - Marrakech (Official Video HD)",
+        "platform": "youtube",
+        "ref": "tdNT_OTWwwg",
+        "sourceUrl": "https://www.youtube.com/watch?v=tdNT_OTWwwg",
         "kind": "track",
         "verified": true
       }
     ],
-    "notes": "All 3 YouTube embeds resolved via oEmbed. 9 PM (L8jAZNu41io), Ecstasy (w_rCk4GUlQ8, oEmbed title shortened to 'ATB - Ecstasy'), and Killer (mrPN8TtouuA, author Kontor.TV) all returned valid JSON. Titles normalized to oEmbed values."
+    "notes": "All 7 verified via YouTube oEmbed. 9 PM (Till I Come), Don't Stop, Your Love (9PM) and Let U Go on ATBVEVO (official); The Fields Of Love, Ecstasy and Marrakech on Kontor.TV (official label Kontor Records). Fewer than 10 candidates supplied; all that were given verified. Titles updated to oEmbed-returned titles.",
+    "image": "https://i.ytimg.com/vi/1DcABTJoWCc/hqdefault.jpg"
   },
   {
     "id": "gareth-emery",
@@ -167,12 +404,37 @@
     "genres": [
       "Trance"
     ],
+    "notes": "All 10 verified via YouTube oEmbed (200 + valid title). Official channels confirmed: Gareth Emery's own channel, Monstercat for Saving Light, Armada Music TV for Hands. Ordered by all-time iconic status: Concrete Angel, Saving Light, and U are his three A State of Trance Tunes of the Year and signature anthems.",
     "tracks": [
       {
         "title": "Gareth Emery feat. Christina Novelli - Concrete Angel [Official Music Video]",
         "platform": "youtube",
         "ref": "0dFz10R529g",
         "sourceUrl": "https://www.youtube.com/watch?v=0dFz10R529g",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Gareth Emery & Standerwick - Saving Light (feat. HALIENE) [Monstercat Official Music Video]",
+        "platform": "youtube",
+        "ref": "1UTYlATnHhI",
+        "sourceUrl": "https://www.youtube.com/watch?v=1UTYlATnHhI",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Gareth Emery feat. Bo Bruce - U (Official Video)",
+        "platform": "youtube",
+        "ref": "jF7qGaKKD4M",
+        "sourceUrl": "https://www.youtube.com/watch?v=jF7qGaKKD4M",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Gareth Emery - Exposure [Garuda]",
+        "platform": "youtube",
+        "ref": "LVmmuzZu384",
+        "sourceUrl": "https://www.youtube.com/watch?v=LVmmuzZu384",
         "kind": "track",
         "verified": true
       },
@@ -185,15 +447,47 @@
         "verified": true
       },
       {
-        "title": "Gareth Emery & Standerwick - Saving Light (feat. HALIENE) [Monstercat Official Music Video]",
+        "title": "Gareth Emery - Long Way Home [Official Video]",
         "platform": "youtube",
-        "ref": "1UTYlATnHhI",
-        "sourceUrl": "https://www.youtube.com/watch?v=1UTYlATnHhI",
+        "ref": "0bj4i-sW44s",
+        "sourceUrl": "https://www.youtube.com/watch?v=0bj4i-sW44s",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Gareth Emery - You'll Be OK (feat. Annabel) [Official Music Video]",
+        "platform": "youtube",
+        "ref": "apKja6C804o",
+        "sourceUrl": "https://www.youtube.com/watch?v=apKja6C804o",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Gareth Emery & Alastor feat. London Thor - Hands",
+        "platform": "youtube",
+        "ref": "ZPaKC4XX0nc",
+        "sourceUrl": "https://www.youtube.com/watch?v=ZPaKC4XX0nc",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Gareth Emery - Elise (Official Music Video)",
+        "platform": "youtube",
+        "ref": "a0ZWl2nvnNc",
+        "sourceUrl": "https://www.youtube.com/watch?v=a0ZWl2nvnNc",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Gareth Emery feat. Evan Henzi - Call To Arms (Official Music Video)",
+        "platform": "youtube",
+        "ref": "Ulr6tJ1P5bc",
+        "sourceUrl": "https://www.youtube.com/watch?v=Ulr6tJ1P5bc",
         "kind": "track",
         "verified": true
       }
     ],
-    "notes": "All three YouTube embeds resolved via oEmbed with valid titles. Concrete Angel and Sanctuary are hosted on the official Gareth Emery channel; Saving Light is on Monstercat Uncaged (its releasing label). Titles updated to match the canonical oEmbed titles."
+    "image": "https://i.ytimg.com/vi/0dFz10R529g/hqdefault.jpg"
   },
   {
     "id": "aly-and-fila",
@@ -201,23 +495,8 @@
     "genres": [
       "Trance"
     ],
+    "notes": "9 of 10 verified via YouTube oEmbed (200 + valid title). The 10th candidate, Eye Of Horus, had an empty ref/sourceUrl in the input data and could not be resolved, so it was dropped. Official channels confirmed: Aly & Fila's own channel, with Without You via Armada Music TV. Ordered by iconic status: We Control The Sunlight, Unbreakable, Somebody Loves You and For All Time are their four ASOT Tunes of the Year.",
     "tracks": [
-      {
-        "title": "Future Sound Of Egypt 700 With Aly & Fila (3 Hour Virtual Live Stream From Los Angeles)",
-        "platform": "mixcloud",
-        "ref": "https://www.mixcloud.com/alyfila-futuresoundofegypt/future-sound-of-egypt-700-with-aly-fila-3-hour-virtual-live-stream-from-los-angeles/",
-        "sourceUrl": "https://www.mixcloud.com/alyfila-futuresoundofegypt/future-sound-of-egypt-700-with-aly-fila-3-hour-virtual-live-stream-from-los-angeles/",
-        "kind": "set",
-        "verified": true
-      },
-      {
-        "title": "Future Sound Of Egypt 728 With Aly & Fila",
-        "platform": "mixcloud",
-        "ref": "https://www.mixcloud.com/alyfila-futuresoundofegypt/future-sound-of-egypt-728-with-aly-fila/",
-        "sourceUrl": "https://www.mixcloud.com/alyfila-futuresoundofegypt/future-sound-of-egypt-728-with-aly-fila/",
-        "kind": "set",
-        "verified": true
-      },
       {
         "title": "Aly & Fila feat. Jwaydan - We Control The Sunlight (Official Music Video)",
         "platform": "youtube",
@@ -225,9 +504,73 @@
         "sourceUrl": "https://www.youtube.com/watch?v=7ti0BFbEJNw",
         "kind": "track",
         "verified": true
+      },
+      {
+        "title": "Aly & Fila meets Roger Shah and Susana - Unbreakable (Official Music Video)",
+        "platform": "youtube",
+        "ref": "GOa-9l2RTVw",
+        "sourceUrl": "https://www.youtube.com/watch?v=GOa-9l2RTVw",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Aly & Fila with Plumb - Somebody Loves You [FSOE] (Official Music Video)",
+        "platform": "youtube",
+        "ref": "eHZ-Qg7vZvc",
+        "sourceUrl": "https://www.youtube.com/watch?v=eHZ-Qg7vZvc",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Armin van Buuren and Aly & Fila feat. Kazi Jay - For All Time",
+        "platform": "youtube",
+        "ref": "YBKlh2Lbam0",
+        "sourceUrl": "https://www.youtube.com/watch?v=YBKlh2Lbam0",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Aly & Fila X Luke Bond & Audrey Gallagher - Million Voices",
+        "platform": "youtube",
+        "ref": "Xe5FPbBcIQc",
+        "sourceUrl": "https://www.youtube.com/watch?v=Xe5FPbBcIQc",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Aly & Fila - Beyond The Lights",
+        "platform": "youtube",
+        "ref": "T7o00yd_XJ8",
+        "sourceUrl": "https://www.youtube.com/watch?v=T7o00yd_XJ8",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Aly & Fila and Susana - Without You (Official Music Video)",
+        "platform": "youtube",
+        "ref": "8kY4QZb1NmQ",
+        "sourceUrl": "https://www.youtube.com/watch?v=8kY4QZb1NmQ",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Aly & Fila With Sue Mclaren - So Protected",
+        "platform": "youtube",
+        "ref": "waNI7C742S4",
+        "sourceUrl": "https://www.youtube.com/watch?v=waNI7C742S4",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Aly & Fila with Philippe El Sisi & Omar Sherif - A World Beyond (FSOE 550 Anthem)",
+        "platform": "youtube",
+        "ref": "T35Je8dEuNc",
+        "sourceUrl": "https://www.youtube.com/watch?v=T35Je8dEuNc",
+        "kind": "track",
+        "verified": true
       }
     ],
-    "notes": "All three embeds resolved. The inferred FSOE 728 permalink was a real cloudcast (Mixcloud oEmbed returned a valid title, not a 404), so no substitution was needed. FSOE 700 and 728 are both on the official FSOE Mixcloud channel; We Control The Sunlight resolved on YouTube. Mixcloud oEmbed normalizes titles to title-case."
+    "image": "https://i.ytimg.com/vi/7ti0BFbEJNw/hqdefault.jpg"
   },
   {
     "id": "cosmic-gate",
@@ -235,6 +578,7 @@
     "genres": [
       "Trance"
     ],
+    "notes": "All 10 verified via YouTube oEmbed (200 + valid title). Official channels confirmed: Black Hole Recordings (Cosmic Gate's label), Cosmic Gate's own channel, Armada Music TV, and Ministry of Sound (original Firewire label). Ordered by iconic status: Fire Wire and Exploration of Space are their scene-defining classics; am2pm and the Emma Hewitt vocal anthems follow.",
     "tracks": [
       {
         "title": "Cosmic Gate - Fire Wire (Official Music Video)",
@@ -253,15 +597,71 @@
         "verified": true
       },
       {
+        "title": "Cosmic Gate - am2pm (Official Music Video)",
+        "platform": "youtube",
+        "ref": "jsB-PwkhXV8",
+        "sourceUrl": "https://www.youtube.com/watch?v=jsB-PwkhXV8",
+        "kind": "track",
+        "verified": true
+      },
+      {
         "title": "Cosmic Gate & Emma Hewitt - Be Your Sound (Official Music Video)",
         "platform": "youtube",
         "ref": "FxMtO7HvXzA",
         "sourceUrl": "https://www.youtube.com/watch?v=FxMtO7HvXzA",
         "kind": "track",
         "verified": true
+      },
+      {
+        "title": "Cosmic Gate & Emma Hewitt - Tonight (Official Music Video)",
+        "platform": "youtube",
+        "ref": "4tBbbIOMZSY",
+        "sourceUrl": "https://www.youtube.com/watch?v=4tBbbIOMZSY",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Cosmic Gate & Cary Brothers - Wake Your Mind (Official Music Video)",
+        "platform": "youtube",
+        "ref": "zu_NVu6N6d8",
+        "sourceUrl": "https://www.youtube.com/watch?v=zu_NVu6N6d8",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Cosmic Gate & James French - I'm On Fire (Official Music Video)",
+        "platform": "youtube",
+        "ref": "okEVip0RIR8",
+        "sourceUrl": "https://www.youtube.com/watch?v=okEVip0RIR8",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Cosmic Gate & Emma Hewitt - Calm Down (Official Music Video)",
+        "platform": "youtube",
+        "ref": "uNdK4NJSWKU",
+        "sourceUrl": "https://www.youtube.com/watch?v=uNdK4NJSWKU",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Cosmic Gate & Emma Hewitt - Going Home (Club Mix) [Official Music Video]",
+        "platform": "youtube",
+        "ref": "5GHs34ltWjM",
+        "sourceUrl": "https://www.youtube.com/watch?v=5GHs34ltWjM",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Cosmic Gate - Firewire (Official Music Video) | Ministry of Sound",
+        "platform": "youtube",
+        "ref": "jlwPNroYv1U",
+        "sourceUrl": "https://www.youtube.com/watch?v=jlwPNroYv1U",
+        "kind": "track",
+        "verified": true
       }
     ],
-    "notes": "All three YouTube embeds resolved via oEmbed with valid titles. Fire Wire, Exploration Of Space, and Be Your Sound are hosted on the Black Hole Recordings channel (Cosmic Gate's label). Titles already matched the oEmbed canonical titles."
+    "image": "https://i.ytimg.com/vi/b-1jLp0E8K0/hqdefault.jpg"
   },
   {
     "id": "markus-schulz",
@@ -269,13 +669,22 @@
     "genres": [
       "Trance"
     ],
+    "notes": "All 10 verified via YouTube oEmbed (200 + valid title). Official channels confirmed: Markus Schulz's own channel, with The New World and Rain via Armada Music TV. Ordered by iconic status: The New World and Destiny are his most heralded anthems, Remember This and Without You Near follow.",
     "tracks": [
       {
-        "title": "Global Dj Broadcast - Aug 04 2016",
-        "platform": "mixcloud",
-        "ref": "https://www.mixcloud.com/MarkusSchulz/global-dj-broadcast-aug-04-2016/",
-        "sourceUrl": "https://www.mixcloud.com/MarkusSchulz/global-dj-broadcast-aug-04-2016/",
-        "kind": "set",
+        "title": "Markus Schulz - The New World (Official Music Video)",
+        "platform": "youtube",
+        "ref": "BMTK8OiUWIg",
+        "sourceUrl": "https://www.youtube.com/watch?v=BMTK8OiUWIg",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Markus Schulz feat. Delacey - Destiny | Official Music Video",
+        "platform": "youtube",
+        "ref": "zmpAbWH6AlY",
+        "sourceUrl": "https://www.youtube.com/watch?v=zmpAbWH6AlY",
+        "kind": "track",
         "verified": true
       },
       {
@@ -287,15 +696,63 @@
         "verified": true
       },
       {
-        "title": "Markus Schulz - The New World (Official Music Video)",
+        "title": "Markus Schulz & Departure with Gabriel & Dresden - Without You Near (Coldharbour Mix)",
         "platform": "youtube",
-        "ref": "BMTK8OiUWIg",
-        "sourceUrl": "https://www.youtube.com/watch?v=BMTK8OiUWIg",
+        "ref": "aRObLjLgddY",
+        "sourceUrl": "https://www.youtube.com/watch?v=aRObLjLgddY",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Markus Schulz - Avalon (Los Angeles) | Official Music Video",
+        "platform": "youtube",
+        "ref": "kSU_YPup_eY",
+        "sourceUrl": "https://www.youtube.com/watch?v=kSU_YPup_eY",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Markus Schulz feat. Brooke Tomlinson - In The Night | Official Music Video",
+        "platform": "youtube",
+        "ref": "haok_WVJy5Q",
+        "sourceUrl": "https://www.youtube.com/watch?v=haok_WVJy5Q",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Markus Schulz & Emma Hewitt - Safe From Harm | Official Music Video",
+        "platform": "youtube",
+        "ref": "jVbyExKtbUI",
+        "sourceUrl": "https://www.youtube.com/watch?v=jVbyExKtbUI",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Markus Schulz - Rain (Official Music Video)",
+        "platform": "youtube",
+        "ref": "hobcdMlCIlU",
+        "sourceUrl": "https://www.youtube.com/watch?v=hobcdMlCIlU",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Markus Schulz & Jared Lee - Together (Rise Together Mix) | Official Music Video",
+        "platform": "youtube",
+        "ref": "MWMx37aMKpM",
+        "sourceUrl": "https://www.youtube.com/watch?v=MWMx37aMKpM",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Markus Schulz feat. Lady V - Winter Kills Me | Official Music Video",
+        "platform": "youtube",
+        "ref": "r4nlh-Rk45g",
+        "sourceUrl": "https://www.youtube.com/watch?v=r4nlh-Rk45g",
         "kind": "track",
         "verified": true
       }
     ],
-    "notes": "All three embeds resolved. The Aug 04 2016 GDJB cloudcast is live on the official MarkusSchulz Mixcloud channel (oEmbed title normalized to title-case). Remember This and The New World resolved on YouTube via Armada Music TV; titles updated to the canonical oEmbed strings."
+    "image": "https://i.ytimg.com/vi/BMTK8OiUWIg/hqdefault.jpg"
   },
   {
     "id": "andrew-rayel",
@@ -303,12 +760,69 @@
     "genres": [
       "Trance"
     ],
+    "notes": "9 of 10 verified via YouTube oEmbed (200 + valid title). The top-ranked candidate, 550 Senta, had an empty ref/sourceUrl in the input data and could not be resolved, so it was dropped; remaining 9 kept in given order. Official channels confirmed: Andrew Rayel's own channel, with How Do I Know / EIFORYA / Dark Warrior / Aeon Of Revenge / River / Silver Lining via Armada Music TV (his Find Your Harmony-era label). Iconic anthems: How Do I Know, EIFORYA (with Armin van Buuren), Dark Warrior.",
     "tracks": [
       {
-        "title": "How Do I Know",
+        "title": "Andrew Rayel feat. Jano - How Do I Know [Featured on 'Find Your Harmony']",
         "platform": "youtube",
-        "ref": "ycH_KQpje80",
-        "sourceUrl": "https://www.youtube.com/watch?v=ycH_KQpje80",
+        "ref": "2ixBkZlW3yA",
+        "sourceUrl": "https://www.youtube.com/watch?v=2ixBkZlW3yA",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Armin van Buuren & Andrew Rayel - EIFORYA",
+        "platform": "youtube",
+        "ref": "SMuHZyrkxrQ",
+        "sourceUrl": "https://www.youtube.com/watch?v=SMuHZyrkxrQ",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Andrew Rayel - Dark Warrior (Official Music Video)",
+        "platform": "youtube",
+        "ref": "C5Q2sidHUz0",
+        "sourceUrl": "https://www.youtube.com/watch?v=C5Q2sidHUz0",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Andrew Rayel - Aeon Of Revenge (Original Mix)",
+        "platform": "youtube",
+        "ref": "ACFwKYEC5rw",
+        "sourceUrl": "https://www.youtube.com/watch?v=ACFwKYEC5rw",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Andrew Rayel feat. Jonny Rose - Daylight (Official Music Video)",
+        "platform": "youtube",
+        "ref": "W_szrwsGQu0",
+        "sourceUrl": "https://www.youtube.com/watch?v=W_szrwsGQu0",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Andrew Rayel feat. Jonathan Mendelsohn - One In A Million (Official Music Video)",
+        "platform": "youtube",
+        "ref": "ygzruiev7Vk",
+        "sourceUrl": "https://www.youtube.com/watch?v=ygzruiev7Vk",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Andrew Rayel feat. AIDYL - River (Official Music Video)",
+        "platform": "youtube",
+        "ref": "qLo28SnF-q0",
+        "sourceUrl": "https://www.youtube.com/watch?v=qLo28SnF-q0",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Andrew Rayel - Silver Lining (Official Music Video)",
+        "platform": "youtube",
+        "ref": "8Q7voLJICC4",
+        "sourceUrl": "https://www.youtube.com/watch?v=8Q7voLJICC4",
         "kind": "track",
         "verified": true
       },
@@ -319,17 +833,9 @@
         "sourceUrl": "https://www.youtube.com/watch?v=A-BR7yEUfNg",
         "kind": "track",
         "verified": true
-      },
-      {
-        "title": "Find Your Harmony Radioshow by Andrew Rayel",
-        "platform": "soundcloud",
-        "ref": "https://soundcloud.com/andrewrayel/sets/find-your-harmony-radioshow",
-        "sourceUrl": "https://soundcloud.com/andrewrayel/sets/find-your-harmony-radioshow",
-        "kind": "set",
-        "verified": true
       }
     ],
-    "notes": "All three embeds resolved. The SoundCloud set permalink (Find Your Harmony Radioshow) resolved fine via SoundCloud oEmbed, so no substitution to fyhofficial was needed. How Do I Know resolved on the Andrew Rayel - Topic channel (oEmbed title is just the bare track name); My Harmony resolved on the official Andrew Rayel channel. Titles updated to canonical oEmbed strings."
+    "image": "https://i.ytimg.com/vi/2ixBkZlW3yA/hqdefault.jpg"
   },
   {
     "id": "dash-berlin",
@@ -337,7 +843,6 @@
     "genres": [
       "Trance"
     ],
-    "notes": "YouTube oEmbed persistently returned HTTP 403 (no title) across three attempts for both music-video candidates 7s1BFxALq78 (Till The Sky Falls Down) and jySYvf2fm68 (Man On The Run), so both were dropped as unverified. The 'Dash Berlin - Topic' audio upload R8zV2dmtrzQ resolved cleanly via oEmbed (author 'Dash Berlin - Topic', label-distributed auto-generated audio) and is kept as the embeddable track; title replaced with the cleaner oEmbed value 'Till The Sky Falls Down'. No official Dash Berlin Mixcloud/SoundCloud set was located for platform diversity.",
     "tracks": [
       {
         "title": "Till The Sky Falls Down",
@@ -346,8 +851,82 @@
         "sourceUrl": "https://www.youtube.com/watch?v=R8zV2dmtrzQ",
         "kind": "track",
         "verified": true
+      },
+      {
+        "title": "Man On The Run",
+        "platform": "youtube",
+        "ref": "U9QfszVpTxE",
+        "sourceUrl": "https://www.youtube.com/watch?v=U9QfszVpTxE",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Never Cry Again",
+        "platform": "youtube",
+        "ref": "tXaYNOjZ-i4",
+        "sourceUrl": "https://www.youtube.com/watch?v=tXaYNOjZ-i4",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Waiting",
+        "platform": "youtube",
+        "ref": "pH_H1cfttVw",
+        "sourceUrl": "https://www.youtube.com/watch?v=pH_H1cfttVw",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "World Falls Apart",
+        "platform": "youtube",
+        "ref": "4o1I6mUTGmQ",
+        "sourceUrl": "https://www.youtube.com/watch?v=4o1I6mUTGmQ",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Disarm Yourself",
+        "platform": "youtube",
+        "ref": "dEjmLUqkLmA",
+        "sourceUrl": "https://www.youtube.com/watch?v=dEjmLUqkLmA",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Better Half Of Me",
+        "platform": "youtube",
+        "ref": "VVSQEvZBzss",
+        "sourceUrl": "https://www.youtube.com/watch?v=VVSQEvZBzss",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Steal You Away",
+        "platform": "youtube",
+        "ref": "VKctukNyUBE",
+        "sourceUrl": "https://www.youtube.com/watch?v=VKctukNyUBE",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Apollo Road",
+        "platform": "youtube",
+        "ref": "I2C3CkrXN6Q",
+        "sourceUrl": "https://www.youtube.com/watch?v=I2C3CkrXN6Q",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Like Spinning Plates",
+        "platform": "youtube",
+        "ref": "1TXUpqRXBYw",
+        "sourceUrl": "https://www.youtube.com/watch?v=1TXUpqRXBYw",
+        "kind": "track",
+        "verified": true
       }
-    ]
+    ],
+    "notes": "dash-berlin enriched via official \"- Topic\" uploads (official MVs have embedding disabled); all oEmbed-verified.",
+    "image": "https://i.ytimg.com/vi/R8zV2dmtrzQ/hqdefault.jpg"
   },
   {
     "id": "paul-oakenfold",
@@ -355,16 +934,7 @@
     "genres": [
       "Trance"
     ],
-    "notes": "All three YouTube candidates resolved via oEmbed with valid titles. Southern Sun (fSzVEDZKmIo) and Ready Steady Go ft. Asher D (dHgGIVGPEyE) confirmed on PaulOakenfoldVEVO; the second Ready Steady Go (MSv3Oez4O-4) confirmed on the official Warner Records channel. All from the 2002 album Bunkka on Perfecto. No official Oakenfold Mixcloud/SoundCloud set sourced this pass; all three picks are YouTube.",
     "tracks": [
-      {
-        "title": "Paul Oakenfold - Southern Sun (Official Video) ft. Carla Werner",
-        "platform": "youtube",
-        "ref": "fSzVEDZKmIo",
-        "sourceUrl": "https://www.youtube.com/watch?v=fSzVEDZKmIo",
-        "kind": "track",
-        "verified": true
-      },
       {
         "title": "Paul Oakenfold - Ready Steady Go (Official Video) ft. Asher D.",
         "platform": "youtube",
@@ -374,14 +944,40 @@
         "verified": true
       },
       {
-        "title": "Paul Oakenfold - Ready, Steady, Go (Official Music Video) | Warner Records",
+        "title": "Paul Oakenfold - Starry Eyed Surprise (Official Video) ft. Shifty ShellShock",
         "platform": "youtube",
-        "ref": "MSv3Oez4O-4",
-        "sourceUrl": "https://www.youtube.com/watch?v=MSv3Oez4O-4",
+        "ref": "7odMzSb6WUQ",
+        "sourceUrl": "https://www.youtube.com/watch?v=7odMzSb6WUQ",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Paul Oakenfold - Faster Kill Pussycat (Official Video) ft. Brittany Murphy",
+        "platform": "youtube",
+        "ref": "N9vPvM7ph4g",
+        "sourceUrl": "https://www.youtube.com/watch?v=N9vPvM7ph4g",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Paul Oakenfold - Southern Sun (Official Video) ft. Carla Werner",
+        "platform": "youtube",
+        "ref": "fSzVEDZKmIo",
+        "sourceUrl": "https://www.youtube.com/watch?v=fSzVEDZKmIo",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Paul Oakenfold - Hypnotised (Official Video) ft. Tiff Lacy",
+        "platform": "youtube",
+        "ref": "Ozapb4AluJA",
+        "sourceUrl": "https://www.youtube.com/watch?v=Ozapb4AluJA",
         "kind": "track",
         "verified": true
       }
-    ]
+    ],
+    "notes": "All 5 candidates verified via YouTube oEmbed (HTTP 200 + title), all on the PaulOakenfoldVEVO official channel. Titles replaced with cleaner official oEmbed titles. Under the 10-track cap, no truncation.",
+    "image": "https://i.ytimg.com/vi/dHgGIVGPEyE/hqdefault.jpg"
   },
   {
     "id": "vini-vici",
@@ -389,8 +985,15 @@
     "genres": [
       "Psytrance"
     ],
-    "notes": "All three candidates resolved via oEmbed. Great Spirit Extended Mix (yo4pmauhugo) confirmed on Armin van Buuren's official YouTube channel (Armin van Buuren vs Vini Vici collab). The Tribe (6nfVqIqmpzA) confirmed on 'Iboga Records Music', Vini Vici's official label. The SoundCloud Great Spirit upload confirmed on the official verified 'vinivicimusic' account and kept for platform diversity. The previously-rejected fan re-uploads (FPLsxhgF2_Q, iiu9ffWmTuI) were not included.",
     "tracks": [
+      {
+        "title": "Hilight Tribe - Free Tibet (Vini Vici Remix)[Iboga Records]",
+        "platform": "youtube",
+        "ref": "_GCLSNmmtcQ",
+        "sourceUrl": "https://www.youtube.com/watch?v=_GCLSNmmtcQ",
+        "kind": "track",
+        "verified": true
+      },
       {
         "title": "Armin van Buuren vs Vini Vici feat. Hilight Tribe - Great Spirit (Extended Mix)",
         "platform": "youtube",
@@ -408,14 +1011,40 @@
         "verified": true
       },
       {
-        "title": "Armin van Buuren vs. Vini Vici feat. Hilight Tribe – Great Spirit [Armind] OUT NOW!!! by vinivicimusic",
-        "platform": "soundcloud",
-        "ref": "https://soundcloud.com/vinivicimusic/armin-van-buuren-vs-vini-vici-ft-hilight-tribe-great-spirit-armind-dec122016",
-        "sourceUrl": "https://soundcloud.com/vinivicimusic/armin-van-buuren-vs-vini-vici-ft-hilight-tribe-great-spirit-armind-dec122016",
+        "title": "W&W x Vini Vici - Chakra (Official Video)",
+        "platform": "youtube",
+        "ref": "tK_1g7nNt90",
+        "sourceUrl": "https://www.youtube.com/watch?v=tK_1g7nNt90",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Vini Vici - Veni Vidi Vici",
+        "platform": "youtube",
+        "ref": "-PEntO2q0Yg",
+        "sourceUrl": "https://www.youtube.com/watch?v=-PEntO2q0Yg",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Liquid Soul & Vini Vici - Universe Inside Me",
+        "platform": "youtube",
+        "ref": "yvBK1rSUzTc",
+        "sourceUrl": "https://www.youtube.com/watch?v=yvBK1rSUzTc",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Vini Vici - Namaste (Hilight Tribe Remix)",
+        "platform": "youtube",
+        "ref": "r3MHVnayM48",
+        "sourceUrl": "https://www.youtube.com/watch?v=r3MHVnayM48",
         "kind": "track",
         "verified": true
       }
-    ]
+    ],
+    "notes": "All 7 candidates verified via YouTube oEmbed (HTTP 200 + title). Titles replaced with the official oEmbed titles. Under the 10-track cap, no truncation.",
+    "image": "https://i.ytimg.com/vi/_GCLSNmmtcQ/hqdefault.jpg"
   },
   {
     "id": "giuseppe-ottaviani",
@@ -423,7 +1052,6 @@
     "genres": [
       "Trance"
     ],
-    "notes": "All three candidates resolved via oEmbed. Lost For Words (94CwUWWEgxw) confirmed on 'Armada Music TV'; Magenta with Ferry Corsten (57AOJx4rOyc) confirmed on 'Black Hole Recordings'. GO On Air Episode 244 confirmed on the official 'Giuseppe Ottaviani' Mixcloud account (author_url matches the artist handle) and kept as the DJ-set/radio-show pick for platform diversity; Mixcloud title cleaned to its oEmbed value. The Through Your Eyes / Will Atkinson Re-Rub candidate (20M-I3U-Lrw) was not present in this verification batch.",
     "tracks": [
       {
         "title": "Giuseppe Ottaviani feat. Amba Shepherd - Lost For Words (Official Music Video)",
@@ -434,22 +1062,56 @@
         "verified": true
       },
       {
-        "title": "Giuseppe Ottaviani with Ferry Corsten - Magenta",
+        "title": "Giuseppe Ottaviani - Angel (featuring Faith)",
         "platform": "youtube",
-        "ref": "57AOJx4rOyc",
-        "sourceUrl": "https://www.youtube.com/watch?v=57AOJx4rOyc",
+        "ref": "0Q4BFfzPpu8",
+        "sourceUrl": "https://www.youtube.com/watch?v=0Q4BFfzPpu8",
         "kind": "track",
         "verified": true
       },
       {
-        "title": "Giuseppe Ottaviani Presents Go On Air Episode 244",
-        "platform": "mixcloud",
-        "ref": "https://www.mixcloud.com/GiuseppeOttaviani/giuseppe-ottaviani-presents-go-on-air-244/",
-        "sourceUrl": "https://www.mixcloud.com/GiuseppeOttaviani/giuseppe-ottaviani-presents-go-on-air-244/",
-        "kind": "set",
+        "title": "Giuseppe Ottaviani - 8K",
+        "platform": "youtube",
+        "ref": "K2qIVQ_O-4I",
+        "sourceUrl": "https://www.youtube.com/watch?v=K2qIVQ_O-4I",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Giuseppe Ottaviani - Tranceland",
+        "platform": "youtube",
+        "ref": "zh4pZMTmxYg",
+        "sourceUrl": "https://www.youtube.com/watch?v=zh4pZMTmxYg",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Giuseppe Ottaviani - Panama",
+        "platform": "youtube",
+        "ref": "8rE77n1XiUo",
+        "sourceUrl": "https://www.youtube.com/watch?v=8rE77n1XiUo",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Giuseppe Ottaviani - Through Your Eyes (Will Atkinson Tribal Re-Rub) [Official Video]",
+        "platform": "youtube",
+        "ref": "20M-I3U-Lrw",
+        "sourceUrl": "https://www.youtube.com/watch?v=20M-I3U-Lrw",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Giuseppe Ottaviani - Under Dark Skies [Black Hole Recordings]",
+        "platform": "youtube",
+        "ref": "1nnPIm4WQ-o",
+        "sourceUrl": "https://www.youtube.com/watch?v=1nnPIm4WQ-o",
+        "kind": "track",
         "verified": true
       }
-    ]
+    ],
+    "notes": "All 7 candidates verified via YouTube oEmbed (HTTP 200 + title). Titles replaced with the official oEmbed titles. Under the 10-track cap, no truncation.",
+    "image": "https://i.ytimg.com/vi/94CwUWWEgxw/hqdefault.jpg"
   },
   {
     "id": "super8-and-tab",
@@ -457,7 +1119,6 @@
     "genres": [
       "Trance"
     ],
-    "notes": "All three candidates resolved via oEmbed. Helsinki Scorchin (C7KEyT6_HG4) and Empire ft. Jan Burton (-BhpnoWvgWI) confirmed on the official 'Anjunabeats' YouTube channel; Empire title updated to the oEmbed form. Anjunabeats Worldwide 382 With Super8 & Tab confirmed on the official 'anjunabeats' Mixcloud account and kept as the radio-show/DJ-set pick for platform diversity.",
     "tracks": [
       {
         "title": "Super8 & Tab - Helsinki Scorchin'",
@@ -468,22 +1129,48 @@
         "verified": true
       },
       {
-        "title": "Super8 & Tab feat. Jan Burton \"Empire\"",
+        "title": "Super8 & Tab feat. Julie Thompson - My Enemy",
         "platform": "youtube",
-        "ref": "-BhpnoWvgWI",
-        "sourceUrl": "https://www.youtube.com/watch?v=-BhpnoWvgWI",
+        "ref": "XaALRuKXsEs",
+        "sourceUrl": "https://www.youtube.com/watch?v=XaALRuKXsEs",
         "kind": "track",
         "verified": true
       },
       {
-        "title": "Anjunabeats Worldwide 382 With Super8 & Tab",
-        "platform": "mixcloud",
-        "ref": "https://www.mixcloud.com/anjunabeats/anjunabeats-worldwide-382-with-super8-tab/",
-        "sourceUrl": "https://www.mixcloud.com/anjunabeats/anjunabeats-worldwide-382-with-super8-tab/",
-        "kind": "set",
+        "title": "Super8 & Tab feat. Anton Sonin - Black Is The New Yellow",
+        "platform": "youtube",
+        "ref": "hqx96ZnjuD0",
+        "sourceUrl": "https://www.youtube.com/watch?v=hqx96ZnjuD0",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Super8 & Tab feat. Jan Burton - Empire",
+        "platform": "youtube",
+        "ref": "A6axMzlzSsU",
+        "sourceUrl": "https://www.youtube.com/watch?v=A6axMzlzSsU",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Super8 & Tab - First Aid",
+        "platform": "youtube",
+        "ref": "9RNWx1bq5JA",
+        "sourceUrl": "https://www.youtube.com/watch?v=9RNWx1bq5JA",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Super8 & Tab - Needs To Feel",
+        "platform": "youtube",
+        "ref": "FMe-uRanLrs",
+        "sourceUrl": "https://www.youtube.com/watch?v=FMe-uRanLrs",
+        "kind": "track",
         "verified": true
       }
-    ]
+    ],
+    "notes": "All 6 candidates verified via YouTube oEmbed (HTTP 200 + title), all on the Anjunabeats official channel. Titles replaced with the official oEmbed titles. Under the 10-track cap, no truncation.",
+    "image": "https://i.ytimg.com/vi/C7KEyT6_HG4/hqdefault.jpg"
   },
   {
     "id": "john-ocallaghan",
@@ -491,33 +1178,90 @@
     "genres": [
       "Trance"
     ],
+    "notes": "All 10 tracks verified via SoundCloud oEmbed (200 + JSON title) on his official account soundcloud.com/johnocallaghan. oEmbed revealed two are full-length labeled mixes: 'Big Sky' is the Original Mix and 'Find Yourself' is the Extended Mix; titles updated accordingly. All 10 kept, none dropped.",
     "tracks": [
       {
-        "title": "Big Sky (feat. Audrey Gallagher)",
+        "title": "Big Sky (Original Mix) [feat. Audrey Gallagher]",
         "platform": "soundcloud",
-        "ref": "https://soundcloud.com/johnocallaghan/john-ocallaghan-feat-777091913",
-        "sourceUrl": "https://soundcloud.com/johnocallaghan/john-ocallaghan-feat-777091913",
+        "ref": "https://soundcloud.com/johnocallaghan/john-ocallaghan-feat-audrey-6",
+        "sourceUrl": "https://soundcloud.com/johnocallaghan/john-ocallaghan-feat-audrey-6",
         "kind": "track",
         "verified": true
       },
       {
-        "title": "John O'Callaghan- Subculture 100 Podcast",
-        "platform": "mixcloud",
-        "ref": "https://www.mixcloud.com/johnocallaghan/john-ocallaghan-subculture-100-podcast/",
-        "sourceUrl": "https://www.mixcloud.com/johnocallaghan/john-ocallaghan-subculture-100-podcast/",
-        "kind": "set",
+        "title": "Find Yourself (Extended Mix) [feat. Sarah Howells]",
+        "platform": "soundcloud",
+        "ref": "https://soundcloud.com/johnocallaghan/find-yourself",
+        "sourceUrl": "https://soundcloud.com/johnocallaghan/find-yourself",
+        "kind": "track",
         "verified": true
       },
       {
-        "title": "John O'Callaghan Live At Subculture, Australia 2018",
-        "platform": "mixcloud",
-        "ref": "https://www.mixcloud.com/johnocallaghan/john-ocallaghan-live-at-subculture-australia-2018/",
-        "sourceUrl": "https://www.mixcloud.com/johnocallaghan/john-ocallaghan-live-at-subculture-australia-2018/",
-        "kind": "set",
+        "title": "One Special Particle",
+        "platform": "soundcloud",
+        "ref": "https://soundcloud.com/johnocallaghan/john-ocallaghan-one-special",
+        "sourceUrl": "https://soundcloud.com/johnocallaghan/john-ocallaghan-one-special",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Stresstest (John Askew Remix)",
+        "platform": "soundcloud",
+        "ref": "https://soundcloud.com/johnocallaghan/john-ocallaghan-stresstest-2",
+        "sourceUrl": "https://soundcloud.com/johnocallaghan/john-ocallaghan-stresstest-2",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Never Fade Away (Album Version) [feat. Lo-Fi Sugar]",
+        "platform": "soundcloud",
+        "ref": "https://soundcloud.com/johnocallaghan/john-ocallaghan-feat-lo-fi-1",
+        "sourceUrl": "https://soundcloud.com/johnocallaghan/john-ocallaghan-feat-lo-fi-1",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Talk To Me (Original Mix)",
+        "platform": "soundcloud",
+        "ref": "https://soundcloud.com/johnocallaghan/john-ocallaghan-timmy-tommy-2",
+        "sourceUrl": "https://soundcloud.com/johnocallaghan/john-ocallaghan-timmy-tommy-2",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Big Sky (Andrew Rayel Remix) [feat. Audrey Gallagher]",
+        "platform": "soundcloud",
+        "ref": "https://soundcloud.com/johnocallaghan/john-ocallaghan-feat-883220973",
+        "sourceUrl": "https://soundcloud.com/johnocallaghan/john-ocallaghan-feat-883220973",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "One Special Particle (Guy J Remix)",
+        "platform": "soundcloud",
+        "ref": "https://soundcloud.com/johnocallaghan/one-special-particle-guy-j-1",
+        "sourceUrl": "https://soundcloud.com/johnocallaghan/one-special-particle-guy-j-1",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Stresstest (Heatbeat vs Kent & Gian Remix Edit)",
+        "platform": "soundcloud",
+        "ref": "https://soundcloud.com/johnocallaghan/john-ocallaghan-stresstest",
+        "sourceUrl": "https://soundcloud.com/johnocallaghan/john-ocallaghan-stresstest",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Never Fade Away (Giuseppe Ottaviani Extended Remix) [feat. Lo-Fi Sugar]",
+        "platform": "soundcloud",
+        "ref": "https://soundcloud.com/johnocallaghan/john-ocallaghan-feat-lo-fi",
+        "sourceUrl": "https://soundcloud.com/johnocallaghan/john-ocallaghan-feat-lo-fi",
+        "kind": "track",
         "verified": true
       }
     ],
-    "notes": "All three resolved via oEmbed. SoundCloud 'Big Sky' title cleaned from oEmbed ('Big Sky (feat. Audrey Gallagher)'). Both Mixcloud cloudcasts (Subculture 100 Podcast, Australia 2018) returned valid titles from app.mixcloud.com/oembed. Original released on Armind/Armada 2007."
+    "image": "https://i1.sndcdn.com/artworks-LbQoGmnT56l3-0-t500x500.jpg"
   },
   {
     "id": "solarstone",
@@ -525,7 +1269,56 @@
     "genres": [
       "Trance"
     ],
+    "notes": "All 9 tracks verified: 7 via SoundCloud oEmbed on official account soundcloud.com/solarstone, 2 via YouTube oEmbed. 'Like A Waterfall' oEmbed dropped the JES feature credit and 'The Spell' returned without artist suffix; signature track-name retained. None dropped.",
     "tracks": [
+      {
+        "title": "Seven Cities (Pure Mix)",
+        "platform": "soundcloud",
+        "ref": "https://soundcloud.com/solarstone/solarstone-seven-cities-pure",
+        "sourceUrl": "https://soundcloud.com/solarstone/solarstone-seven-cities-pure",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Like A Waterfall (Solarstone Pure Mix) [feat. JES]",
+        "platform": "soundcloud",
+        "ref": "https://soundcloud.com/solarstone/like-a-waterfall-solarstone-1",
+        "sourceUrl": "https://soundcloud.com/solarstone/like-a-waterfall-solarstone-1",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "The Spell (Extended Mix)",
+        "platform": "soundcloud",
+        "ref": "https://soundcloud.com/solarstone/the-spell-extended-mix",
+        "sourceUrl": "https://soundcloud.com/solarstone/the-spell-extended-mix",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Fireisland (Extended Mix)",
+        "platform": "soundcloud",
+        "ref": "https://soundcloud.com/solarstone/fireisland-extended-mix",
+        "sourceUrl": "https://soundcloud.com/solarstone/fireisland-extended-mix",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Jewel (Pure Mix)",
+        "platform": "soundcloud",
+        "ref": "https://soundcloud.com/solarstone/jewel-pure-mix",
+        "sourceUrl": "https://soundcloud.com/solarstone/jewel-pure-mix",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Lovers (Pure Mix) [feat. Lemon]",
+        "platform": "soundcloud",
+        "ref": "https://soundcloud.com/solarstone/lovers-pure-mix-feat-lemon",
+        "sourceUrl": "https://soundcloud.com/solarstone/lovers-pure-mix-feat-lemon",
+        "kind": "track",
+        "verified": true
+      },
       {
         "title": "Seven Cities (Solarstone's Atlantis Mix)",
         "platform": "soundcloud",
@@ -535,23 +1328,23 @@
         "verified": true
       },
       {
-        "title": "Solarstone Presents Pure Trance Radio Episode 001",
-        "platform": "mixcloud",
-        "ref": "https://www.mixcloud.com/solarstone/solarstone-presents-pure-trance-radio-episode-001/",
-        "sourceUrl": "https://www.mixcloud.com/solarstone/solarstone-presents-pure-trance-radio-episode-001/",
-        "kind": "set",
+        "title": "Seven Cities (Solarstone Pure Mix Edit)",
+        "platform": "youtube",
+        "ref": "5BE_7J08OzE",
+        "sourceUrl": "https://www.youtube.com/watch?v=5BE_7J08OzE",
+        "kind": "track",
         "verified": true
       },
       {
-        "title": "Solarstone Presents Pure Trance Radio 180",
-        "platform": "mixcloud",
-        "ref": "https://www.mixcloud.com/solarstone/solarstone-presents-pure-trance-radio-180/",
-        "sourceUrl": "https://www.mixcloud.com/solarstone/solarstone-presents-pure-trance-radio-180/",
-        "kind": "set",
+        "title": "Young Parisians ft. Ben Lost - Jump The Next Train (Solarstone Remix)",
+        "platform": "youtube",
+        "ref": "r7V10Xq6Ba4",
+        "sourceUrl": "https://www.youtube.com/watch?v=r7V10Xq6Ba4",
+        "kind": "track",
         "verified": true
       }
     ],
-    "notes": "All three resolved via oEmbed with valid titles. Ep 180 title cleaned from oEmbed ('...Radio 180'). All on official solarstone SoundCloud/Mixcloud channels."
+    "image": "https://i.ytimg.com/vi/5BE_7J08OzE/hqdefault.jpg"
   },
   {
     "id": "bt",
@@ -559,7 +1352,48 @@
     "genres": [
       "Trance"
     ],
+    "notes": "All 7 YouTube tracks verified via oEmbed (200 + JSON title, none 'Video unavailable'). 'Flaming June' oEmbed title credits Vincent Corver as co-artist (not Paul van Dyk as the note stated); cleaner oEmbed title adopted. None dropped.",
     "tracks": [
+      {
+        "title": "BT & Vincent Corver - Flaming June (Official Music Video)",
+        "platform": "youtube",
+        "ref": "5vX8XMnzogA",
+        "sourceUrl": "https://www.youtube.com/watch?v=5vX8XMnzogA",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "BT (ft. JC Chasez) - Simply Being Loved (Somnambulist) [Official Music Video]",
+        "platform": "youtube",
+        "ref": "VGqBGdHcbd8",
+        "sourceUrl": "https://www.youtube.com/watch?v=VGqBGdHcbd8",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Dreaming (feat. Kirsty Hawkshaw)",
+        "platform": "youtube",
+        "ref": "fEauYuWI0Ck",
+        "sourceUrl": "https://www.youtube.com/watch?v=fEauYuWI0Ck",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Mercury And Solace",
+        "platform": "youtube",
+        "ref": "igUu1VQYmPo",
+        "sourceUrl": "https://www.youtube.com/watch?v=igUu1VQYmPo",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "BT - A Million Stars (feat. Kirsty Hawkshaw) [Official Music Video]",
+        "platform": "youtube",
+        "ref": "DQMyK0bh5PY",
+        "sourceUrl": "https://www.youtube.com/watch?v=DQMyK0bh5PY",
+        "kind": "track",
+        "verified": true
+      },
       {
         "title": "BT - The Emergency [Official Music Video]",
         "platform": "youtube",
@@ -567,9 +1401,17 @@
         "sourceUrl": "https://www.youtube.com/watch?v=yssxgTk2Muo",
         "kind": "track",
         "verified": true
+      },
+      {
+        "title": "BT - Skylarking (Official Music Video)",
+        "platform": "youtube",
+        "ref": "fCK_yrvKaz4",
+        "sourceUrl": "https://www.youtube.com/watch?v=fCK_yrvKaz4",
+        "kind": "track",
+        "verified": true
       }
     ],
-    "notes": "The Emergency (yssxgTk2Muo) resolved via YouTube oEmbed; title cleaned to oEmbed value 'BT - The Emergency [Official Music Video]' (author NettwerkMusic). Flaming June (uqPP7QwPfz8) was DROPPED: YouTube oEmbed returned HTTP 403 on three retries across both parameter orderings while all other YouTube oEmbed calls in the same batches succeeded, indicating embedding is disabled for that video rather than a transient block. Needs a manual replacement embed for Flaming June if desired."
+    "image": "https://i.ytimg.com/vi/5vX8XMnzogA/hqdefault.jpg"
   },
   {
     "id": "ilan-bluestone",
@@ -577,9 +1419,26 @@
     "genres": [
       "Trance"
     ],
+    "notes": "All 6 tracks verified: 3 via YouTube oEmbed, 3 via SoundCloud oEmbed on official Anjunabeats account. The '43' YouTube ID (I5j763Fd1hg) resolves to a re-upload on the 'August EDM' channel rather than the official Anjunabeats channel, but it returns a valid title so it is kept as verified=true; flagging the non-official uploader for awareness. None dropped.",
     "tracks": [
       {
-        "title": "ilan Bluestone feat. Ellen Smith - Stranger To Your Love",
+        "title": "Spheres",
+        "platform": "youtube",
+        "ref": "zwPnvYiCVfA",
+        "sourceUrl": "https://www.youtube.com/watch?v=zwPnvYiCVfA",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "43 (Extended Mix)",
+        "platform": "youtube",
+        "ref": "I5j763Fd1hg",
+        "sourceUrl": "https://www.youtube.com/watch?v=I5j763Fd1hg",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Stranger To Your Love (feat. Ellen Smith)",
         "platform": "soundcloud",
         "ref": "https://soundcloud.com/anjunabeats/ilan-bluestone-feat-ellen-smith-stranger-to-your-love",
         "sourceUrl": "https://soundcloud.com/anjunabeats/ilan-bluestone-feat-ellen-smith-stranger-to-your-love",
@@ -587,23 +1446,31 @@
         "verified": true
       },
       {
-        "title": "ilan Bluestone feat. Giuseppe De Luca - Frozen Ground (Official Music Video)",
+        "title": "Will We Remain? (with Maor Levi feat. EL Waves)",
         "platform": "youtube",
-        "ref": "ZxI3bmPLIdE",
-        "sourceUrl": "https://www.youtube.com/watch?v=ZxI3bmPLIdE",
+        "ref": "Ii7AmfdWsws",
+        "sourceUrl": "https://www.youtube.com/watch?v=Ii7AmfdWsws",
         "kind": "track",
         "verified": true
       },
       {
-        "title": "ilan Bluestone & Giuseppe De Luca - Frozen Ground",
+        "title": "Big Ben",
         "platform": "soundcloud",
-        "ref": "https://soundcloud.com/anjunabeats/ilan-bluestone-giuseppe-de-luca-frozen-ground",
-        "sourceUrl": "https://soundcloud.com/anjunabeats/ilan-bluestone-giuseppe-de-luca-frozen-ground",
+        "ref": "https://soundcloud.com/anjunabeats/big_ben",
+        "sourceUrl": "https://soundcloud.com/anjunabeats/big_ben",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Scars (Maor Levi Remix)",
+        "platform": "soundcloud",
+        "ref": "https://soundcloud.com/anjunabeats/ilan-bluestone-scars-maor-levi-remix",
+        "sourceUrl": "https://soundcloud.com/anjunabeats/ilan-bluestone-scars-maor-levi-remix",
         "kind": "track",
         "verified": true
       }
     ],
-    "notes": "All three resolved via oEmbed with valid titles. Two SoundCloud (Anjunabeats) titles cleaned from oEmbed; Frozen Ground YouTube MV (ZxI3bmPLIdE, author Anjunabeats) confirmed."
+    "image": "https://i.ytimg.com/vi/zwPnvYiCVfA/hqdefault.jpg"
   },
   {
     "id": "martin-garrix",
@@ -612,12 +1479,21 @@
       "Big Room",
       "Progressive House"
     ],
+    "notes": "All 10 YouTube tracks verified via oEmbed (200 + JSON title, none 'Video unavailable'). Two IDs resolve to non-official-channel uploads ('Animals' 3z-pWhhoKYA and 'Virus' LiflmgfHsHQ are re-uploads, not the official Martin Garrix/STMPD channel) but both return valid titles so are kept verified=true; flagging the non-official uploaders. None dropped. Cleaner oEmbed titles adopted.",
     "tracks": [
       {
         "title": "Martin Garrix - Animals (Official Video)",
         "platform": "youtube",
-        "ref": "gCYcHz2k5x0",
-        "sourceUrl": "https://www.youtube.com/watch?v=gCYcHz2k5x0",
+        "ref": "3z-pWhhoKYA",
+        "sourceUrl": "https://www.youtube.com/watch?v=3z-pWhhoKYA",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Martin Garrix & Bebe Rexha - In The Name Of Love (Official Video)",
+        "platform": "youtube",
+        "ref": "RnBT9uUYb1w",
+        "sourceUrl": "https://www.youtube.com/watch?v=RnBT9uUYb1w",
         "kind": "track",
         "verified": true
       },
@@ -630,15 +1506,63 @@
         "verified": true
       },
       {
-        "title": "Martin Garrix - Forbidden Voices",
-        "platform": "soundcloud",
-        "ref": "https://soundcloud.com/martingarrix/martin-garrix-forbidden-voices",
-        "sourceUrl": "https://soundcloud.com/martingarrix/martin-garrix-forbidden-voices",
+        "title": "Martin Garrix feat. Macklemore & Patrick Stump of Fall Out Boy - Summer Days (Official Video)",
+        "platform": "youtube",
+        "ref": "8OwVaewDtS8",
+        "sourceUrl": "https://www.youtube.com/watch?v=8OwVaewDtS8",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Martin Garrix & Troye Sivan - There For You (Official Video)",
+        "platform": "youtube",
+        "ref": "pNNMr5glICM",
+        "sourceUrl": "https://www.youtube.com/watch?v=pNNMr5glICM",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Martin Garrix feat. Khalid - Ocean (Official Video)",
+        "platform": "youtube",
+        "ref": "BDocp-VpCwY",
+        "sourceUrl": "https://www.youtube.com/watch?v=BDocp-VpCwY",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Martin Garrix feat. Bonn - High On Life (Official Video)",
+        "platform": "youtube",
+        "ref": "Lpjcm1F8tY8",
+        "sourceUrl": "https://www.youtube.com/watch?v=Lpjcm1F8tY8",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Martin Garrix feat. Usher - Don't Look Down (Official Video)",
+        "platform": "youtube",
+        "ref": "nJSdYlAFKqA",
+        "sourceUrl": "https://www.youtube.com/watch?v=nJSdYlAFKqA",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Martin Garrix - Forbidden Voices (Official Video)",
+        "platform": "youtube",
+        "ref": "Zv1QV6lrc_Y",
+        "sourceUrl": "https://www.youtube.com/watch?v=Zv1QV6lrc_Y",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Martin Garrix & MOTi - Virus (How About Now) (Radio Edit) [Official]",
+        "platform": "youtube",
+        "ref": "LiflmgfHsHQ",
+        "sourceUrl": "https://www.youtube.com/watch?v=LiflmgfHsHQ",
         "kind": "track",
         "verified": true
       }
     ],
-    "notes": "All three resolved via oEmbed with valid titles. Animals confirmed on STMPD RCRDS channel (gCYcHz2k5x0), Scared To Be Lonely on Martin Garrix channel (e2vBLd5Egnk), Forbidden Voices on official martingarrix SoundCloud."
+    "image": "https://i.ytimg.com/vi/3z-pWhhoKYA/hqdefault.jpg"
   },
   {
     "id": "alesso",
@@ -646,33 +1570,90 @@
     "genres": [
       "Progressive House"
     ],
+    "notes": "All 10 candidates verified via YouTube oEmbed (200 + valid title, none 'Video unavailable'). Titles updated to cleaner oEmbed values where they differed. No drops; exactly 10 verified so no capping needed. Channels confirmed via oEmbed author: Alesso/AlessoOfficialVEVO own channels, plus CalvinHarrisVEVO (Under Control) and KatyPerryVEVO (When I'm Gone) for co-lead collabs.",
     "tracks": [
       {
-        "title": "Alesso - Heroes (we could be) ft. Tove Lo [Official Music Video]",
+        "title": "Alesso - Heroes (we could be) ft. Tove Lo",
         "platform": "youtube",
-        "ref": "K0-VU9cti0g",
-        "sourceUrl": "https://www.youtube.com/watch?v=K0-VU9cti0g",
+        "ref": "a7SouU3ECpU",
+        "sourceUrl": "https://www.youtube.com/watch?v=a7SouU3ECpU",
         "kind": "track",
         "verified": true
       },
       {
-        "title": "Sebastian Ingrosso & Alesso feat. Ryan Tedder - Calling (Lose My Mind) (Official Video HD)",
+        "title": "Calvin Harris & Alesso - Under Control (Official Video) ft. Hurts",
         "platform": "youtube",
-        "ref": "wr3xlLkvD70",
-        "sourceUrl": "https://www.youtube.com/watch?v=wr3xlLkvD70",
+        "ref": "yZqmarGShxg",
+        "sourceUrl": "https://www.youtube.com/watch?v=yZqmarGShxg",
         "kind": "track",
         "verified": true
       },
       {
-        "title": "Alesso feat. Matthew Koma - Years (Official Video HD)",
+        "title": "Alesso - REMEDY (Official Music Video)",
         "platform": "youtube",
-        "ref": "uc_HPel98wg",
-        "sourceUrl": "https://www.youtube.com/watch?v=uc_HPel98wg",
+        "ref": "vB67ddBhO1c",
+        "sourceUrl": "https://www.youtube.com/watch?v=vB67ddBhO1c",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Alesso Vs OneRepublic - If I Lose Myself (Alesso Remix)",
+        "platform": "youtube",
+        "ref": "snVhi74Q3vk",
+        "sourceUrl": "https://www.youtube.com/watch?v=snVhi74Q3vk",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Alesso, Katy Perry - When I'm Gone (Official Music Video)",
+        "platform": "youtube",
+        "ref": "N-4YMlihRf4",
+        "sourceUrl": "https://www.youtube.com/watch?v=N-4YMlihRf4",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Alesso - I Wanna Know ft. Nico & Vinz",
+        "platform": "youtube",
+        "ref": "TnSfwONWlk8",
+        "sourceUrl": "https://www.youtube.com/watch?v=TnSfwONWlk8",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Alesso & Anitta - Is That For Me (Official Music Video)",
+        "platform": "youtube",
+        "ref": "5ggZ9jIHnr8",
+        "sourceUrl": "https://www.youtube.com/watch?v=5ggZ9jIHnr8",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Alesso - Cool ft. Roy English",
+        "platform": "youtube",
+        "ref": "-aWtrEFfS4E",
+        "sourceUrl": "https://www.youtube.com/watch?v=-aWtrEFfS4E",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Alesso - Words (Feat. Zara Larsson) [Official Music Video]",
+        "platform": "youtube",
+        "ref": "zIJEOEZdLzE",
+        "sourceUrl": "https://www.youtube.com/watch?v=zIJEOEZdLzE",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Alesso - Years ft. Matthew Koma",
+        "platform": "youtube",
+        "ref": "aIrB96V-UNI",
+        "sourceUrl": "https://www.youtube.com/watch?v=aIrB96V-UNI",
         "kind": "track",
         "verified": true
       }
     ],
-    "notes": "All three YouTube embeds resolved via oEmbed with valid titles. Titles updated to the exact oEmbed values: 'Heroes' uses the bracketed [Official Music Video] form; 'Calling' resolves to the full Sebastian Ingrosso & Alesso feat. Ryan Tedder credit; 'Years' is the (Official Video HD) upload. Note oEmbed author channels are aggregator/label uploads (Bad Boy Edd, Kontor.TV) not Alesso's own VEVO, but all return valid playable embeds."
+    "image": "https://i.ytimg.com/vi/a7SouU3ECpU/hqdefault.jpg"
   },
   {
     "id": "swedish-house-mafia",
@@ -680,6 +1661,7 @@
     "genres": [
       "Progressive House"
     ],
+    "notes": "All 10 candidates verified via YouTube oEmbed (200 + valid title, none 'Video unavailable'). Titles updated to cleaner oEmbed values. First 8 confirmed on SHMVEVO / TheWeekndVEVO (Moth To A Flame collab). #9 and #10 are Axwell /\\ Ingrosso (AxwellIngrossoVEVO) per the candidate note — kept since they verified; drop if strict-SHM-only is required. No drops; exactly 10 verified so no capping needed.",
     "tracks": [
       {
         "title": "Swedish House Mafia ft. John Martin - Don't You Worry Child (Official Video)",
@@ -698,420 +1680,50 @@
         "verified": true
       },
       {
-        "title": "Swedish House Mafia - Greyhound (2012 / OFFICIAL VIDEO / 4K REMASTERED)",
+        "title": "Swedish House Mafia - One (Your Name) (Official Video)",
         "platform": "youtube",
-        "ref": "7mO4QAk3Fcs",
-        "sourceUrl": "https://www.youtube.com/watch?v=7mO4QAk3Fcs",
-        "kind": "track",
-        "verified": true
-      }
-    ],
-    "notes": "All three YouTube embeds resolved via oEmbed. 'Don't You Worry Child' and 'Save The World' are on the official SHMVEVO channel. 'Greyhound' (7mO4QAk3Fcs) resolved with title 'Swedish House Mafia - Greyhound (2012 / OFFICIAL VIDEO / 4K REMASTERED)' but the oEmbed author is a third-party channel (Rocket-Media), not the SHM/VEVO channel; embed plays fine so it is kept and verified, title updated to oEmbed value."
-  },
-  {
-    "id": "hardwell",
-    "name": "Hardwell",
-    "genres": [
-      "Big Room"
-    ],
-    "tracks": [
-      {
-        "title": "Hardwell - Spaceman [OUT NOW] (Revealed Recordings)",
-        "platform": "youtube",
-        "ref": "R5xII5CsaD8",
-        "sourceUrl": "https://www.youtube.com/watch?v=R5xII5CsaD8",
+        "ref": "PkQ5rEJaTmk",
+        "sourceUrl": "https://www.youtube.com/watch?v=PkQ5rEJaTmk",
         "kind": "track",
         "verified": true
       },
       {
-        "title": "Apollo (feat. Amba Shepherd) by HARDWELL",
-        "platform": "soundcloud",
-        "ref": "https://soundcloud.com/hardwell/apollo-1",
-        "sourceUrl": "https://soundcloud.com/hardwell/apollo-1",
+        "title": "Swedish House Mafia and The Weeknd - Moth To A Flame (Official Video)",
+        "platform": "youtube",
+        "ref": "u9n7Cw-4_HQ",
+        "sourceUrl": "https://www.youtube.com/watch?v=u9n7Cw-4_HQ",
         "kind": "track",
         "verified": true
       },
       {
-        "title": "Hardwell On Air 469",
-        "platform": "mixcloud",
-        "ref": "https://www.mixcloud.com/HardwellOnAirOfficialPodcast/hardwell-on-air-469/",
-        "sourceUrl": "https://www.mixcloud.com/HardwellOnAirOfficialPodcast/hardwell-on-air-469/",
-        "kind": "set",
-        "verified": true
-      }
-    ],
-    "notes": "Full three-platform spread, all resolved. YouTube 'Spaceman' (R5xII5CsaD8) oEmbed title 'Hardwell - Spaceman [OUT NOW] (Revealed Recordings)'. SoundCloud Apollo resolved on official soundcloud.com/hardwell account (title 'Apollo (feat. Amba Shepherd) by HARDWELL'). Mixcloud HOA 469 resolved on official HardwellOnAirOfficialPodcast account."
-  },
-  {
-    "id": "tiesto",
-    "name": "Tiësto",
-    "genres": [
-      "Big Room"
-    ],
-    "tracks": [
-      {
-        "title": "Tiësto - Adagio For Strings (Official Music Video)",
+        "title": "Swedish House Mafia - Miami 2 Ibiza ft. Tinie Tempah",
         "platform": "youtube",
-        "ref": "6yFanGv_ReU",
-        "sourceUrl": "https://www.youtube.com/watch?v=6yFanGv_ReU",
+        "ref": "LCH1AsUydSc",
+        "sourceUrl": "https://www.youtube.com/watch?v=LCH1AsUydSc",
         "kind": "track",
         "verified": true
       },
       {
-        "title": "Tiësto - The Business by Tiësto",
-        "platform": "soundcloud",
-        "ref": "https://soundcloud.com/tiesto/the-business",
-        "sourceUrl": "https://soundcloud.com/tiesto/the-business",
+        "title": "Swedish House Mafia - Greyhound",
+        "platform": "youtube",
+        "ref": "PDboaDrHGbA",
+        "sourceUrl": "https://www.youtube.com/watch?v=PDboaDrHGbA",
         "kind": "track",
         "verified": true
       },
       {
-        "title": "Clublife By Tiësto 543 Podcast",
-        "platform": "mixcloud",
-        "ref": "https://www.mixcloud.com/Tiesto/clublife-by-ti%C3%ABsto-543-podcast/",
-        "sourceUrl": "https://www.mixcloud.com/Tiesto/clublife-by-ti%C3%ABsto-543-podcast/",
-        "kind": "set",
-        "verified": true
-      }
-    ],
-    "notes": "Full three-platform spread, all resolved. YouTube 'Adagio For Strings' on Black Hole Recordings channel. SoundCloud 'The Business' on official soundcloud.com/tiesto (oEmbed title 'Tiësto - The Business by Tiësto'). Mixcloud CLUBLIFE 543 on official Tiesto account (oEmbed title 'Clublife By Tiësto 543 Podcast')."
-  },
-  {
-    "id": "david-guetta",
-    "name": "David Guetta",
-    "genres": [
-      "Electro House"
-    ],
-    "tracks": [
-      {
-        "title": "Titanium (feat. Sia) by David Guetta",
-        "platform": "soundcloud",
-        "ref": "https://soundcloud.com/davidguetta/titanium-feat-sia",
-        "sourceUrl": "https://soundcloud.com/davidguetta/titanium-feat-sia",
+        "title": "Swedish House Mafia - Lifetime ft. Ty Dolla $ign, 070 Shake",
+        "platform": "youtube",
+        "ref": "t0RwGmzFCdA",
+        "sourceUrl": "https://www.youtube.com/watch?v=t0RwGmzFCdA",
         "kind": "track",
         "verified": true
       },
       {
-        "title": "David Guetta Feat. Kelly Rowland - When Love Takes Over (Official Video)",
+        "title": "Swedish House Mafia and Connie Constance - Heaven Takes You Home (Connies Lens)",
         "platform": "youtube",
-        "ref": "zudbz4hOcbc",
-        "sourceUrl": "https://www.youtube.com/watch?v=zudbz4hOcbc",
-        "kind": "track",
-        "verified": true
-      },
-      {
-        "title": "David Guetta Feat. Kid Cudi - Memories (Official Video)",
-        "platform": "youtube",
-        "ref": "NUVCQXMUVnI",
-        "sourceUrl": "https://www.youtube.com/watch?v=NUVCQXMUVnI",
-        "kind": "track",
-        "verified": true
-      }
-    ],
-    "notes": "Two-platform spread (SoundCloud + YouTube), all resolved. SoundCloud Titanium on official soundcloud.com/davidguetta (oEmbed title 'Titanium (feat. Sia) by David Guetta'). 'When Love Takes Over' and 'Memories' YouTube embeds resolved with valid official-video titles."
-  },
-  {
-    "id": "calvin-harris",
-    "name": "Calvin Harris",
-    "genres": [
-      "Electro House"
-    ],
-    "tracks": [
-      {
-        "title": "Calvin Harris - Summer (Official Video)",
-        "platform": "youtube",
-        "ref": "ebXbLfLACGM",
-        "sourceUrl": "https://www.youtube.com/watch?v=ebXbLfLACGM",
-        "kind": "track",
-        "verified": true
-      },
-      {
-        "title": "Calvin Harris - Feel So Close (Official Video)",
-        "platform": "youtube",
-        "ref": "dGghkjpNCQ8",
-        "sourceUrl": "https://www.youtube.com/watch?v=dGghkjpNCQ8",
-        "kind": "track",
-        "verified": true
-      },
-      {
-        "title": "Calvin Harris, Rihanna - This Is What You Came For (Official Video)",
-        "platform": "youtube",
-        "ref": "kOkQ4T5WO9E",
-        "sourceUrl": "https://www.youtube.com/watch?v=kOkQ4T5WO9E",
-        "kind": "track",
-        "verified": true
-      }
-    ],
-    "notes": "All three official VEVO uploads verified via YouTube oEmbed (200 + title). Title for kOkQ4T5WO9E updated to the cleaner oEmbed value 'Calvin Harris, Rihanna - This Is What You Came For (Official Video)'."
-  },
-  {
-    "id": "deadmau5",
-    "name": "deadmau5",
-    "genres": [
-      "Progressive House"
-    ],
-    "tracks": [
-      {
-        "title": "deadmau5 - Strobe",
-        "platform": "youtube",
-        "ref": "tKi9Z-f6qX4",
-        "sourceUrl": "https://www.youtube.com/watch?v=tKi9Z-f6qX4",
-        "kind": "track",
-        "verified": true
-      },
-      {
-        "title": "deadmau5 feat. Rob Swire - Ghosts N Stuff",
-        "platform": "youtube",
-        "ref": "h7ArUgxtlJs",
-        "sourceUrl": "https://www.youtube.com/watch?v=h7ArUgxtlJs",
-        "kind": "track",
-        "verified": true
-      }
-    ],
-    "notes": "Both tracks verified via YouTube oEmbed (200 + title); titles already matched oEmbed. Only 2 tracks: SoundCloud deep permalinks were omitted upstream to avoid fabrication, so none were available to verify here."
-  },
-  {
-    "id": "carl-cox",
-    "name": "Carl Cox",
-    "genres": [
-      "Techno"
-    ],
-    "tracks": [
-      {
-        "title": "Carl Cox Global 714 - Live From Burning Man (Disco Set)",
-        "platform": "mixcloud",
-        "ref": "https://www.mixcloud.com/CarlCox/carl-cox-global-714-live-from-burning-man/",
-        "sourceUrl": "https://www.mixcloud.com/CarlCox/carl-cox-global-714-live-from-burning-man/",
-        "kind": "set",
-        "verified": true
-      },
-      {
-        "title": "Carl Cox's Cabin Fever - Episode 34 - Techno & Tech-House Early '00s",
-        "platform": "mixcloud",
-        "ref": "https://www.mixcloud.com/CarlCox/carl-coxs-cabin-fever-episode-34/",
-        "sourceUrl": "https://www.mixcloud.com/CarlCox/carl-coxs-cabin-fever-episode-34/",
-        "kind": "set",
-        "verified": true
-      },
-      {
-        "title": "Carl Cox's Cabin Fever - 1st Year Round Up | Part Ii",
-        "platform": "mixcloud",
-        "ref": "https://www.mixcloud.com/CarlCox/carl-coxs-cabin-fever-1st-year-round-up-part-ii-20210328-1750/",
-        "sourceUrl": "https://www.mixcloud.com/CarlCox/carl-coxs-cabin-fever-1st-year-round-up-part-ii-20210328-1750/",
-        "kind": "set",
-        "verified": true
-      }
-    ],
-    "notes": "All three Mixcloud sets verified via app.mixcloud.com oEmbed (200 + title). Title for the Part II set updated to the oEmbed value 'Carl Cox's Cabin Fever - 1st Year Round Up | Part Ii'."
-  },
-  {
-    "id": "skrillex",
-    "name": "Skrillex",
-    "genres": [
-      "Dubstep"
-    ],
-    "tracks": [
-      {
-        "title": "Skrillex - Scary Monsters And Nice Sprites (Official Audio)",
-        "platform": "youtube",
-        "ref": "WSeNSzJ2-Jw",
-        "sourceUrl": "https://www.youtube.com/watch?v=WSeNSzJ2-Jw",
-        "kind": "track",
-        "verified": true
-      },
-      {
-        "title": "SKRILLEX - Bangarang feat. Sirah [Official Music Video]",
-        "platform": "youtube",
-        "ref": "YJVmu6yttiw",
-        "sourceUrl": "https://www.youtube.com/watch?v=YJVmu6yttiw",
-        "kind": "track",
-        "verified": true
-      },
-      {
-        "title": "Benny Benassi ft. Gary Go - Cinema (Skrillex Remix) (Official Video)",
-        "platform": "youtube",
-        "ref": "Cw0nkxFhpoM",
-        "sourceUrl": "https://www.youtube.com/watch?v=Cw0nkxFhpoM",
-        "kind": "track",
-        "verified": true
-      }
-    ],
-    "notes": "All three verified via YouTube oEmbed (200 + title). Title for YJVmu6yttiw updated to the cleaner oEmbed value 'SKRILLEX - Bangarang feat. Sirah [Official Music Video]'."
-  },
-  {
-    "id": "zedd",
-    "name": "Zedd",
-    "genres": [
-      "Electro House"
-    ],
-    "tracks": [
-      {
-        "title": "Zedd - Clarity ft. Foxes",
-        "platform": "youtube",
-        "ref": "IxxstCcJlsc",
-        "sourceUrl": "https://www.youtube.com/watch?v=IxxstCcJlsc",
-        "kind": "track",
-        "verified": true
-      },
-      {
-        "title": "Zedd, Alessia Cara - Stay (Official Music Video)",
-        "platform": "youtube",
-        "ref": "yWEK4v9AVKQ",
-        "sourceUrl": "https://www.youtube.com/watch?v=yWEK4v9AVKQ",
-        "kind": "track",
-        "verified": true
-      }
-    ],
-    "notes": "Clarity and Stay verified via YouTube oEmbed (200 + title); Clarity title updated to the cleaner oEmbed value 'Zedd - Clarity ft. Foxes'. The Middle (ref 5vBGOrUEZBU) was DROPPED: oEmbed returned HTTP 404 on two attempts, confirming the embed does not resolve."
-  },
-  {
-    "id": "afrojack",
-    "name": "Afrojack",
-    "genres": [
-      "Big Room"
-    ],
-    "tracks": [
-      {
-        "title": "Afrojack - Take Over Control feat. Eva Simons",
-        "platform": "soundcloud",
-        "ref": "https://soundcloud.com/afrojack/afrojack-take-over-control",
-        "sourceUrl": "https://soundcloud.com/afrojack/afrojack-take-over-control",
-        "kind": "track",
-        "verified": true
-      },
-      {
-        "title": "AFROJACK - The Spark ft. Spree Wilson",
-        "platform": "youtube",
-        "ref": "IB3lcPjvWLA",
-        "sourceUrl": "https://www.youtube.com/watch?v=IB3lcPjvWLA",
-        "kind": "track",
-        "verified": true
-      },
-      {
-        "title": "AFROJACK - Ten Feet Tall (Lyric Video) ft. Wrabel",
-        "platform": "youtube",
-        "ref": "bltr_Dsk5EY",
-        "sourceUrl": "https://www.youtube.com/watch?v=bltr_Dsk5EY",
-        "kind": "track",
-        "verified": true
-      }
-    ],
-    "notes": "All 3 candidates verified via oEmbed. Take Over Control resolves on Afrojack's official SoundCloud (oEmbed title 'Afrojack - Take Over Control feat. Eva Simons by Afrojack'). The Spark and Ten Feet Tall both resolve on AfrojackVEVO. Titles updated to the cleaner oEmbed-returned values."
-  },
-  {
-    "id": "steve-aoki",
-    "name": "Steve Aoki",
-    "genres": [
-      "Electro House"
-    ],
-    "tracks": [
-      {
-        "title": "Steve Aoki, Chris Lake & Tujamo - Boneless (Official Video)",
-        "platform": "youtube",
-        "ref": "gl2p4G3CUrI",
-        "sourceUrl": "https://www.youtube.com/watch?v=gl2p4G3CUrI",
-        "kind": "track",
-        "verified": true
-      },
-      {
-        "title": "Kid Cudi - Pursuit of Happiness (Steve Aoki Remix)",
-        "platform": "soundcloud",
-        "ref": "https://soundcloud.com/steveaoki/kid-cudi-pursuit-of-happiness",
-        "sourceUrl": "https://soundcloud.com/steveaoki/kid-cudi-pursuit-of-happiness",
-        "kind": "track",
-        "verified": true
-      },
-      {
-        "title": "Aoki's House 295",
-        "platform": "mixcloud",
-        "ref": "https://www.mixcloud.com/SteveAoki/aokis-house-295/",
-        "sourceUrl": "https://www.mixcloud.com/SteveAoki/aokis-house-295/",
-        "kind": "set",
-        "verified": true
-      }
-    ],
-    "notes": "All 3 candidates verified via oEmbed. Boneless resolves on Ultra Records (oEmbed title gains '(Official Video)'). Pursuit of Happiness remix resolves on Steve Aoki's official SoundCloud. Aoki's House 295 resolves on the official Steve Aoki Mixcloud. Boneless title updated to the cleaner oEmbed value."
-  },
-  {
-    "id": "eric-prydz",
-    "name": "Eric Prydz",
-    "genres": [
-      "Progressive House"
-    ],
-    "tracks": [
-      {
-        "title": "Opus",
-        "platform": "soundcloud",
-        "ref": "https://soundcloud.com/eric-prydz/eric-prydz-opus",
-        "sourceUrl": "https://soundcloud.com/eric-prydz/eric-prydz-opus",
-        "kind": "track",
-        "verified": true
-      },
-      {
-        "title": "Eric Prydz – Call On Me (Official Music Video) | Ministry of Sound",
-        "platform": "youtube",
-        "ref": "qetW6R9Jxs4",
-        "sourceUrl": "https://www.youtube.com/watch?v=qetW6R9Jxs4",
-        "kind": "track",
-        "verified": true
-      },
-      {
-        "title": "Eric Prydz - Generate",
-        "platform": "youtube",
-        "ref": "nUCoYcxNMBE",
-        "sourceUrl": "https://www.youtube.com/watch?v=nUCoYcxNMBE",
-        "kind": "track",
-        "verified": true
-      }
-    ],
-    "notes": "All 3 candidates verified via oEmbed. Opus resolves on Eric Prydz's official SoundCloud (oEmbed title 'Opus by Eric Prydz'). Call On Me resolves on Ministry of Sound; title updated to the cleaner oEmbed value. Generate resolves on EricPrydzVEVO."
-  },
-  {
-    "id": "dimitri-vegas-like-mike",
-    "name": "Dimitri Vegas & Like Mike",
-    "genres": [
-      "Big Room"
-    ],
-    "tracks": [
-      {
-        "title": "Dimitri Vegas, Martin Garrix, Like Mike - Tremor (Official Music Video)",
-        "platform": "youtube",
-        "ref": "9vMh9f41pqE",
-        "sourceUrl": "https://www.youtube.com/watch?v=9vMh9f41pqE",
-        "kind": "track",
-        "verified": true
-      },
-      {
-        "title": "Dimitri Vegas & Like Mike vs Ummet Ozcan - The Hum (Official Music Video)",
-        "platform": "youtube",
-        "ref": "exJlapzPnlc",
-        "sourceUrl": "https://www.youtube.com/watch?v=exJlapzPnlc",
-        "kind": "track",
-        "verified": true
-      },
-      {
-        "title": "Dimitri Vegas & Like Mike vs Hardwell - Unity (Official Music Video)",
-        "platform": "youtube",
-        "ref": "rLlZE_G_fXo",
-        "sourceUrl": "https://www.youtube.com/watch?v=rLlZE_G_fXo",
-        "kind": "track",
-        "verified": true
-      }
-    ],
-    "notes": "All 3 candidates verified via oEmbed. Tremor resolves on Spinnin' Records; The Hum and Unity resolve on the official Dimitri Vegas & Like Mike channel. All three titles updated to the cleaner oEmbed values (each gained '(Official Music Video)')."
-  },
-  {
-    "id": "axwell-ingrosso",
-    "name": "Axwell /\\ Ingrosso",
-    "genres": [
-      "Progressive House"
-    ],
-    "tracks": [
-      {
-        "title": "Axwell /\\ Ingrosso - Something New",
-        "platform": "youtube",
-        "ref": "QwaVVsvLlc4",
-        "sourceUrl": "https://www.youtube.com/watch?v=QwaVVsvLlc4",
+        "ref": "kYHoSET3SGU",
+        "sourceUrl": "https://www.youtube.com/watch?v=kYHoSET3SGU",
         "kind": "track",
         "verified": true
       },
@@ -1132,7 +1744,998 @@
         "verified": true
       }
     ],
-    "notes": "All 3 candidates verified via oEmbed on AxwellIngrossoVEVO. More Than You Know and Sun Is Shining titles updated to the cleaner oEmbed-returned values."
+    "image": "https://i.ytimg.com/vi/1y6smkh6c-0/hqdefault.jpg"
+  },
+  {
+    "id": "hardwell",
+    "name": "Hardwell",
+    "genres": [
+      "Big Room"
+    ],
+    "notes": "All 10 candidates verified via YouTube oEmbed (200 + valid title, none 'Video unavailable'). Titles updated to cleaner oEmbed values. Channels confirmed: Hardwell own channel plus label channels Scorpio Music (Spaceman), Toolroom Records (Three Triangles), Revealed Music (Bella Ciao). No drops; exactly 10 verified so no capping needed.",
+    "tracks": [
+      {
+        "title": "Hardwell - Spaceman (Original Mix)",
+        "platform": "youtube",
+        "ref": "7ty7mk3UOmo",
+        "sourceUrl": "https://www.youtube.com/watch?v=7ty7mk3UOmo",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Hardwell feat. Amba Shepherd - Apollo (Official Music Video)",
+        "platform": "youtube",
+        "ref": "q8kUckZ15fE",
+        "sourceUrl": "https://www.youtube.com/watch?v=q8kUckZ15fE",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Hardwell ft. Mitch Crown - Call Me A Spaceman (OFFICIAL MUSIC VIDEO)",
+        "platform": "youtube",
+        "ref": "ppy-fgbPn2s",
+        "sourceUrl": "https://www.youtube.com/watch?v=ppy-fgbPn2s",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Hardwell - Three Triangles (Losing My Religion) OFFICIAL VIDEO",
+        "platform": "youtube",
+        "ref": "Psab256_RP0",
+        "sourceUrl": "https://www.youtube.com/watch?v=Psab256_RP0",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Hardwell feat. Jake Reese - Mad World (Official Music Video)",
+        "platform": "youtube",
+        "ref": "WuCGE6Sl27w",
+        "sourceUrl": "https://www.youtube.com/watch?v=WuCGE6Sl27w",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Hardwell feat. Jake Reese - Run Wild (Official Music Video)",
+        "platform": "youtube",
+        "ref": "ULwcsIPdc8w",
+        "sourceUrl": "https://www.youtube.com/watch?v=ULwcsIPdc8w",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Hardwell & Maddix - Bella Ciao",
+        "platform": "youtube",
+        "ref": "rGHwJ0RSBIY",
+        "sourceUrl": "https://www.youtube.com/watch?v=rGHwJ0RSBIY",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Hardwell - INTO THE UNKNOWN (Official Video)",
+        "platform": "youtube",
+        "ref": "Dau970LiXik",
+        "sourceUrl": "https://www.youtube.com/watch?v=Dau970LiXik",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Hardwell - Retrograde (Official Music Video)",
+        "platform": "youtube",
+        "ref": "9zpzY8om-Dc",
+        "sourceUrl": "https://www.youtube.com/watch?v=9zpzY8om-Dc",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Hardwell - Sanctuary (Official Video)",
+        "platform": "youtube",
+        "ref": "MXS9Zgs2BjU",
+        "sourceUrl": "https://www.youtube.com/watch?v=MXS9Zgs2BjU",
+        "kind": "track",
+        "verified": true
+      }
+    ],
+    "image": "https://i.ytimg.com/vi/7ty7mk3UOmo/hqdefault.jpg"
+  },
+  {
+    "id": "tiesto",
+    "name": "Tiësto",
+    "genres": [
+      "Big Room"
+    ],
+    "notes": "All 10 candidates verified via YouTube oEmbed (200 + valid title, none 'Video unavailable'). Titles updated to cleaner oEmbed values. Channels confirmed: Tiësto own channel, TiestoVEVO, and Spinnin' Records (Secrets, The Only Way Is Up). No drops; exactly 10 verified so no capping needed.",
+    "tracks": [
+      {
+        "title": "Tiësto - The Business (Official Music Video)",
+        "platform": "youtube",
+        "ref": "nCg3ufihKyU",
+        "sourceUrl": "https://www.youtube.com/watch?v=nCg3ufihKyU",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Tiësto & Karol G - Don't Be Shy (Official Music Video)",
+        "platform": "youtube",
+        "ref": "taSubkjZUA4",
+        "sourceUrl": "https://www.youtube.com/watch?v=taSubkjZUA4",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Tiësto & KSHMR feat. Vassy - Secrets (Official Music Video)",
+        "platform": "youtube",
+        "ref": "Dr1nN__-2Po",
+        "sourceUrl": "https://www.youtube.com/watch?v=Dr1nN__-2Po",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Tiësto, Jonas Blue & Rita Ora - Ritual (Official Video)",
+        "platform": "youtube",
+        "ref": "ontU9cOg354",
+        "sourceUrl": "https://www.youtube.com/watch?v=ontU9cOg354",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Tiësto - Red Lights",
+        "platform": "youtube",
+        "ref": "CFF0mV24WCY",
+        "sourceUrl": "https://www.youtube.com/watch?v=CFF0mV24WCY",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Tiësto & Ava Max - The Motto (Official Music Video)",
+        "platform": "youtube",
+        "ref": "1_4ELAxKrDc",
+        "sourceUrl": "https://www.youtube.com/watch?v=1_4ELAxKrDc",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Martin Garrix & Tiësto - The Only Way Is Up (Official Music Video)",
+        "platform": "youtube",
+        "ref": "AewNd29wRUM",
+        "sourceUrl": "https://www.youtube.com/watch?v=AewNd29wRUM",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Tiësto & Dzeko ft. Preme & Post Malone - Jackie Chan (Official Lyric Video)",
+        "platform": "youtube",
+        "ref": "6DaL-Z4dwzI",
+        "sourceUrl": "https://www.youtube.com/watch?v=6DaL-Z4dwzI",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Tiësto - Wasted ft. Matthew Koma",
+        "platform": "youtube",
+        "ref": "AmEIemQfk34",
+        "sourceUrl": "https://www.youtube.com/watch?v=AmEIemQfk34",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Tiësto, Mabel - God Is A Dancer (Official Video)",
+        "platform": "youtube",
+        "ref": "jnwDkVo6DxA",
+        "sourceUrl": "https://www.youtube.com/watch?v=jnwDkVo6DxA",
+        "kind": "track",
+        "verified": true
+      }
+    ],
+    "image": "https://i.ytimg.com/vi/nCg3ufihKyU/hqdefault.jpg"
+  },
+  {
+    "id": "david-guetta",
+    "name": "David Guetta",
+    "genres": [
+      "Electro House"
+    ],
+    "notes": "All 10 candidates verified via YouTube oEmbed (200 + valid title, none 'Video unavailable'). Titles updated to cleaner oEmbed values. All confirmed on the official David Guetta channel. No drops; exactly 10 verified so no capping needed.",
+    "tracks": [
+      {
+        "title": "David Guetta - Titanium ft. Sia (Official Video)",
+        "platform": "youtube",
+        "ref": "JRfuAukYTKg",
+        "sourceUrl": "https://www.youtube.com/watch?v=JRfuAukYTKg",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "David Guetta - Hey Mama (Official Video) ft Nicki Minaj, Bebe Rexha & Afrojack",
+        "platform": "youtube",
+        "ref": "uO59tfQ2TbA",
+        "sourceUrl": "https://www.youtube.com/watch?v=uO59tfQ2TbA",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "David Guetta & Bebe Rexha - I'm Good (Blue) [Official Music Video]",
+        "platform": "youtube",
+        "ref": "90RLzVUuXe4",
+        "sourceUrl": "https://www.youtube.com/watch?v=90RLzVUuXe4",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "David Guetta - Play Hard ft. Ne-Yo, Akon (Official Video)",
+        "platform": "youtube",
+        "ref": "5dbEhBKGOtY",
+        "sourceUrl": "https://www.youtube.com/watch?v=5dbEhBKGOtY",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "David Guetta, Bebe Rexha & J Balvin - Say My Name (Official Video)",
+        "platform": "youtube",
+        "ref": "ft4jcPSLJfY",
+        "sourceUrl": "https://www.youtube.com/watch?v=ft4jcPSLJfY",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "David Guetta & Showtek - Bad ft.Vassy (Lyrics Video)",
+        "platform": "youtube",
+        "ref": "oC-GflRB0y4",
+        "sourceUrl": "https://www.youtube.com/watch?v=oC-GflRB0y4",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "David Guetta Feat. Kid Cudi - Memories (Official Video)",
+        "platform": "youtube",
+        "ref": "NUVCQXMUVnI",
+        "sourceUrl": "https://www.youtube.com/watch?v=NUVCQXMUVnI",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "David Guetta - She Wolf (Falling To Pieces) ft. Sia (Official Video)",
+        "platform": "youtube",
+        "ref": "PVzljDmoPVs",
+        "sourceUrl": "https://www.youtube.com/watch?v=PVzljDmoPVs",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "David Guetta - Without You ft. Usher (Official Video)",
+        "platform": "youtube",
+        "ref": "jUe8uoKdHao",
+        "sourceUrl": "https://www.youtube.com/watch?v=jUe8uoKdHao",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "David Guetta - Turn Me On ft. Nicki Minaj (Official Video)",
+        "platform": "youtube",
+        "ref": "YVw7eJ0vGfM",
+        "sourceUrl": "https://www.youtube.com/watch?v=YVw7eJ0vGfM",
+        "kind": "track",
+        "verified": true
+      }
+    ],
+    "image": "https://i.ytimg.com/vi/JRfuAukYTKg/hqdefault.jpg"
+  },
+  {
+    "id": "calvin-harris",
+    "name": "Calvin Harris",
+    "genres": [
+      "Electro House"
+    ],
+    "tracks": [
+      {
+        "title": "Rihanna - We Found Love ft. Calvin Harris",
+        "platform": "youtube",
+        "ref": "tg00YEETFzg",
+        "sourceUrl": "https://www.youtube.com/watch?v=tg00YEETFzg",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Calvin Harris, Dua Lipa - One Kiss (Official Video)",
+        "platform": "youtube",
+        "ref": "DkeiKbqa02g",
+        "sourceUrl": "https://www.youtube.com/watch?v=DkeiKbqa02g",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Calvin Harris, Rihanna - This Is What You Came For (Official Video)",
+        "platform": "youtube",
+        "ref": "kOkQ4T5WO9E",
+        "sourceUrl": "https://www.youtube.com/watch?v=kOkQ4T5WO9E",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Calvin Harris - Summer (Official Video)",
+        "platform": "youtube",
+        "ref": "ebXbLfLACGM",
+        "sourceUrl": "https://www.youtube.com/watch?v=ebXbLfLACGM",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Calvin Harris - Feel So Close (Official Video)",
+        "platform": "youtube",
+        "ref": "dGghkjpNCQ8",
+        "sourceUrl": "https://www.youtube.com/watch?v=dGghkjpNCQ8",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Calvin Harris & Disciples - How Deep Is Your Love",
+        "platform": "youtube",
+        "ref": "EgqUJOudrcM",
+        "sourceUrl": "https://www.youtube.com/watch?v=EgqUJOudrcM",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Calvin Harris - Blame ft. John Newman",
+        "platform": "youtube",
+        "ref": "6ACl8s_tBzE",
+        "sourceUrl": "https://www.youtube.com/watch?v=6ACl8s_tBzE",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Calvin Harris, Sam Smith - Promises (Official Video)",
+        "platform": "youtube",
+        "ref": "kkLk2XWMBf8",
+        "sourceUrl": "https://www.youtube.com/watch?v=kkLk2XWMBf8",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Calvin Harris - Feels (Official Video) ft. Pharrell Williams, Katy Perry, Big Sean",
+        "platform": "youtube",
+        "ref": "ozv4q2ov3Mk",
+        "sourceUrl": "https://www.youtube.com/watch?v=ozv4q2ov3Mk",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Calvin Harris - Sweet Nothing (Official Video) ft. Florence Welch",
+        "platform": "youtube",
+        "ref": "17ozSeGw-fY",
+        "sourceUrl": "https://www.youtube.com/watch?v=17ozSeGw-fY",
+        "kind": "track",
+        "verified": true
+      }
+    ],
+    "notes": "All 10 verified via YouTube oEmbed (200 + JSON + real title). All on official VEVO channels (CalvinHarrisVEVO, RihannaVEVO, DuaLipaVEVO). Top 10 cap unchanged; oEmbed titles matched candidate titles exactly so none rewritten.",
+    "image": "https://i.ytimg.com/vi/tg00YEETFzg/hqdefault.jpg"
+  },
+  {
+    "id": "deadmau5",
+    "name": "deadmau5",
+    "genres": [
+      "Progressive House"
+    ],
+    "tracks": [
+      {
+        "title": "deadmau5 & Kaskade - I Remember (HQ)",
+        "platform": "youtube",
+        "ref": "zK1mLIeXwsQ",
+        "sourceUrl": "https://www.youtube.com/watch?v=zK1mLIeXwsQ",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "deadmau5 feat. Rob Swire - Ghosts N Stuff",
+        "platform": "youtube",
+        "ref": "h7ArUgxtlJs",
+        "sourceUrl": "https://www.youtube.com/watch?v=h7ArUgxtlJs",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "deadmau5 - Strobe",
+        "platform": "youtube",
+        "ref": "tKi9Z-f6qX4",
+        "sourceUrl": "https://www.youtube.com/watch?v=tKi9Z-f6qX4",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "deadmau5 feat. Chris James - The Veldt (Official Video)",
+        "platform": "youtube",
+        "ref": "xvtNS6hbVy4",
+        "sourceUrl": "https://www.youtube.com/watch?v=xvtNS6hbVy4",
+        "kind": "track",
+        "verified": true
+      }
+    ],
+    "notes": "4 of 6 verified via YouTube oEmbed, all on the official deadmau5 channel. 'I Remember' title updated to oEmbed value '(HQ)'; 'The Veldt' updated to add '(Official Video)'. Dropped 2: 'Raise Your Weapon' (ref 80NytcgN3Dk) and 'Some Chords' (ref NUiI6UIxhuk) both returned HTTP 404 - the candidate IDs were flagged low-confidence and did not resolve.",
+    "image": "https://i.ytimg.com/vi/zK1mLIeXwsQ/hqdefault.jpg"
+  },
+  {
+    "id": "carl-cox",
+    "name": "Carl Cox",
+    "genres": [
+      "Techno"
+    ],
+    "tracks": [
+      {
+        "title": "Carl Cox - Cabin Fever 001 (The Vinyl Session) - 22 March 2020",
+        "platform": "youtube",
+        "ref": "zh89Sz6v2Rc",
+        "sourceUrl": "https://www.youtube.com/watch?v=zh89Sz6v2Rc",
+        "kind": "set",
+        "verified": true
+      },
+      {
+        "title": "Carl Cox - Cabin Fever 002 (The Vinyl Session) - 29 March 2020",
+        "platform": "youtube",
+        "ref": "mCYsTrpQtqY",
+        "sourceUrl": "https://www.youtube.com/watch?v=mCYsTrpQtqY",
+        "kind": "set",
+        "verified": true
+      },
+      {
+        "title": "Carl Cox's Cabin Fever - 1st Year Round Up | Part Ii",
+        "platform": "mixcloud",
+        "ref": "https://www.mixcloud.com/CarlCox/carl-coxs-cabin-fever-1st-year-round-up-part-ii-20210328-1750/",
+        "sourceUrl": "https://www.mixcloud.com/CarlCox/carl-coxs-cabin-fever-1st-year-round-up-part-ii-20210328-1750/",
+        "kind": "set",
+        "verified": true
+      },
+      {
+        "title": "Carl Cox's Cabin Fever - 1st Year Round Up",
+        "platform": "mixcloud",
+        "ref": "https://www.mixcloud.com/CarlCox/carl-coxs-cabin-fever-1st-year-round-up-20210321-1849/",
+        "sourceUrl": "https://www.mixcloud.com/CarlCox/carl-coxs-cabin-fever-1st-year-round-up-20210321-1849/",
+        "kind": "set",
+        "verified": true
+      },
+      {
+        "title": "Carl Cox's Cabin Fever - Episode 47 - Hospital Records Showcase",
+        "platform": "mixcloud",
+        "ref": "https://www.mixcloud.com/CarlCox/carl-coxs-cabin-fever-episode-47/",
+        "sourceUrl": "https://www.mixcloud.com/CarlCox/carl-coxs-cabin-fever-episode-47/",
+        "kind": "set",
+        "verified": true
+      }
+    ],
+    "notes": "All 5 verified. The 3 Mixcloud sets resolve via Mixcloud oEmbed on the official mixcloud.com/CarlCox account (author_name 'Carl Cox'); Part II title updated to oEmbed casing 'Part Ii'. The 2 YouTube embeds resolve with valid JSON + real titles but are hosted on a third-party channel 'REAL UNDERGROUND MUSIC', not Carl Cox's own channel - kept per the rules (200 + JSON + title = verified) but flagging the provenance. All kind=set.",
+    "image": "https://i.ytimg.com/vi/zh89Sz6v2Rc/hqdefault.jpg"
+  },
+  {
+    "id": "skrillex",
+    "name": "Skrillex",
+    "genres": [
+      "Dubstep"
+    ],
+    "tracks": [
+      {
+        "title": "Skrillex and Diplo - \"Where Are Ü Now\" with Justin Bieber (Official Video)",
+        "platform": "youtube",
+        "ref": "nntGTK2Fhb0",
+        "sourceUrl": "https://www.youtube.com/watch?v=nntGTK2Fhb0",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "SKRILLEX - Bangarang feat. Sirah [Official Music Video]",
+        "platform": "youtube",
+        "ref": "YJVmu6yttiw",
+        "sourceUrl": "https://www.youtube.com/watch?v=YJVmu6yttiw",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Skrillex - First Of The Year (Equinox) [Official Music Video]",
+        "platform": "youtube",
+        "ref": "2cXDgFwE13g",
+        "sourceUrl": "https://www.youtube.com/watch?v=2cXDgFwE13g",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Skrillex & Damian \"Jr. Gong\" Marley - Make It Bun Dem [OFFICIAL VIDEO]",
+        "platform": "youtube",
+        "ref": "BGpzGu9Yp6Y",
+        "sourceUrl": "https://www.youtube.com/watch?v=BGpzGu9Yp6Y",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "SKRILLEX - KYOTO (FT. SIRAH)",
+        "platform": "youtube",
+        "ref": "86khmc6y1yE",
+        "sourceUrl": "https://www.youtube.com/watch?v=86khmc6y1yE",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Benny Benassi ft. Gary Go - Cinema (Skrillex Remix) (Official Video)",
+        "platform": "youtube",
+        "ref": "Cw0nkxFhpoM",
+        "sourceUrl": "https://www.youtube.com/watch?v=Cw0nkxFhpoM",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "SKRILLEX - Rock N'Roll (Will Take You To The Mountain)",
+        "platform": "youtube",
+        "ref": "iIyE3EDCigE",
+        "sourceUrl": "https://www.youtube.com/watch?v=iIyE3EDCigE",
+        "kind": "track",
+        "verified": true
+      }
+    ],
+    "notes": "7 of 8 verified via YouTube oEmbed (official Skrillex / Jack Ü / Ultra Records channels). Several titles updated to oEmbed values (Where Are U Now, Make It Bun Dem caps, Kyoto caps, Rock N'Roll punctuation). Dropped 1: 'Scary Monsters And Nice Sprites' (ref B5OD-MCBqnw) returned HTTP 401 Unauthorized - oEmbed refused, so unverifiable. Order preserved minus the dropped item (was rank 3).",
+    "image": "https://i.ytimg.com/vi/nntGTK2Fhb0/hqdefault.jpg"
+  },
+  {
+    "id": "zedd",
+    "name": "Zedd",
+    "genres": [
+      "Electro House"
+    ],
+    "tracks": [
+      {
+        "title": "Ariana Grande - Break Free (Official Video) ft. Zedd",
+        "platform": "youtube",
+        "ref": "L8eRzOYhLuw",
+        "sourceUrl": "https://www.youtube.com/watch?v=L8eRzOYhLuw",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Zedd, Maren Morris, Grey - The Middle (Official Music Video)",
+        "platform": "youtube",
+        "ref": "M3mJkSqZbX4",
+        "sourceUrl": "https://www.youtube.com/watch?v=M3mJkSqZbX4",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Zedd - Clarity ft. Foxes",
+        "platform": "youtube",
+        "ref": "IxxstCcJlsc",
+        "sourceUrl": "https://www.youtube.com/watch?v=IxxstCcJlsc",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Zedd, Alessia Cara - Stay (Official Music Video)",
+        "platform": "youtube",
+        "ref": "yWEK4v9AVKQ",
+        "sourceUrl": "https://www.youtube.com/watch?v=yWEK4v9AVKQ",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Zedd - Stay The Night ft. Hayley Williams",
+        "platform": "youtube",
+        "ref": "i-gyZ35074k",
+        "sourceUrl": "https://www.youtube.com/watch?v=i-gyZ35074k",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Zedd - Beautiful Now ft. Jon Bellion (Official Music Video)",
+        "platform": "youtube",
+        "ref": "n1a7o44WxNo",
+        "sourceUrl": "https://www.youtube.com/watch?v=n1a7o44WxNo",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Zedd - Spectrum ft. Matthew Koma (Official Music Video)",
+        "platform": "youtube",
+        "ref": "IsuVMdnF8A0",
+        "sourceUrl": "https://www.youtube.com/watch?v=IsuVMdnF8A0",
+        "kind": "track",
+        "verified": true
+      }
+    ],
+    "notes": "All 7 verified via YouTube oEmbed on official VEVO channels (ZEDDVEVO, ArianaGrandeVevo). 'Clarity' and 'Stay The Night' titles trimmed to oEmbed values (dropped trailing '(Official Music Video)' which oEmbed omits). Order preserved.",
+    "image": "https://i.ytimg.com/vi/L8eRzOYhLuw/hqdefault.jpg"
+  },
+  {
+    "id": "afrojack",
+    "name": "Afrojack",
+    "genres": [
+      "Big Room"
+    ],
+    "notes": "All 10 candidate embeds verified via YouTube oEmbed (200 + JSON with real title). Titles refreshed from oEmbed where cleaner. No drops, no capping needed. Sources span official label/artist channels (Ministry of Sound, AfrojackVEVO, David Guetta VEVO, Spinnin' Records).",
+    "tracks": [
+      {
+        "title": "Afrojack ft Eva Simons - Take Over Control (Official Music Video) | Ministry of Sound",
+        "platform": "youtube",
+        "ref": "TUoOcDGMgT4",
+        "sourceUrl": "https://www.youtube.com/watch?v=TUoOcDGMgT4",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "AFROJACK - Ten Feet Tall (Lyric Video) ft. Wrabel",
+        "platform": "youtube",
+        "ref": "bltr_Dsk5EY",
+        "sourceUrl": "https://www.youtube.com/watch?v=bltr_Dsk5EY",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "David Guetta - Hey Mama (Official Video) ft Nicki Minaj, Bebe Rexha & Afrojack",
+        "platform": "youtube",
+        "ref": "uO59tfQ2TbA",
+        "sourceUrl": "https://www.youtube.com/watch?v=uO59tfQ2TbA",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Afrojack & Steve Aoki ft Miss Palmer - No Beef (Official Music Video)",
+        "platform": "youtube",
+        "ref": "LWlmVW3xWM4",
+        "sourceUrl": "https://www.youtube.com/watch?v=LWlmVW3xWM4",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Afrojack & David Guetta - Hero (Official Music Video)",
+        "platform": "youtube",
+        "ref": "cZSoOQ-7Cuc",
+        "sourceUrl": "https://www.youtube.com/watch?v=cZSoOQ-7Cuc",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Afrojack & Martin Garrix - Turn Up The Speakers (Official Music Video)",
+        "platform": "youtube",
+        "ref": "dzHdo4yxidc",
+        "sourceUrl": "https://www.youtube.com/watch?v=dzHdo4yxidc",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "AFROJACK - As Your Friend ft. Chris Brown",
+        "platform": "youtube",
+        "ref": "stV2UD_vmxY",
+        "sourceUrl": "https://www.youtube.com/watch?v=stV2UD_vmxY",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "AFROJACK - The Spark ft. Spree Wilson",
+        "platform": "youtube",
+        "ref": "IB3lcPjvWLA",
+        "sourceUrl": "https://www.youtube.com/watch?v=IB3lcPjvWLA",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Afrojack - Rock The House (Official Music Video)",
+        "platform": "youtube",
+        "ref": "q6h0_9Zv7aM",
+        "sourceUrl": "https://www.youtube.com/watch?v=q6h0_9Zv7aM",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Afrojack ft. Eva Simons - Take Over Control (Official Video HD)",
+        "platform": "youtube",
+        "ref": "Qh9_UM961aE",
+        "sourceUrl": "https://www.youtube.com/watch?v=Qh9_UM961aE",
+        "kind": "track",
+        "verified": true
+      }
+    ],
+    "image": "https://i.ytimg.com/vi/TUoOcDGMgT4/hqdefault.jpg"
+  },
+  {
+    "id": "steve-aoki",
+    "name": "Steve Aoki",
+    "genres": [
+      "Electro House"
+    ],
+    "notes": "All 10 candidate embeds verified via YouTube oEmbed. Titles refreshed from oEmbed where cleaner. No drops, no capping. Pursuit of Happiness (1jre6_FBBc0) resolves under channel 'Best Party Videos | ZM' rather than an official label channel, but it returns valid JSON with a real title so it passes verification per the stated rule.",
+    "tracks": [
+      {
+        "title": "BTS (방탄소년단) 'MIC Drop (Steve Aoki Remix)' Official MV",
+        "platform": "youtube",
+        "ref": "kTlv5_Bs8aw",
+        "sourceUrl": "https://www.youtube.com/watch?v=kTlv5_Bs8aw",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Kid Cudi - Pursuit of Happiness (Steve Aoki Remix) - Project X (Official Music Video)",
+        "platform": "youtube",
+        "ref": "1jre6_FBBc0",
+        "sourceUrl": "https://www.youtube.com/watch?v=1jre6_FBBc0",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Steve Aoki & Louis Tomlinson - Just Hold On (Official Video)",
+        "platform": "youtube",
+        "ref": "Vt4Tq89R8u0",
+        "sourceUrl": "https://www.youtube.com/watch?v=Vt4Tq89R8u0",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Steve Aoki, Chris Lake & Tujamo - Boneless (Official Video)",
+        "platform": "youtube",
+        "ref": "gl2p4G3CUrI",
+        "sourceUrl": "https://www.youtube.com/watch?v=gl2p4G3CUrI",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Steve Aoki - Waste It On Me feat. BTS (Official Video) [Ultra Music]",
+        "platform": "youtube",
+        "ref": "bIv16itYi_0",
+        "sourceUrl": "https://www.youtube.com/watch?v=bIv16itYi_0",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "A Light That Never Comes [Official Music Video] - Linkin Park X Steve Aoki",
+        "platform": "youtube",
+        "ref": "ToHo29kD9Go",
+        "sourceUrl": "https://www.youtube.com/watch?v=ToHo29kD9Go",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Afrojack & Steve Aoki ft Miss Palmer - No Beef (Official Music Video)",
+        "platform": "youtube",
+        "ref": "LWlmVW3xWM4",
+        "sourceUrl": "https://www.youtube.com/watch?v=LWlmVW3xWM4",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Steve Aoki, Daddy Yankee, Play N Skillz & Elvis Crespo - Azukita (Official Video) [Ultra Music]",
+        "platform": "youtube",
+        "ref": "SWiaqhNSXeg",
+        "sourceUrl": "https://www.youtube.com/watch?v=SWiaqhNSXeg",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Steve Aoki, Chris Lake & Tujamo feat. Kid Ink - Delirious (Boneless) [Official Video]",
+        "platform": "youtube",
+        "ref": "344KGcW0HRY",
+        "sourceUrl": "https://www.youtube.com/watch?v=344KGcW0HRY",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Steve Aoki & Angger Dimas Feat. Iggy Azalea - Beat Down (Official Video) (Ultra Music)",
+        "platform": "youtube",
+        "ref": "A6IAFUzmgSU",
+        "sourceUrl": "https://www.youtube.com/watch?v=A6IAFUzmgSU",
+        "kind": "track",
+        "verified": true
+      }
+    ],
+    "image": "https://i.ytimg.com/vi/kTlv5_Bs8aw/hqdefault.jpg"
+  },
+  {
+    "id": "eric-prydz",
+    "name": "Eric Prydz",
+    "genres": [
+      "Progressive House"
+    ],
+    "notes": "All 7 candidate embeds verified via YouTube oEmbed. Titles refreshed from oEmbed where cleaner. No drops. Fewer than 10 (7) per candidate set; capping not triggered.",
+    "tracks": [
+      {
+        "title": "Eric Prydz – Call On Me (Official Music Video) | Ministry of Sound",
+        "platform": "youtube",
+        "ref": "qetW6R9Jxs4",
+        "sourceUrl": "https://www.youtube.com/watch?v=qetW6R9Jxs4",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Eric Prydz - Pjanoo (Official HD Video) [2008] | MINISTRY VAULTS",
+        "platform": "youtube",
+        "ref": "Gz3yCrMJXpk",
+        "sourceUrl": "https://www.youtube.com/watch?v=Gz3yCrMJXpk",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Eric Prydz - Opus (OUT NOW)",
+        "platform": "youtube",
+        "ref": "iRA82xLsb_w",
+        "sourceUrl": "https://www.youtube.com/watch?v=iRA82xLsb_w",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Eric Prydz - Generate",
+        "platform": "youtube",
+        "ref": "nUCoYcxNMBE",
+        "sourceUrl": "https://www.youtube.com/watch?v=nUCoYcxNMBE",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Eric Prydz - Liberate",
+        "platform": "youtube",
+        "ref": "0lKWjRguRys",
+        "sourceUrl": "https://www.youtube.com/watch?v=0lKWjRguRys",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Eric Prydz - Every Day (Official)",
+        "platform": "youtube",
+        "ref": "yOLd4jl0uQ8",
+        "sourceUrl": "https://www.youtube.com/watch?v=yOLd4jl0uQ8",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Eric Prydz - Pjanoo (OFFICIAL HQ VIDEO)",
+        "platform": "youtube",
+        "ref": "ByXbXg-Zny8",
+        "sourceUrl": "https://www.youtube.com/watch?v=ByXbXg-Zny8",
+        "kind": "track",
+        "verified": true
+      }
+    ],
+    "image": "https://i.ytimg.com/vi/qetW6R9Jxs4/hqdefault.jpg"
+  },
+  {
+    "id": "dimitri-vegas-like-mike",
+    "name": "Dimitri Vegas & Like Mike",
+    "genres": [
+      "Big Room"
+    ],
+    "notes": "All 8 candidate embeds verified via YouTube oEmbed. Titles refreshed from oEmbed where cleaner. No drops. Fewer than 10 (8) per candidate set; capping not triggered.",
+    "tracks": [
+      {
+        "title": "Dimitri Vegas, Martin Garrix, Like Mike - Tremor (Official Music Video)",
+        "platform": "youtube",
+        "ref": "9vMh9f41pqE",
+        "sourceUrl": "https://www.youtube.com/watch?v=9vMh9f41pqE",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Dimitri Vegas, MOGUAI & Like Mike - Mammoth (Original Mix)",
+        "platform": "youtube",
+        "ref": "_o-XIryB2gg",
+        "sourceUrl": "https://www.youtube.com/watch?v=_o-XIryB2gg",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Dimitri Vegas & Like Mike vs Ummet Ozcan - The Hum (Official Music Video)",
+        "platform": "youtube",
+        "ref": "exJlapzPnlc",
+        "sourceUrl": "https://www.youtube.com/watch?v=exJlapzPnlc",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Fatboy Slim - Eat Sleep Rave Repeat (Official Video) [Dimitri Vegas, Like Mike & Ummet Ozcan Remix]",
+        "platform": "youtube",
+        "ref": "sVrUXYEXU40",
+        "sourceUrl": "https://www.youtube.com/watch?v=sVrUXYEXU40",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Dimitri Vegas & Like Mike vs David Guetta ft. Kiiara - Complicated (Official Music Video)",
+        "platform": "youtube",
+        "ref": "w0EF3AxJwLU",
+        "sourceUrl": "https://www.youtube.com/watch?v=w0EF3AxJwLU",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Dimitri Vegas & Like Mike vs W&W - Crowd Control (Official Music Video)",
+        "platform": "youtube",
+        "ref": "21a1bTVwjdo",
+        "sourceUrl": "https://www.youtube.com/watch?v=21a1bTVwjdo",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Dimitri Vegas & Like Mike - Stay A While (Official Music Video)",
+        "platform": "youtube",
+        "ref": "GGawVPg9tvE",
+        "sourceUrl": "https://www.youtube.com/watch?v=GGawVPg9tvE",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Dimitri Vegas, MOGUAI & Like Mike - Body Talk (Mammoth) ft. Julian Perretta (Official Music Video)",
+        "platform": "youtube",
+        "ref": "yldN7geOZfc",
+        "sourceUrl": "https://www.youtube.com/watch?v=yldN7geOZfc",
+        "kind": "track",
+        "verified": true
+      }
+    ],
+    "image": "https://i.ytimg.com/vi/9vMh9f41pqE/hqdefault.jpg"
+  },
+  {
+    "id": "axwell-ingrosso",
+    "name": "Axwell /\\ Ingrosso",
+    "genres": [
+      "Progressive House"
+    ],
+    "notes": "All 8 candidate embeds verified via YouTube oEmbed. Titles refreshed from oEmbed where cleaner (oEmbed renders the duo's logo variously as 'Λ' or '/\\'). No drops. Fewer than 10 (8) per candidate set; capping not triggered.",
+    "tracks": [
+      {
+        "title": "Axwell Λ Ingrosso - Sun Is Shining",
+        "platform": "youtube",
+        "ref": "nbXgHAzUWB0",
+        "sourceUrl": "https://www.youtube.com/watch?v=nbXgHAzUWB0",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Axwell /\\ Ingrosso, Axwell, Sebastian Ingrosso - More Than You Know",
+        "platform": "youtube",
+        "ref": "GsF05B8TFWg",
+        "sourceUrl": "https://www.youtube.com/watch?v=GsF05B8TFWg",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Axwell /\\ Ingrosso - Something New",
+        "platform": "youtube",
+        "ref": "QwaVVsvLlc4",
+        "sourceUrl": "https://www.youtube.com/watch?v=QwaVVsvLlc4",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Axwell /\\ Ingrosso - On My Way",
+        "platform": "youtube",
+        "ref": "opxhEVjNvdk",
+        "sourceUrl": "https://www.youtube.com/watch?v=opxhEVjNvdk",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Axwell /\\ Ingrosso, RØMANS - Dancing Alone (Official Video)",
+        "platform": "youtube",
+        "ref": "K4LfaSNod1E",
+        "sourceUrl": "https://www.youtube.com/watch?v=K4LfaSNod1E",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Axwell Λ Ingrosso - I Love You ft. Kid Ink",
+        "platform": "youtube",
+        "ref": "2JzttfbZWpQ",
+        "sourceUrl": "https://www.youtube.com/watch?v=2JzttfbZWpQ",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Axwell Λ Ingrosso - Thinking About You",
+        "platform": "youtube",
+        "ref": "nw_YLrre4fU",
+        "sourceUrl": "https://www.youtube.com/watch?v=nw_YLrre4fU",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Axwell Λ Ingrosso - Can't Hold Us Down",
+        "platform": "youtube",
+        "ref": "bqval3eXEIk",
+        "sourceUrl": "https://www.youtube.com/watch?v=bqval3eXEIk",
+        "kind": "track",
+        "verified": true
+      }
+    ],
+    "image": "https://i.ytimg.com/vi/nbXgHAzUWB0/hqdefault.jpg"
   },
   {
     "id": "don-diablo",
@@ -1140,12 +2743,29 @@
     "genres": [
       "Future House"
     ],
+    "notes": "All 9 candidate embeds verified via YouTube oEmbed (200 + JSON with real title, no 'Video unavailable'). Official channels confirmed: Don Diablo (artist), Spinnin' Records and Musical Freedom (releasing labels). Titles normalized to the cleaner oEmbed values where they differed. Under the 10-track cap, so all 9 kept in given rank order; no 10th candidate was supplied to verify.",
     "tracks": [
       {
-        "title": "On My Mind by Don Diablo",
-        "platform": "soundcloud",
-        "ref": "https://soundcloud.com/dondiablo/on-my-mind",
-        "sourceUrl": "https://soundcloud.com/dondiablo/on-my-mind",
+        "title": "Don Diablo - On My Mind (Official Music Video)",
+        "platform": "youtube",
+        "ref": "r6E3J4GPpjc",
+        "sourceUrl": "https://www.youtube.com/watch?v=r6E3J4GPpjc",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Don Diablo - Cutting Shapes (Official Music Video)",
+        "platform": "youtube",
+        "ref": "Oy9V_4im0wg",
+        "sourceUrl": "https://www.youtube.com/watch?v=Oy9V_4im0wg",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Tiësto & Don Diablo - Chemicals ft. Thomas Troelsen (OFFICIAL MUSIC VIDEO)",
+        "platform": "youtube",
+        "ref": "uWBuXoqTb78",
+        "sourceUrl": "https://www.youtube.com/watch?v=uWBuXoqTb78",
         "kind": "track",
         "verified": true
       },
@@ -1158,15 +2778,47 @@
         "verified": true
       },
       {
-        "title": "Don Diablo Hexagon Radio Episode 500",
-        "platform": "mixcloud",
-        "ref": "https://www.mixcloud.com/dondiablo/don-diablo-hexagon-radio-episode-500/",
-        "sourceUrl": "https://www.mixcloud.com/dondiablo/don-diablo-hexagon-radio-episode-500/",
-        "kind": "set",
+        "title": "Don Diablo ft. A R I Z O N A - Take Her Place | Official Music Video",
+        "platform": "youtube",
+        "ref": "k-nA-Vd9Z0M",
+        "sourceUrl": "https://www.youtube.com/watch?v=k-nA-Vd9Z0M",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Don Diablo & Khrebto - Got The Love (Official Music Video)",
+        "platform": "youtube",
+        "ref": "OotS478b8cs",
+        "sourceUrl": "https://www.youtube.com/watch?v=OotS478b8cs",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Don Diablo - People Say ft. Paije | Official Music Video",
+        "platform": "youtube",
+        "ref": "SS0ebmCqHxs",
+        "sourceUrl": "https://www.youtube.com/watch?v=SS0ebmCqHxs",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Don Diablo with Jessie J - Brave | Official Music Video",
+        "platform": "youtube",
+        "ref": "o3LkricCcWA",
+        "sourceUrl": "https://www.youtube.com/watch?v=o3LkricCcWA",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Don Diablo - Higher ft  Betty Who | Official Music Video",
+        "platform": "youtube",
+        "ref": "wbxblKFtGCg",
+        "sourceUrl": "https://www.youtube.com/watch?v=wbxblKFtGCg",
+        "kind": "track",
         "verified": true
       }
     ],
-    "notes": "All three candidates verified via oEmbed (200 + valid JSON title). SoundCloud 'On My Mind by Don Diablo' (author: Don Diablo); YouTube Survive (author: Don Diablo, title cleaned to official 'Don Diablo - Survive ft. Emeli Sandé & Gucci Mane | Official Video'); Mixcloud Hexagon Radio Episode 500 (author: Don Diablo, kind=set). Titles updated to cleaner oEmbed values where applicable."
+    "image": "https://i.ytimg.com/vi/r6E3J4GPpjc/hqdefault.jpg"
   },
   {
     "id": "marshmello",
@@ -1174,15 +2826,8 @@
     "genres": [
       "Future Bass"
     ],
+    "notes": "All 10 candidate embeds verified via YouTube oEmbed (200 + JSON with real title, no 'Video unavailable'). Official channels confirmed: Marshmello / MarshmelloVEVO, plus SelenaGomezVEVO (Wolves, lead artist Selena Gomez) and Juice WRLD (Come & Go, release artist). Titles normalized to the cleaner oEmbed values where they differed. At the 10-track cap; all kept in given rank order.",
     "tracks": [
-      {
-        "title": "Marshmello - Alone (Official Music Video)",
-        "platform": "youtube",
-        "ref": "ALZHF5UqnU4",
-        "sourceUrl": "https://www.youtube.com/watch?v=ALZHF5UqnU4",
-        "kind": "track",
-        "verified": true
-      },
       {
         "title": "Marshmello ft. Bastille - Happier (Official Music Video)",
         "platform": "youtube",
@@ -1192,15 +2837,79 @@
         "verified": true
       },
       {
-        "title": "Marshmello - Silence Ft. Khalid by marshmello",
-        "platform": "soundcloud",
-        "ref": "https://soundcloud.com/marshmellomusic/silence",
-        "sourceUrl": "https://soundcloud.com/marshmellomusic/silence",
+        "title": "Marshmello - Silence Ft. Khalid (Official Music Video)",
+        "platform": "youtube",
+        "ref": "Tx1sqYc3qas",
+        "sourceUrl": "https://www.youtube.com/watch?v=Tx1sqYc3qas",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Marshmello & Anne-Marie - FRIENDS (Music Video) *OFFICIAL FRIENDZONE ANTHEM*",
+        "platform": "youtube",
+        "ref": "jzD_yyEcp0M",
+        "sourceUrl": "https://www.youtube.com/watch?v=jzD_yyEcp0M",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Selena Gomez, Marshmello - Wolves",
+        "platform": "youtube",
+        "ref": "cH4E_t3m3xM",
+        "sourceUrl": "https://www.youtube.com/watch?v=cH4E_t3m3xM",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Marshmello x Jonas Brothers - Leave Before You Love Me (Official Music Video)",
+        "platform": "youtube",
+        "ref": "hmUyEDG7Jy0",
+        "sourceUrl": "https://www.youtube.com/watch?v=hmUyEDG7Jy0",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Juice WRLD & Marshmello - Come & Go (Official Music Video)",
+        "platform": "youtube",
+        "ref": "Dxm3cHrKcbA",
+        "sourceUrl": "https://www.youtube.com/watch?v=Dxm3cHrKcbA",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Marshmello - Alone (Official Music Video)",
+        "platform": "youtube",
+        "ref": "ALZHF5UqnU4",
+        "sourceUrl": "https://www.youtube.com/watch?v=ALZHF5UqnU4",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Marshmello - Here With Me Feat. CHVRCHES (Official Music Video)",
+        "platform": "youtube",
+        "ref": "J3UXp9jIr-U",
+        "sourceUrl": "https://www.youtube.com/watch?v=J3UXp9jIr-U",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Marshmello & Halsey - Be Kind (Official Music Video)",
+        "platform": "youtube",
+        "ref": "ePao0cTGG-o",
+        "sourceUrl": "https://www.youtube.com/watch?v=ePao0cTGG-o",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Marshmello, Manuel Turizo - El Merengue (Official Video)",
+        "platform": "youtube",
+        "ref": "25vNYV0qdgA",
+        "sourceUrl": "https://www.youtube.com/watch?v=25vNYV0qdgA",
         "kind": "track",
         "verified": true
       }
     ],
-    "notes": "All three candidates verified via oEmbed (200 + valid JSON title). YouTube 'Alone' (author: Marshmello) and 'Happier ft. Bastille' (author: Marshmello); SoundCloud 'Silence Ft. Khalid' (author: marshmello). The oEmbed title for the Alone video returned a misspelled provider field ('Marshmelo - Alone'); kept the correctly-spelled official title 'Marshmello - Alone (Official Music Video)'. Other titles updated to cleaner oEmbed values."
+    "image": "https://i.ytimg.com/vi/m7Bc3pLyij0/hqdefault.jpg"
   },
   {
     "id": "avicii",
@@ -1208,7 +2917,32 @@
     "genres": [
       "Progressive House"
     ],
+    "notes": "All 10 candidate embeds verified via YouTube oEmbed (200 + JSON with real title, no 'Video unavailable'). Every track is on the official AviciiOfficialVEVO channel. Titles normalized to the cleaner oEmbed values where they differed. At the 10-track cap; all kept in given rank order.",
     "tracks": [
+      {
+        "title": "Avicii - Wake Me Up (Official Video)",
+        "platform": "youtube",
+        "ref": "IcrbM1l_BoI",
+        "sourceUrl": "https://www.youtube.com/watch?v=IcrbM1l_BoI",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Avicii - Waiting For Love",
+        "platform": "youtube",
+        "ref": "cHHLHGNpCSA",
+        "sourceUrl": "https://www.youtube.com/watch?v=cHHLHGNpCSA",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Avicii - The Nights (Lyric Video)",
+        "platform": "youtube",
+        "ref": "84Kpm5MljY0",
+        "sourceUrl": "https://www.youtube.com/watch?v=84Kpm5MljY0",
+        "kind": "track",
+        "verified": true
+      },
       {
         "title": "Avicii - Levels",
         "platform": "youtube",
@@ -1218,22 +2952,54 @@
         "verified": true
       },
       {
-        "title": "Wake Me Up by AviciiOfficial",
-        "platform": "soundcloud",
-        "ref": "https://soundcloud.com/aviciiofficial/wake-me-up-radio-edit",
-        "sourceUrl": "https://soundcloud.com/aviciiofficial/wake-me-up-radio-edit",
+        "title": "Avicii - Hey Brother",
+        "platform": "youtube",
+        "ref": "6Cp6mKbRTQY",
+        "sourceUrl": "https://www.youtube.com/watch?v=6Cp6mKbRTQY",
         "kind": "track",
         "verified": true
       },
       {
-        "title": "Avicii, Sandro Cavazza - Without You \"Audio\"",
+        "title": "Avicii vs Nicky Romero - I Could Be The One (Nicktim)",
         "platform": "youtube",
-        "ref": "WRz2MxhAdJo",
-        "sourceUrl": "https://www.youtube.com/watch?v=WRz2MxhAdJo",
+        "ref": "bek1y2uiQGA",
+        "sourceUrl": "https://www.youtube.com/watch?v=bek1y2uiQGA",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Avicii - Addicted To You",
+        "platform": "youtube",
+        "ref": "Qc9c12q3mrc",
+        "sourceUrl": "https://www.youtube.com/watch?v=Qc9c12q3mrc",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Avicii - Lonely Together ft. Rita Ora",
+        "platform": "youtube",
+        "ref": "vQ3XgMKAgxc",
+        "sourceUrl": "https://www.youtube.com/watch?v=vQ3XgMKAgxc",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Avicii, Sandro Cavazza - Without You (Part 4)",
+        "platform": "youtube",
+        "ref": "fTYhYsG9e20",
+        "sourceUrl": "https://www.youtube.com/watch?v=fTYhYsG9e20",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Avicii - Wake Me Up (Official Lyric Video)",
+        "platform": "youtube",
+        "ref": "5y_KJAg8bHI",
+        "sourceUrl": "https://www.youtube.com/watch?v=5y_KJAg8bHI",
         "kind": "track",
         "verified": true
       }
     ],
-    "notes": "All three candidates verified via oEmbed (200 + valid JSON title). YouTube 'Levels' (author: AviciiOfficialVEVO) and 'Without You Audio' (author: AviciiOfficialVEVO); SoundCloud 'Wake Me Up by AviciiOfficial' (author: AviciiOfficial). Titles updated to cleaner oEmbed values."
+    "image": "https://i.ytimg.com/vi/IcrbM1l_BoI/hqdefault.jpg"
   }
 ]
