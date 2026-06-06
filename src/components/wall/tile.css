@@ -25,6 +25,29 @@
   background: radial-gradient(circle at 70% 15%, color-mix(in oklab, var(--accent) 22%, transparent), transparent 60%);
   opacity: 0.6;
   pointer-events: none;
+  z-index: 1;
+}
+.tile__img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: inherit;
+  z-index: 0;
+}
+.tile__scrim {
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  pointer-events: none;
+  z-index: 1;
+  background: linear-gradient(
+    to top,
+    rgba(7, 6, 15, 0.92) 0%,
+    rgba(7, 6, 15, 0.5) 45%,
+    rgba(7, 6, 15, 0.12) 100%
+  );
 }
 .tile:hover, .tile:focus-visible {
   transform: translateY(-4px);
@@ -34,5 +57,5 @@
   box-shadow: 0 0 26px color-mix(in oklab, var(--accent) 60%, transparent);
   border-color: var(--accent);
 }
-.tile__name { font-weight: 800; font-size: 0.95rem; line-height: 1.1; }
-.tile__genre { font-size: 0.65rem; letter-spacing: 0.18em; text-transform: uppercase; color: var(--text-faint); }
+.tile__name { position: relative; z-index: 2; font-weight: 800; font-size: 0.95rem; line-height: 1.1; text-shadow: 0 1px 6px rgba(0, 0, 0, 0.7); }
+.tile__genre { position: relative; z-index: 2; font-size: 0.65rem; letter-spacing: 0.18em; text-transform: uppercase; color: var(--text-dim); text-shadow: 0 1px 4px rgba(0, 0, 0, 0.7); }

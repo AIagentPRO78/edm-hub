@@ -17,6 +17,7 @@ interface SeedArtist {
   genres: string[];
   tracks: SeedTrack[];
   notes: string;
+  image?: string;
 }
 
 const PLATFORMS = new Set(['soundcloud', 'youtube', 'mixcloud']);
@@ -40,6 +41,7 @@ export const ARTISTS: Artist[] = (seed as SeedArtist[])
     genres: s.genres,
     accent: ACCENTS[i % ACCENTS.length]!,
     tracks: s.tracks.map(toTrack).filter((t): t is Track => t !== null),
+    ...(s.image ? { image: s.image } : {}),
   }))
   .filter((a) => {
     if (a.tracks.length === 0) {

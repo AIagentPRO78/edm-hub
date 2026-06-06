@@ -24,4 +24,18 @@ describe('createTile', () => {
     el.click();
     expect(onSelect).toHaveBeenCalledWith(artist);
   });
+
+  it('renders the official artwork image when one is provided', () => {
+    const withImg: Artist = { ...artist, image: 'https://i.ytimg.com/vi/abc/hqdefault.jpg' };
+    const el = createTile(withImg, () => {});
+    const img = el.querySelector('img.tile__img') as HTMLImageElement | null;
+    expect(img).not.toBeNull();
+    expect(img!.src).toContain('hqdefault.jpg');
+    expect(el.querySelector('.tile__scrim')).not.toBeNull();
+  });
+
+  it('renders no image element when none is provided', () => {
+    const el = createTile(artist, () => {});
+    expect(el.querySelector('img.tile__img')).toBeNull();
+  });
 });

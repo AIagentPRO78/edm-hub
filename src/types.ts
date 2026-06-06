@@ -16,6 +16,8 @@ export interface Artist {
   /** neon hex used for the tile glow */
   accent: string;
   tracks: Track[];
+  /** optional official platform artwork URL (artist-published, platform-served) */
+  image?: string;
 }
 
 const PLATFORMS: ReadonlySet<string> = new Set(['soundcloud', 'youtube', 'mixcloud']);
