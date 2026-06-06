@@ -1,0 +1,38 @@
+.tile {
+  position: relative;
+  aspect-ratio: 1;
+  border-radius: 14px;
+  border: 1px solid color-mix(in oklab, var(--accent) 55%, transparent);
+  background: linear-gradient(155deg, var(--bg-raise), #0b0816);
+  color: var(--text);
+  padding: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 0.15rem;
+  cursor: pointer;
+  text-align: left;
+  box-shadow: 0 0 0 transparent;
+  transition: transform var(--dur-fast) var(--ease-out-expo),
+    box-shadow var(--dur-normal) var(--ease-out-expo);
+}
+.tile::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: radial-gradient(circle at 70% 15%, color-mix(in oklab, var(--accent) 22%, transparent), transparent 60%);
+  opacity: 0.6;
+  pointer-events: none;
+}
+.tile:hover, .tile:focus-visible {
+  transform: translateY(-4px);
+  box-shadow: 0 0 22px color-mix(in oklab, var(--accent) 45%, transparent);
+}
+.tile[aria-current='true'] {
+  box-shadow: 0 0 26px color-mix(in oklab, var(--accent) 60%, transparent);
+  border-color: var(--accent);
+}
+.tile__name { font-weight: 800; font-size: 0.95rem; line-height: 1.1; }
+.tile__genre { font-size: 0.65rem; letter-spacing: 0.18em; text-transform: uppercase; color: var(--text-faint); }

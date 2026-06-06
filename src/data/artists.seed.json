@@ -1,0 +1,1239 @@
+[
+  {
+    "id": "armin-van-buuren",
+    "name": "Armin van Buuren",
+    "genres": [
+      "Trance"
+    ],
+    "tracks": [
+      {
+        "title": "Armin van Buuren feat. Trevor Guthrie - This Is What It Feels Like (Official Music Video)",
+        "platform": "youtube",
+        "ref": "BR_DFMUzX4E",
+        "sourceUrl": "https://www.youtube.com/watch?v=BR_DFMUzX4E",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Armin van Buuren - Communication by Armin van Buuren",
+        "platform": "soundcloud",
+        "ref": "https://soundcloud.com/arminvanbuuren/armin-van-buuren-communication-original-mix",
+        "sourceUrl": "https://soundcloud.com/arminvanbuuren/armin-van-buuren-communication-original-mix",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "A State Of Trance Episode 1232 - Armin Van Buuren",
+        "platform": "mixcloud",
+        "ref": "https://www.mixcloud.com/ArminvanBuuren/a-state-of-trance-episode-1232-armin-van-buuren/",
+        "sourceUrl": "https://www.mixcloud.com/ArminvanBuuren/a-state-of-trance-episode-1232-armin-van-buuren/",
+        "kind": "set",
+        "verified": true
+      }
+    ],
+    "notes": "All 3 embeds resolved via oEmbed. YouTube (BR_DFMUzX4E), SoundCloud Communication permalink, and Mixcloud ASOT 1232 all returned valid JSON with titles. Mixcloud title normalized to oEmbed value 'A State Of Trance Episode 1232 - Armin Van Buuren'."
+  },
+  {
+    "id": "above-and-beyond",
+    "name": "Above & Beyond",
+    "genres": [
+      "Trance"
+    ],
+    "tracks": [
+      {
+        "title": "Above & Beyond feat. Richard Bedford \"Sun & Moon\" (OFFICIAL MUSIC VIDEO)",
+        "platform": "youtube",
+        "ref": "ll5ykbAumD4",
+        "sourceUrl": "https://www.youtube.com/watch?v=ll5ykbAumD4",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "#111 Group Therapy Radio With Above & Beyond",
+        "platform": "mixcloud",
+        "ref": "https://www.mixcloud.com/aboveandbeyond/111-group-therapy-radio-with-above-beyond/",
+        "sourceUrl": "https://www.mixcloud.com/aboveandbeyond/111-group-therapy-radio-with-above-beyond/",
+        "kind": "set",
+        "verified": true
+      },
+      {
+        "title": "Above & Beyond - Group Therapy 500 Live From Los Angeles by Above & Beyond",
+        "platform": "soundcloud",
+        "ref": "https://soundcloud.com/aboveandbeyond/above-beyond-group-therapy-500-live-from-los-angeles",
+        "sourceUrl": "https://soundcloud.com/aboveandbeyond/above-beyond-group-therapy-500-live-from-los-angeles",
+        "kind": "set",
+        "verified": true
+      }
+    ],
+    "notes": "All 3 embeds resolved via oEmbed. YouTube Sun & Moon (ll5ykbAumD4), Mixcloud GT #111, and SoundCloud Group Therapy 500 all returned valid JSON. Titles normalized to oEmbed values."
+  },
+  {
+    "id": "paul-van-dyk",
+    "name": "Paul van Dyk",
+    "genres": [
+      "Trance"
+    ],
+    "tracks": [
+      {
+        "title": "Paul van Dyk  - For An Angel 2009",
+        "platform": "youtube",
+        "ref": "sRvEwXDxz_I",
+        "sourceUrl": "https://www.youtube.com/watch?v=sRvEwXDxz_I",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Paul van Dyk ft. Hemstock & Jennings - Nothing But You",
+        "platform": "youtube",
+        "ref": "BuxM6OQKIOw",
+        "sourceUrl": "https://www.youtube.com/watch?v=BuxM6OQKIOw",
+        "kind": "track",
+        "verified": true
+      }
+    ],
+    "notes": "Both YouTube embeds resolved via oEmbed. 'For An Angel 2009' (sRvEwXDxz_I) and 'Nothing But You' (BuxM6OQKIOw, the chosen candidate) both returned valid JSON with titles. Titles normalized to oEmbed values. No Mixcloud/SoundCloud set included by design."
+  },
+  {
+    "id": "ferry-corsten",
+    "name": "Ferry Corsten",
+    "genres": [
+      "Trance"
+    ],
+    "tracks": [
+      {
+        "title": "Ferry Corsten - Punk (Official video)",
+        "platform": "youtube",
+        "ref": "-4iJ8aCH_oc",
+        "sourceUrl": "https://www.youtube.com/watch?v=-4iJ8aCH_oc",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Ferry Corsten - Beautiful (Official video)",
+        "platform": "youtube",
+        "ref": "zzE0LHp6Rbg",
+        "sourceUrl": "https://www.youtube.com/watch?v=zzE0LHp6Rbg",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Corsten's Countdown 606",
+        "platform": "mixcloud",
+        "ref": "https://www.mixcloud.com/FerryCorsten/corstens-countdown-606/",
+        "sourceUrl": "https://www.mixcloud.com/FerryCorsten/corstens-countdown-606/",
+        "kind": "set",
+        "verified": true
+      }
+    ],
+    "notes": "All 3 embeds resolved via oEmbed. Punk (-4iJ8aCH_oc, author @ferrycorsten), Beautiful (zzE0LHp6Rbg, author @ferrycorsten), and Mixcloud Corsten's Countdown 606 all returned valid JSON. Titles normalized to oEmbed values."
+  },
+  {
+    "id": "atb",
+    "name": "ATB",
+    "genres": [
+      "Trance"
+    ],
+    "tracks": [
+      {
+        "title": "ATB - 9 PM (Till I Come) (Official Video)",
+        "platform": "youtube",
+        "ref": "L8jAZNu41io",
+        "sourceUrl": "https://www.youtube.com/watch?v=L8jAZNu41io",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "ATB - Ecstasy",
+        "platform": "youtube",
+        "ref": "w_rCk4GUlQ8",
+        "sourceUrl": "https://www.youtube.com/watch?v=w_rCk4GUlQ8",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "ATB - Killer (Official Video HD)",
+        "platform": "youtube",
+        "ref": "mrPN8TtouuA",
+        "sourceUrl": "https://www.youtube.com/watch?v=mrPN8TtouuA",
+        "kind": "track",
+        "verified": true
+      }
+    ],
+    "notes": "All 3 YouTube embeds resolved via oEmbed. 9 PM (L8jAZNu41io), Ecstasy (w_rCk4GUlQ8, oEmbed title shortened to 'ATB - Ecstasy'), and Killer (mrPN8TtouuA, author Kontor.TV) all returned valid JSON. Titles normalized to oEmbed values."
+  },
+  {
+    "id": "gareth-emery",
+    "name": "Gareth Emery",
+    "genres": [
+      "Trance"
+    ],
+    "tracks": [
+      {
+        "title": "Gareth Emery feat. Christina Novelli - Concrete Angel [Official Music Video]",
+        "platform": "youtube",
+        "ref": "0dFz10R529g",
+        "sourceUrl": "https://www.youtube.com/watch?v=0dFz10R529g",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Gareth Emery feat. Lucy Saunders - Sanctuary [Official Music Video]",
+        "platform": "youtube",
+        "ref": "MMlVFa_754o",
+        "sourceUrl": "https://www.youtube.com/watch?v=MMlVFa_754o",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Gareth Emery & Standerwick - Saving Light (feat. HALIENE) [Monstercat Official Music Video]",
+        "platform": "youtube",
+        "ref": "1UTYlATnHhI",
+        "sourceUrl": "https://www.youtube.com/watch?v=1UTYlATnHhI",
+        "kind": "track",
+        "verified": true
+      }
+    ],
+    "notes": "All three YouTube embeds resolved via oEmbed with valid titles. Concrete Angel and Sanctuary are hosted on the official Gareth Emery channel; Saving Light is on Monstercat Uncaged (its releasing label). Titles updated to match the canonical oEmbed titles."
+  },
+  {
+    "id": "aly-and-fila",
+    "name": "Aly & Fila",
+    "genres": [
+      "Trance"
+    ],
+    "tracks": [
+      {
+        "title": "Future Sound Of Egypt 700 With Aly & Fila (3 Hour Virtual Live Stream From Los Angeles)",
+        "platform": "mixcloud",
+        "ref": "https://www.mixcloud.com/alyfila-futuresoundofegypt/future-sound-of-egypt-700-with-aly-fila-3-hour-virtual-live-stream-from-los-angeles/",
+        "sourceUrl": "https://www.mixcloud.com/alyfila-futuresoundofegypt/future-sound-of-egypt-700-with-aly-fila-3-hour-virtual-live-stream-from-los-angeles/",
+        "kind": "set",
+        "verified": true
+      },
+      {
+        "title": "Future Sound Of Egypt 728 With Aly & Fila",
+        "platform": "mixcloud",
+        "ref": "https://www.mixcloud.com/alyfila-futuresoundofegypt/future-sound-of-egypt-728-with-aly-fila/",
+        "sourceUrl": "https://www.mixcloud.com/alyfila-futuresoundofegypt/future-sound-of-egypt-728-with-aly-fila/",
+        "kind": "set",
+        "verified": true
+      },
+      {
+        "title": "Aly & Fila feat. Jwaydan - We Control The Sunlight (Official Music Video)",
+        "platform": "youtube",
+        "ref": "7ti0BFbEJNw",
+        "sourceUrl": "https://www.youtube.com/watch?v=7ti0BFbEJNw",
+        "kind": "track",
+        "verified": true
+      }
+    ],
+    "notes": "All three embeds resolved. The inferred FSOE 728 permalink was a real cloudcast (Mixcloud oEmbed returned a valid title, not a 404), so no substitution was needed. FSOE 700 and 728 are both on the official FSOE Mixcloud channel; We Control The Sunlight resolved on YouTube. Mixcloud oEmbed normalizes titles to title-case."
+  },
+  {
+    "id": "cosmic-gate",
+    "name": "Cosmic Gate",
+    "genres": [
+      "Trance"
+    ],
+    "tracks": [
+      {
+        "title": "Cosmic Gate - Fire Wire (Official Music Video)",
+        "platform": "youtube",
+        "ref": "b-1jLp0E8K0",
+        "sourceUrl": "https://www.youtube.com/watch?v=b-1jLp0E8K0",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Cosmic Gate - Exploration Of Space (Official Music Video)",
+        "platform": "youtube",
+        "ref": "F8hSy1NoFYw",
+        "sourceUrl": "https://www.youtube.com/watch?v=F8hSy1NoFYw",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Cosmic Gate & Emma Hewitt - Be Your Sound (Official Music Video)",
+        "platform": "youtube",
+        "ref": "FxMtO7HvXzA",
+        "sourceUrl": "https://www.youtube.com/watch?v=FxMtO7HvXzA",
+        "kind": "track",
+        "verified": true
+      }
+    ],
+    "notes": "All three YouTube embeds resolved via oEmbed with valid titles. Fire Wire, Exploration Of Space, and Be Your Sound are hosted on the Black Hole Recordings channel (Cosmic Gate's label). Titles already matched the oEmbed canonical titles."
+  },
+  {
+    "id": "markus-schulz",
+    "name": "Markus Schulz",
+    "genres": [
+      "Trance"
+    ],
+    "tracks": [
+      {
+        "title": "Global Dj Broadcast - Aug 04 2016",
+        "platform": "mixcloud",
+        "ref": "https://www.mixcloud.com/MarkusSchulz/global-dj-broadcast-aug-04-2016/",
+        "sourceUrl": "https://www.mixcloud.com/MarkusSchulz/global-dj-broadcast-aug-04-2016/",
+        "kind": "set",
+        "verified": true
+      },
+      {
+        "title": "Markus Schulz - Remember This | Official Music Video",
+        "platform": "youtube",
+        "ref": "kZMtVSaQg04",
+        "sourceUrl": "https://www.youtube.com/watch?v=kZMtVSaQg04",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Markus Schulz - The New World (Official Music Video)",
+        "platform": "youtube",
+        "ref": "BMTK8OiUWIg",
+        "sourceUrl": "https://www.youtube.com/watch?v=BMTK8OiUWIg",
+        "kind": "track",
+        "verified": true
+      }
+    ],
+    "notes": "All three embeds resolved. The Aug 04 2016 GDJB cloudcast is live on the official MarkusSchulz Mixcloud channel (oEmbed title normalized to title-case). Remember This and The New World resolved on YouTube via Armada Music TV; titles updated to the canonical oEmbed strings."
+  },
+  {
+    "id": "andrew-rayel",
+    "name": "Andrew Rayel",
+    "genres": [
+      "Trance"
+    ],
+    "tracks": [
+      {
+        "title": "How Do I Know",
+        "platform": "youtube",
+        "ref": "ycH_KQpje80",
+        "sourceUrl": "https://www.youtube.com/watch?v=ycH_KQpje80",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Andrew Rayel - My Harmony [FYH 250 Anthem] (Official Lyric Video)",
+        "platform": "youtube",
+        "ref": "A-BR7yEUfNg",
+        "sourceUrl": "https://www.youtube.com/watch?v=A-BR7yEUfNg",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Find Your Harmony Radioshow by Andrew Rayel",
+        "platform": "soundcloud",
+        "ref": "https://soundcloud.com/andrewrayel/sets/find-your-harmony-radioshow",
+        "sourceUrl": "https://soundcloud.com/andrewrayel/sets/find-your-harmony-radioshow",
+        "kind": "set",
+        "verified": true
+      }
+    ],
+    "notes": "All three embeds resolved. The SoundCloud set permalink (Find Your Harmony Radioshow) resolved fine via SoundCloud oEmbed, so no substitution to fyhofficial was needed. How Do I Know resolved on the Andrew Rayel - Topic channel (oEmbed title is just the bare track name); My Harmony resolved on the official Andrew Rayel channel. Titles updated to canonical oEmbed strings."
+  },
+  {
+    "id": "dash-berlin",
+    "name": "Dash Berlin",
+    "genres": [
+      "Trance"
+    ],
+    "notes": "YouTube oEmbed persistently returned HTTP 403 (no title) across three attempts for both music-video candidates 7s1BFxALq78 (Till The Sky Falls Down) and jySYvf2fm68 (Man On The Run), so both were dropped as unverified. The 'Dash Berlin - Topic' audio upload R8zV2dmtrzQ resolved cleanly via oEmbed (author 'Dash Berlin - Topic', label-distributed auto-generated audio) and is kept as the embeddable track; title replaced with the cleaner oEmbed value 'Till The Sky Falls Down'. No official Dash Berlin Mixcloud/SoundCloud set was located for platform diversity.",
+    "tracks": [
+      {
+        "title": "Till The Sky Falls Down",
+        "platform": "youtube",
+        "ref": "R8zV2dmtrzQ",
+        "sourceUrl": "https://www.youtube.com/watch?v=R8zV2dmtrzQ",
+        "kind": "track",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "paul-oakenfold",
+    "name": "Paul Oakenfold",
+    "genres": [
+      "Trance"
+    ],
+    "notes": "All three YouTube candidates resolved via oEmbed with valid titles. Southern Sun (fSzVEDZKmIo) and Ready Steady Go ft. Asher D (dHgGIVGPEyE) confirmed on PaulOakenfoldVEVO; the second Ready Steady Go (MSv3Oez4O-4) confirmed on the official Warner Records channel. All from the 2002 album Bunkka on Perfecto. No official Oakenfold Mixcloud/SoundCloud set sourced this pass; all three picks are YouTube.",
+    "tracks": [
+      {
+        "title": "Paul Oakenfold - Southern Sun (Official Video) ft. Carla Werner",
+        "platform": "youtube",
+        "ref": "fSzVEDZKmIo",
+        "sourceUrl": "https://www.youtube.com/watch?v=fSzVEDZKmIo",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Paul Oakenfold - Ready Steady Go (Official Video) ft. Asher D.",
+        "platform": "youtube",
+        "ref": "dHgGIVGPEyE",
+        "sourceUrl": "https://www.youtube.com/watch?v=dHgGIVGPEyE",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Paul Oakenfold - Ready, Steady, Go (Official Music Video) | Warner Records",
+        "platform": "youtube",
+        "ref": "MSv3Oez4O-4",
+        "sourceUrl": "https://www.youtube.com/watch?v=MSv3Oez4O-4",
+        "kind": "track",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "vini-vici",
+    "name": "Vini Vici",
+    "genres": [
+      "Psytrance"
+    ],
+    "notes": "All three candidates resolved via oEmbed. Great Spirit Extended Mix (yo4pmauhugo) confirmed on Armin van Buuren's official YouTube channel (Armin van Buuren vs Vini Vici collab). The Tribe (6nfVqIqmpzA) confirmed on 'Iboga Records Music', Vini Vici's official label. The SoundCloud Great Spirit upload confirmed on the official verified 'vinivicimusic' account and kept for platform diversity. The previously-rejected fan re-uploads (FPLsxhgF2_Q, iiu9ffWmTuI) were not included.",
+    "tracks": [
+      {
+        "title": "Armin van Buuren vs Vini Vici feat. Hilight Tribe - Great Spirit (Extended Mix)",
+        "platform": "youtube",
+        "ref": "yo4pmauhugo",
+        "sourceUrl": "https://www.youtube.com/watch?v=yo4pmauhugo",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Vini Vici - The Tribe",
+        "platform": "youtube",
+        "ref": "6nfVqIqmpzA",
+        "sourceUrl": "https://www.youtube.com/watch?v=6nfVqIqmpzA",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Armin van Buuren vs. Vini Vici feat. Hilight Tribe – Great Spirit [Armind] OUT NOW!!! by vinivicimusic",
+        "platform": "soundcloud",
+        "ref": "https://soundcloud.com/vinivicimusic/armin-van-buuren-vs-vini-vici-ft-hilight-tribe-great-spirit-armind-dec122016",
+        "sourceUrl": "https://soundcloud.com/vinivicimusic/armin-van-buuren-vs-vini-vici-ft-hilight-tribe-great-spirit-armind-dec122016",
+        "kind": "track",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "giuseppe-ottaviani",
+    "name": "Giuseppe Ottaviani",
+    "genres": [
+      "Trance"
+    ],
+    "notes": "All three candidates resolved via oEmbed. Lost For Words (94CwUWWEgxw) confirmed on 'Armada Music TV'; Magenta with Ferry Corsten (57AOJx4rOyc) confirmed on 'Black Hole Recordings'. GO On Air Episode 244 confirmed on the official 'Giuseppe Ottaviani' Mixcloud account (author_url matches the artist handle) and kept as the DJ-set/radio-show pick for platform diversity; Mixcloud title cleaned to its oEmbed value. The Through Your Eyes / Will Atkinson Re-Rub candidate (20M-I3U-Lrw) was not present in this verification batch.",
+    "tracks": [
+      {
+        "title": "Giuseppe Ottaviani feat. Amba Shepherd - Lost For Words (Official Music Video)",
+        "platform": "youtube",
+        "ref": "94CwUWWEgxw",
+        "sourceUrl": "https://www.youtube.com/watch?v=94CwUWWEgxw",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Giuseppe Ottaviani with Ferry Corsten - Magenta",
+        "platform": "youtube",
+        "ref": "57AOJx4rOyc",
+        "sourceUrl": "https://www.youtube.com/watch?v=57AOJx4rOyc",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Giuseppe Ottaviani Presents Go On Air Episode 244",
+        "platform": "mixcloud",
+        "ref": "https://www.mixcloud.com/GiuseppeOttaviani/giuseppe-ottaviani-presents-go-on-air-244/",
+        "sourceUrl": "https://www.mixcloud.com/GiuseppeOttaviani/giuseppe-ottaviani-presents-go-on-air-244/",
+        "kind": "set",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "super8-and-tab",
+    "name": "Super8 & Tab",
+    "genres": [
+      "Trance"
+    ],
+    "notes": "All three candidates resolved via oEmbed. Helsinki Scorchin (C7KEyT6_HG4) and Empire ft. Jan Burton (-BhpnoWvgWI) confirmed on the official 'Anjunabeats' YouTube channel; Empire title updated to the oEmbed form. Anjunabeats Worldwide 382 With Super8 & Tab confirmed on the official 'anjunabeats' Mixcloud account and kept as the radio-show/DJ-set pick for platform diversity.",
+    "tracks": [
+      {
+        "title": "Super8 & Tab - Helsinki Scorchin'",
+        "platform": "youtube",
+        "ref": "C7KEyT6_HG4",
+        "sourceUrl": "https://www.youtube.com/watch?v=C7KEyT6_HG4",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Super8 & Tab feat. Jan Burton \"Empire\"",
+        "platform": "youtube",
+        "ref": "-BhpnoWvgWI",
+        "sourceUrl": "https://www.youtube.com/watch?v=-BhpnoWvgWI",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Anjunabeats Worldwide 382 With Super8 & Tab",
+        "platform": "mixcloud",
+        "ref": "https://www.mixcloud.com/anjunabeats/anjunabeats-worldwide-382-with-super8-tab/",
+        "sourceUrl": "https://www.mixcloud.com/anjunabeats/anjunabeats-worldwide-382-with-super8-tab/",
+        "kind": "set",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "john-ocallaghan",
+    "name": "John O'Callaghan",
+    "genres": [
+      "Trance"
+    ],
+    "tracks": [
+      {
+        "title": "Big Sky (feat. Audrey Gallagher)",
+        "platform": "soundcloud",
+        "ref": "https://soundcloud.com/johnocallaghan/john-ocallaghan-feat-777091913",
+        "sourceUrl": "https://soundcloud.com/johnocallaghan/john-ocallaghan-feat-777091913",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "John O'Callaghan- Subculture 100 Podcast",
+        "platform": "mixcloud",
+        "ref": "https://www.mixcloud.com/johnocallaghan/john-ocallaghan-subculture-100-podcast/",
+        "sourceUrl": "https://www.mixcloud.com/johnocallaghan/john-ocallaghan-subculture-100-podcast/",
+        "kind": "set",
+        "verified": true
+      },
+      {
+        "title": "John O'Callaghan Live At Subculture, Australia 2018",
+        "platform": "mixcloud",
+        "ref": "https://www.mixcloud.com/johnocallaghan/john-ocallaghan-live-at-subculture-australia-2018/",
+        "sourceUrl": "https://www.mixcloud.com/johnocallaghan/john-ocallaghan-live-at-subculture-australia-2018/",
+        "kind": "set",
+        "verified": true
+      }
+    ],
+    "notes": "All three resolved via oEmbed. SoundCloud 'Big Sky' title cleaned from oEmbed ('Big Sky (feat. Audrey Gallagher)'). Both Mixcloud cloudcasts (Subculture 100 Podcast, Australia 2018) returned valid titles from app.mixcloud.com/oembed. Original released on Armind/Armada 2007."
+  },
+  {
+    "id": "solarstone",
+    "name": "Solarstone",
+    "genres": [
+      "Trance"
+    ],
+    "tracks": [
+      {
+        "title": "Seven Cities (Solarstone's Atlantis Mix)",
+        "platform": "soundcloud",
+        "ref": "https://soundcloud.com/solarstone/seven-cities-solarstones",
+        "sourceUrl": "https://soundcloud.com/solarstone/seven-cities-solarstones",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Solarstone Presents Pure Trance Radio Episode 001",
+        "platform": "mixcloud",
+        "ref": "https://www.mixcloud.com/solarstone/solarstone-presents-pure-trance-radio-episode-001/",
+        "sourceUrl": "https://www.mixcloud.com/solarstone/solarstone-presents-pure-trance-radio-episode-001/",
+        "kind": "set",
+        "verified": true
+      },
+      {
+        "title": "Solarstone Presents Pure Trance Radio 180",
+        "platform": "mixcloud",
+        "ref": "https://www.mixcloud.com/solarstone/solarstone-presents-pure-trance-radio-180/",
+        "sourceUrl": "https://www.mixcloud.com/solarstone/solarstone-presents-pure-trance-radio-180/",
+        "kind": "set",
+        "verified": true
+      }
+    ],
+    "notes": "All three resolved via oEmbed with valid titles. Ep 180 title cleaned from oEmbed ('...Radio 180'). All on official solarstone SoundCloud/Mixcloud channels."
+  },
+  {
+    "id": "bt",
+    "name": "BT",
+    "genres": [
+      "Trance"
+    ],
+    "tracks": [
+      {
+        "title": "BT - The Emergency [Official Music Video]",
+        "platform": "youtube",
+        "ref": "yssxgTk2Muo",
+        "sourceUrl": "https://www.youtube.com/watch?v=yssxgTk2Muo",
+        "kind": "track",
+        "verified": true
+      }
+    ],
+    "notes": "The Emergency (yssxgTk2Muo) resolved via YouTube oEmbed; title cleaned to oEmbed value 'BT - The Emergency [Official Music Video]' (author NettwerkMusic). Flaming June (uqPP7QwPfz8) was DROPPED: YouTube oEmbed returned HTTP 403 on three retries across both parameter orderings while all other YouTube oEmbed calls in the same batches succeeded, indicating embedding is disabled for that video rather than a transient block. Needs a manual replacement embed for Flaming June if desired."
+  },
+  {
+    "id": "ilan-bluestone",
+    "name": "Ilan Bluestone",
+    "genres": [
+      "Trance"
+    ],
+    "tracks": [
+      {
+        "title": "ilan Bluestone feat. Ellen Smith - Stranger To Your Love",
+        "platform": "soundcloud",
+        "ref": "https://soundcloud.com/anjunabeats/ilan-bluestone-feat-ellen-smith-stranger-to-your-love",
+        "sourceUrl": "https://soundcloud.com/anjunabeats/ilan-bluestone-feat-ellen-smith-stranger-to-your-love",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "ilan Bluestone feat. Giuseppe De Luca - Frozen Ground (Official Music Video)",
+        "platform": "youtube",
+        "ref": "ZxI3bmPLIdE",
+        "sourceUrl": "https://www.youtube.com/watch?v=ZxI3bmPLIdE",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "ilan Bluestone & Giuseppe De Luca - Frozen Ground",
+        "platform": "soundcloud",
+        "ref": "https://soundcloud.com/anjunabeats/ilan-bluestone-giuseppe-de-luca-frozen-ground",
+        "sourceUrl": "https://soundcloud.com/anjunabeats/ilan-bluestone-giuseppe-de-luca-frozen-ground",
+        "kind": "track",
+        "verified": true
+      }
+    ],
+    "notes": "All three resolved via oEmbed with valid titles. Two SoundCloud (Anjunabeats) titles cleaned from oEmbed; Frozen Ground YouTube MV (ZxI3bmPLIdE, author Anjunabeats) confirmed."
+  },
+  {
+    "id": "martin-garrix",
+    "name": "Martin Garrix",
+    "genres": [
+      "Big Room",
+      "Progressive House"
+    ],
+    "tracks": [
+      {
+        "title": "Martin Garrix - Animals (Official Video)",
+        "platform": "youtube",
+        "ref": "gCYcHz2k5x0",
+        "sourceUrl": "https://www.youtube.com/watch?v=gCYcHz2k5x0",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Martin Garrix & Dua Lipa - Scared To Be Lonely (Official Video)",
+        "platform": "youtube",
+        "ref": "e2vBLd5Egnk",
+        "sourceUrl": "https://www.youtube.com/watch?v=e2vBLd5Egnk",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Martin Garrix - Forbidden Voices",
+        "platform": "soundcloud",
+        "ref": "https://soundcloud.com/martingarrix/martin-garrix-forbidden-voices",
+        "sourceUrl": "https://soundcloud.com/martingarrix/martin-garrix-forbidden-voices",
+        "kind": "track",
+        "verified": true
+      }
+    ],
+    "notes": "All three resolved via oEmbed with valid titles. Animals confirmed on STMPD RCRDS channel (gCYcHz2k5x0), Scared To Be Lonely on Martin Garrix channel (e2vBLd5Egnk), Forbidden Voices on official martingarrix SoundCloud."
+  },
+  {
+    "id": "alesso",
+    "name": "Alesso",
+    "genres": [
+      "Progressive House"
+    ],
+    "tracks": [
+      {
+        "title": "Alesso - Heroes (we could be) ft. Tove Lo [Official Music Video]",
+        "platform": "youtube",
+        "ref": "K0-VU9cti0g",
+        "sourceUrl": "https://www.youtube.com/watch?v=K0-VU9cti0g",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Sebastian Ingrosso & Alesso feat. Ryan Tedder - Calling (Lose My Mind) (Official Video HD)",
+        "platform": "youtube",
+        "ref": "wr3xlLkvD70",
+        "sourceUrl": "https://www.youtube.com/watch?v=wr3xlLkvD70",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Alesso feat. Matthew Koma - Years (Official Video HD)",
+        "platform": "youtube",
+        "ref": "uc_HPel98wg",
+        "sourceUrl": "https://www.youtube.com/watch?v=uc_HPel98wg",
+        "kind": "track",
+        "verified": true
+      }
+    ],
+    "notes": "All three YouTube embeds resolved via oEmbed with valid titles. Titles updated to the exact oEmbed values: 'Heroes' uses the bracketed [Official Music Video] form; 'Calling' resolves to the full Sebastian Ingrosso & Alesso feat. Ryan Tedder credit; 'Years' is the (Official Video HD) upload. Note oEmbed author channels are aggregator/label uploads (Bad Boy Edd, Kontor.TV) not Alesso's own VEVO, but all return valid playable embeds."
+  },
+  {
+    "id": "swedish-house-mafia",
+    "name": "Swedish House Mafia",
+    "genres": [
+      "Progressive House"
+    ],
+    "tracks": [
+      {
+        "title": "Swedish House Mafia ft. John Martin - Don't You Worry Child (Official Video)",
+        "platform": "youtube",
+        "ref": "1y6smkh6c-0",
+        "sourceUrl": "https://www.youtube.com/watch?v=1y6smkh6c-0",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Swedish House Mafia - Save The World (Official Video)",
+        "platform": "youtube",
+        "ref": "BXpdmKELE1k",
+        "sourceUrl": "https://www.youtube.com/watch?v=BXpdmKELE1k",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Swedish House Mafia - Greyhound (2012 / OFFICIAL VIDEO / 4K REMASTERED)",
+        "platform": "youtube",
+        "ref": "7mO4QAk3Fcs",
+        "sourceUrl": "https://www.youtube.com/watch?v=7mO4QAk3Fcs",
+        "kind": "track",
+        "verified": true
+      }
+    ],
+    "notes": "All three YouTube embeds resolved via oEmbed. 'Don't You Worry Child' and 'Save The World' are on the official SHMVEVO channel. 'Greyhound' (7mO4QAk3Fcs) resolved with title 'Swedish House Mafia - Greyhound (2012 / OFFICIAL VIDEO / 4K REMASTERED)' but the oEmbed author is a third-party channel (Rocket-Media), not the SHM/VEVO channel; embed plays fine so it is kept and verified, title updated to oEmbed value."
+  },
+  {
+    "id": "hardwell",
+    "name": "Hardwell",
+    "genres": [
+      "Big Room"
+    ],
+    "tracks": [
+      {
+        "title": "Hardwell - Spaceman [OUT NOW] (Revealed Recordings)",
+        "platform": "youtube",
+        "ref": "R5xII5CsaD8",
+        "sourceUrl": "https://www.youtube.com/watch?v=R5xII5CsaD8",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Apollo (feat. Amba Shepherd) by HARDWELL",
+        "platform": "soundcloud",
+        "ref": "https://soundcloud.com/hardwell/apollo-1",
+        "sourceUrl": "https://soundcloud.com/hardwell/apollo-1",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Hardwell On Air 469",
+        "platform": "mixcloud",
+        "ref": "https://www.mixcloud.com/HardwellOnAirOfficialPodcast/hardwell-on-air-469/",
+        "sourceUrl": "https://www.mixcloud.com/HardwellOnAirOfficialPodcast/hardwell-on-air-469/",
+        "kind": "set",
+        "verified": true
+      }
+    ],
+    "notes": "Full three-platform spread, all resolved. YouTube 'Spaceman' (R5xII5CsaD8) oEmbed title 'Hardwell - Spaceman [OUT NOW] (Revealed Recordings)'. SoundCloud Apollo resolved on official soundcloud.com/hardwell account (title 'Apollo (feat. Amba Shepherd) by HARDWELL'). Mixcloud HOA 469 resolved on official HardwellOnAirOfficialPodcast account."
+  },
+  {
+    "id": "tiesto",
+    "name": "Tiësto",
+    "genres": [
+      "Big Room"
+    ],
+    "tracks": [
+      {
+        "title": "Tiësto - Adagio For Strings (Official Music Video)",
+        "platform": "youtube",
+        "ref": "6yFanGv_ReU",
+        "sourceUrl": "https://www.youtube.com/watch?v=6yFanGv_ReU",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Tiësto - The Business by Tiësto",
+        "platform": "soundcloud",
+        "ref": "https://soundcloud.com/tiesto/the-business",
+        "sourceUrl": "https://soundcloud.com/tiesto/the-business",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Clublife By Tiësto 543 Podcast",
+        "platform": "mixcloud",
+        "ref": "https://www.mixcloud.com/Tiesto/clublife-by-ti%C3%ABsto-543-podcast/",
+        "sourceUrl": "https://www.mixcloud.com/Tiesto/clublife-by-ti%C3%ABsto-543-podcast/",
+        "kind": "set",
+        "verified": true
+      }
+    ],
+    "notes": "Full three-platform spread, all resolved. YouTube 'Adagio For Strings' on Black Hole Recordings channel. SoundCloud 'The Business' on official soundcloud.com/tiesto (oEmbed title 'Tiësto - The Business by Tiësto'). Mixcloud CLUBLIFE 543 on official Tiesto account (oEmbed title 'Clublife By Tiësto 543 Podcast')."
+  },
+  {
+    "id": "david-guetta",
+    "name": "David Guetta",
+    "genres": [
+      "Electro House"
+    ],
+    "tracks": [
+      {
+        "title": "Titanium (feat. Sia) by David Guetta",
+        "platform": "soundcloud",
+        "ref": "https://soundcloud.com/davidguetta/titanium-feat-sia",
+        "sourceUrl": "https://soundcloud.com/davidguetta/titanium-feat-sia",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "David Guetta Feat. Kelly Rowland - When Love Takes Over (Official Video)",
+        "platform": "youtube",
+        "ref": "zudbz4hOcbc",
+        "sourceUrl": "https://www.youtube.com/watch?v=zudbz4hOcbc",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "David Guetta Feat. Kid Cudi - Memories (Official Video)",
+        "platform": "youtube",
+        "ref": "NUVCQXMUVnI",
+        "sourceUrl": "https://www.youtube.com/watch?v=NUVCQXMUVnI",
+        "kind": "track",
+        "verified": true
+      }
+    ],
+    "notes": "Two-platform spread (SoundCloud + YouTube), all resolved. SoundCloud Titanium on official soundcloud.com/davidguetta (oEmbed title 'Titanium (feat. Sia) by David Guetta'). 'When Love Takes Over' and 'Memories' YouTube embeds resolved with valid official-video titles."
+  },
+  {
+    "id": "calvin-harris",
+    "name": "Calvin Harris",
+    "genres": [
+      "Electro House"
+    ],
+    "tracks": [
+      {
+        "title": "Calvin Harris - Summer (Official Video)",
+        "platform": "youtube",
+        "ref": "ebXbLfLACGM",
+        "sourceUrl": "https://www.youtube.com/watch?v=ebXbLfLACGM",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Calvin Harris - Feel So Close (Official Video)",
+        "platform": "youtube",
+        "ref": "dGghkjpNCQ8",
+        "sourceUrl": "https://www.youtube.com/watch?v=dGghkjpNCQ8",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Calvin Harris, Rihanna - This Is What You Came For (Official Video)",
+        "platform": "youtube",
+        "ref": "kOkQ4T5WO9E",
+        "sourceUrl": "https://www.youtube.com/watch?v=kOkQ4T5WO9E",
+        "kind": "track",
+        "verified": true
+      }
+    ],
+    "notes": "All three official VEVO uploads verified via YouTube oEmbed (200 + title). Title for kOkQ4T5WO9E updated to the cleaner oEmbed value 'Calvin Harris, Rihanna - This Is What You Came For (Official Video)'."
+  },
+  {
+    "id": "deadmau5",
+    "name": "deadmau5",
+    "genres": [
+      "Progressive House"
+    ],
+    "tracks": [
+      {
+        "title": "deadmau5 - Strobe",
+        "platform": "youtube",
+        "ref": "tKi9Z-f6qX4",
+        "sourceUrl": "https://www.youtube.com/watch?v=tKi9Z-f6qX4",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "deadmau5 feat. Rob Swire - Ghosts N Stuff",
+        "platform": "youtube",
+        "ref": "h7ArUgxtlJs",
+        "sourceUrl": "https://www.youtube.com/watch?v=h7ArUgxtlJs",
+        "kind": "track",
+        "verified": true
+      }
+    ],
+    "notes": "Both tracks verified via YouTube oEmbed (200 + title); titles already matched oEmbed. Only 2 tracks: SoundCloud deep permalinks were omitted upstream to avoid fabrication, so none were available to verify here."
+  },
+  {
+    "id": "carl-cox",
+    "name": "Carl Cox",
+    "genres": [
+      "Techno"
+    ],
+    "tracks": [
+      {
+        "title": "Carl Cox Global 714 - Live From Burning Man (Disco Set)",
+        "platform": "mixcloud",
+        "ref": "https://www.mixcloud.com/CarlCox/carl-cox-global-714-live-from-burning-man/",
+        "sourceUrl": "https://www.mixcloud.com/CarlCox/carl-cox-global-714-live-from-burning-man/",
+        "kind": "set",
+        "verified": true
+      },
+      {
+        "title": "Carl Cox's Cabin Fever - Episode 34 - Techno & Tech-House Early '00s",
+        "platform": "mixcloud",
+        "ref": "https://www.mixcloud.com/CarlCox/carl-coxs-cabin-fever-episode-34/",
+        "sourceUrl": "https://www.mixcloud.com/CarlCox/carl-coxs-cabin-fever-episode-34/",
+        "kind": "set",
+        "verified": true
+      },
+      {
+        "title": "Carl Cox's Cabin Fever - 1st Year Round Up | Part Ii",
+        "platform": "mixcloud",
+        "ref": "https://www.mixcloud.com/CarlCox/carl-coxs-cabin-fever-1st-year-round-up-part-ii-20210328-1750/",
+        "sourceUrl": "https://www.mixcloud.com/CarlCox/carl-coxs-cabin-fever-1st-year-round-up-part-ii-20210328-1750/",
+        "kind": "set",
+        "verified": true
+      }
+    ],
+    "notes": "All three Mixcloud sets verified via app.mixcloud.com oEmbed (200 + title). Title for the Part II set updated to the oEmbed value 'Carl Cox's Cabin Fever - 1st Year Round Up | Part Ii'."
+  },
+  {
+    "id": "skrillex",
+    "name": "Skrillex",
+    "genres": [
+      "Dubstep"
+    ],
+    "tracks": [
+      {
+        "title": "Skrillex - Scary Monsters And Nice Sprites (Official Audio)",
+        "platform": "youtube",
+        "ref": "WSeNSzJ2-Jw",
+        "sourceUrl": "https://www.youtube.com/watch?v=WSeNSzJ2-Jw",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "SKRILLEX - Bangarang feat. Sirah [Official Music Video]",
+        "platform": "youtube",
+        "ref": "YJVmu6yttiw",
+        "sourceUrl": "https://www.youtube.com/watch?v=YJVmu6yttiw",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Benny Benassi ft. Gary Go - Cinema (Skrillex Remix) (Official Video)",
+        "platform": "youtube",
+        "ref": "Cw0nkxFhpoM",
+        "sourceUrl": "https://www.youtube.com/watch?v=Cw0nkxFhpoM",
+        "kind": "track",
+        "verified": true
+      }
+    ],
+    "notes": "All three verified via YouTube oEmbed (200 + title). Title for YJVmu6yttiw updated to the cleaner oEmbed value 'SKRILLEX - Bangarang feat. Sirah [Official Music Video]'."
+  },
+  {
+    "id": "zedd",
+    "name": "Zedd",
+    "genres": [
+      "Electro House"
+    ],
+    "tracks": [
+      {
+        "title": "Zedd - Clarity ft. Foxes",
+        "platform": "youtube",
+        "ref": "IxxstCcJlsc",
+        "sourceUrl": "https://www.youtube.com/watch?v=IxxstCcJlsc",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Zedd, Alessia Cara - Stay (Official Music Video)",
+        "platform": "youtube",
+        "ref": "yWEK4v9AVKQ",
+        "sourceUrl": "https://www.youtube.com/watch?v=yWEK4v9AVKQ",
+        "kind": "track",
+        "verified": true
+      }
+    ],
+    "notes": "Clarity and Stay verified via YouTube oEmbed (200 + title); Clarity title updated to the cleaner oEmbed value 'Zedd - Clarity ft. Foxes'. The Middle (ref 5vBGOrUEZBU) was DROPPED: oEmbed returned HTTP 404 on two attempts, confirming the embed does not resolve."
+  },
+  {
+    "id": "afrojack",
+    "name": "Afrojack",
+    "genres": [
+      "Big Room"
+    ],
+    "tracks": [
+      {
+        "title": "Afrojack - Take Over Control feat. Eva Simons",
+        "platform": "soundcloud",
+        "ref": "https://soundcloud.com/afrojack/afrojack-take-over-control",
+        "sourceUrl": "https://soundcloud.com/afrojack/afrojack-take-over-control",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "AFROJACK - The Spark ft. Spree Wilson",
+        "platform": "youtube",
+        "ref": "IB3lcPjvWLA",
+        "sourceUrl": "https://www.youtube.com/watch?v=IB3lcPjvWLA",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "AFROJACK - Ten Feet Tall (Lyric Video) ft. Wrabel",
+        "platform": "youtube",
+        "ref": "bltr_Dsk5EY",
+        "sourceUrl": "https://www.youtube.com/watch?v=bltr_Dsk5EY",
+        "kind": "track",
+        "verified": true
+      }
+    ],
+    "notes": "All 3 candidates verified via oEmbed. Take Over Control resolves on Afrojack's official SoundCloud (oEmbed title 'Afrojack - Take Over Control feat. Eva Simons by Afrojack'). The Spark and Ten Feet Tall both resolve on AfrojackVEVO. Titles updated to the cleaner oEmbed-returned values."
+  },
+  {
+    "id": "steve-aoki",
+    "name": "Steve Aoki",
+    "genres": [
+      "Electro House"
+    ],
+    "tracks": [
+      {
+        "title": "Steve Aoki, Chris Lake & Tujamo - Boneless (Official Video)",
+        "platform": "youtube",
+        "ref": "gl2p4G3CUrI",
+        "sourceUrl": "https://www.youtube.com/watch?v=gl2p4G3CUrI",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Kid Cudi - Pursuit of Happiness (Steve Aoki Remix)",
+        "platform": "soundcloud",
+        "ref": "https://soundcloud.com/steveaoki/kid-cudi-pursuit-of-happiness",
+        "sourceUrl": "https://soundcloud.com/steveaoki/kid-cudi-pursuit-of-happiness",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Aoki's House 295",
+        "platform": "mixcloud",
+        "ref": "https://www.mixcloud.com/SteveAoki/aokis-house-295/",
+        "sourceUrl": "https://www.mixcloud.com/SteveAoki/aokis-house-295/",
+        "kind": "set",
+        "verified": true
+      }
+    ],
+    "notes": "All 3 candidates verified via oEmbed. Boneless resolves on Ultra Records (oEmbed title gains '(Official Video)'). Pursuit of Happiness remix resolves on Steve Aoki's official SoundCloud. Aoki's House 295 resolves on the official Steve Aoki Mixcloud. Boneless title updated to the cleaner oEmbed value."
+  },
+  {
+    "id": "eric-prydz",
+    "name": "Eric Prydz",
+    "genres": [
+      "Progressive House"
+    ],
+    "tracks": [
+      {
+        "title": "Opus",
+        "platform": "soundcloud",
+        "ref": "https://soundcloud.com/eric-prydz/eric-prydz-opus",
+        "sourceUrl": "https://soundcloud.com/eric-prydz/eric-prydz-opus",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Eric Prydz – Call On Me (Official Music Video) | Ministry of Sound",
+        "platform": "youtube",
+        "ref": "qetW6R9Jxs4",
+        "sourceUrl": "https://www.youtube.com/watch?v=qetW6R9Jxs4",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Eric Prydz - Generate",
+        "platform": "youtube",
+        "ref": "nUCoYcxNMBE",
+        "sourceUrl": "https://www.youtube.com/watch?v=nUCoYcxNMBE",
+        "kind": "track",
+        "verified": true
+      }
+    ],
+    "notes": "All 3 candidates verified via oEmbed. Opus resolves on Eric Prydz's official SoundCloud (oEmbed title 'Opus by Eric Prydz'). Call On Me resolves on Ministry of Sound; title updated to the cleaner oEmbed value. Generate resolves on EricPrydzVEVO."
+  },
+  {
+    "id": "dimitri-vegas-like-mike",
+    "name": "Dimitri Vegas & Like Mike",
+    "genres": [
+      "Big Room"
+    ],
+    "tracks": [
+      {
+        "title": "Dimitri Vegas, Martin Garrix, Like Mike - Tremor (Official Music Video)",
+        "platform": "youtube",
+        "ref": "9vMh9f41pqE",
+        "sourceUrl": "https://www.youtube.com/watch?v=9vMh9f41pqE",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Dimitri Vegas & Like Mike vs Ummet Ozcan - The Hum (Official Music Video)",
+        "platform": "youtube",
+        "ref": "exJlapzPnlc",
+        "sourceUrl": "https://www.youtube.com/watch?v=exJlapzPnlc",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Dimitri Vegas & Like Mike vs Hardwell - Unity (Official Music Video)",
+        "platform": "youtube",
+        "ref": "rLlZE_G_fXo",
+        "sourceUrl": "https://www.youtube.com/watch?v=rLlZE_G_fXo",
+        "kind": "track",
+        "verified": true
+      }
+    ],
+    "notes": "All 3 candidates verified via oEmbed. Tremor resolves on Spinnin' Records; The Hum and Unity resolve on the official Dimitri Vegas & Like Mike channel. All three titles updated to the cleaner oEmbed values (each gained '(Official Music Video)')."
+  },
+  {
+    "id": "axwell-ingrosso",
+    "name": "Axwell /\\ Ingrosso",
+    "genres": [
+      "Progressive House"
+    ],
+    "tracks": [
+      {
+        "title": "Axwell /\\ Ingrosso - Something New",
+        "platform": "youtube",
+        "ref": "QwaVVsvLlc4",
+        "sourceUrl": "https://www.youtube.com/watch?v=QwaVVsvLlc4",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Axwell /\\ Ingrosso, Axwell, Sebastian Ingrosso - More Than You Know",
+        "platform": "youtube",
+        "ref": "GsF05B8TFWg",
+        "sourceUrl": "https://www.youtube.com/watch?v=GsF05B8TFWg",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Axwell Λ Ingrosso - Sun Is Shining",
+        "platform": "youtube",
+        "ref": "nbXgHAzUWB0",
+        "sourceUrl": "https://www.youtube.com/watch?v=nbXgHAzUWB0",
+        "kind": "track",
+        "verified": true
+      }
+    ],
+    "notes": "All 3 candidates verified via oEmbed on AxwellIngrossoVEVO. More Than You Know and Sun Is Shining titles updated to the cleaner oEmbed-returned values."
+  },
+  {
+    "id": "don-diablo",
+    "name": "Don Diablo",
+    "genres": [
+      "Future House"
+    ],
+    "tracks": [
+      {
+        "title": "On My Mind by Don Diablo",
+        "platform": "soundcloud",
+        "ref": "https://soundcloud.com/dondiablo/on-my-mind",
+        "sourceUrl": "https://soundcloud.com/dondiablo/on-my-mind",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Don Diablo - Survive ft. Emeli Sandé & Gucci Mane | Official Video",
+        "platform": "youtube",
+        "ref": "22_zeb-XWic",
+        "sourceUrl": "https://www.youtube.com/watch?v=22_zeb-XWic",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Don Diablo Hexagon Radio Episode 500",
+        "platform": "mixcloud",
+        "ref": "https://www.mixcloud.com/dondiablo/don-diablo-hexagon-radio-episode-500/",
+        "sourceUrl": "https://www.mixcloud.com/dondiablo/don-diablo-hexagon-radio-episode-500/",
+        "kind": "set",
+        "verified": true
+      }
+    ],
+    "notes": "All three candidates verified via oEmbed (200 + valid JSON title). SoundCloud 'On My Mind by Don Diablo' (author: Don Diablo); YouTube Survive (author: Don Diablo, title cleaned to official 'Don Diablo - Survive ft. Emeli Sandé & Gucci Mane | Official Video'); Mixcloud Hexagon Radio Episode 500 (author: Don Diablo, kind=set). Titles updated to cleaner oEmbed values where applicable."
+  },
+  {
+    "id": "marshmello",
+    "name": "Marshmello",
+    "genres": [
+      "Future Bass"
+    ],
+    "tracks": [
+      {
+        "title": "Marshmello - Alone (Official Music Video)",
+        "platform": "youtube",
+        "ref": "ALZHF5UqnU4",
+        "sourceUrl": "https://www.youtube.com/watch?v=ALZHF5UqnU4",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Marshmello ft. Bastille - Happier (Official Music Video)",
+        "platform": "youtube",
+        "ref": "m7Bc3pLyij0",
+        "sourceUrl": "https://www.youtube.com/watch?v=m7Bc3pLyij0",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Marshmello - Silence Ft. Khalid by marshmello",
+        "platform": "soundcloud",
+        "ref": "https://soundcloud.com/marshmellomusic/silence",
+        "sourceUrl": "https://soundcloud.com/marshmellomusic/silence",
+        "kind": "track",
+        "verified": true
+      }
+    ],
+    "notes": "All three candidates verified via oEmbed (200 + valid JSON title). YouTube 'Alone' (author: Marshmello) and 'Happier ft. Bastille' (author: Marshmello); SoundCloud 'Silence Ft. Khalid' (author: marshmello). The oEmbed title for the Alone video returned a misspelled provider field ('Marshmelo - Alone'); kept the correctly-spelled official title 'Marshmello - Alone (Official Music Video)'. Other titles updated to cleaner oEmbed values."
+  },
+  {
+    "id": "avicii",
+    "name": "Avicii",
+    "genres": [
+      "Progressive House"
+    ],
+    "tracks": [
+      {
+        "title": "Avicii - Levels",
+        "platform": "youtube",
+        "ref": "_ovdm2yX4MA",
+        "sourceUrl": "https://www.youtube.com/watch?v=_ovdm2yX4MA",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Wake Me Up by AviciiOfficial",
+        "platform": "soundcloud",
+        "ref": "https://soundcloud.com/aviciiofficial/wake-me-up-radio-edit",
+        "sourceUrl": "https://soundcloud.com/aviciiofficial/wake-me-up-radio-edit",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Avicii, Sandro Cavazza - Without You \"Audio\"",
+        "platform": "youtube",
+        "ref": "WRz2MxhAdJo",
+        "sourceUrl": "https://www.youtube.com/watch?v=WRz2MxhAdJo",
+        "kind": "track",
+        "verified": true
+      }
+    ],
+    "notes": "All three candidates verified via oEmbed (200 + valid JSON title). YouTube 'Levels' (author: AviciiOfficialVEVO) and 'Without You Audio' (author: AviciiOfficialVEVO); SoundCloud 'Wake Me Up by AviciiOfficial' (author: AviciiOfficial). Titles updated to cleaner oEmbed values."
+  }
+]

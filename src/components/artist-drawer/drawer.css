@@ -1,0 +1,40 @@
+.drawer {
+  position: fixed;
+  inset: 0;
+  bottom: var(--deck-h);
+  background: rgba(4, 3, 10, 0.55);
+  backdrop-filter: blur(4px);
+  display: flex;
+  justify-content: flex-end;
+  z-index: 40;
+  opacity: 1;
+  transition: opacity var(--dur-normal) var(--ease-out-expo);
+}
+.drawer[aria-hidden='true'] { opacity: 0; pointer-events: none; }
+.drawer__panel {
+  width: min(420px, 92vw);
+  height: 100%;
+  background: linear-gradient(160deg, var(--bg-raise), #08060f);
+  border-left: 1px solid color-mix(in oklab, var(--accent) 55%, transparent);
+  box-shadow: -12px 0 40px color-mix(in oklab, var(--accent) 25%, transparent);
+  padding: 1.25rem;
+  overflow-y: auto;
+}
+.drawer__header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 1rem; }
+.drawer__title { margin: 0; font-size: 1.4rem; }
+.drawer__close { background: none; border: none; color: var(--text-dim); font-size: 1.1rem; cursor: pointer; }
+.drawer__list { display: flex; flex-direction: column; gap: 0.5rem; }
+.drawer__row {
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 0.75rem; width: 100%; text-align: left;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 10px; padding: 0.75rem 0.9rem; color: var(--text); cursor: pointer;
+  transition: border-color var(--dur-fast), background var(--dur-fast);
+}
+.drawer__row:hover, .drawer__row:focus-visible {
+  border-color: var(--accent);
+  background: color-mix(in oklab, var(--accent) 12%, transparent);
+}
+.drawer__row-title { font-weight: 700; }
+.drawer__badge { font-size: 0.65rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--text-faint); white-space: nowrap; }

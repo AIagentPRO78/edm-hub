@@ -16,3 +16,8 @@ dist/
 # os / editor
 .DS_Store
 *.log
+
+# playwright
+/test-results/
+/playwright-report/
+/blob-report/

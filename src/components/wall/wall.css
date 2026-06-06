@@ -1,0 +1,8 @@
+.wall { padding: 0 clamp(1rem, 0.5rem + 3vw, 3rem) var(--space-section); }
+.wall__grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: var(--gap-wall);
+}
+@media (max-width: 1024px) { .wall__grid { grid-template-columns: repeat(3, 1fr); } }
+@media (max-width: 560px)  { .wall__grid { grid-template-columns: repeat(2, 1fr); } }

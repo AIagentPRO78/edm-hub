@@ -1,0 +1,45 @@
+.hero {
+  position: relative;
+  min-height: 78vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  overflow: hidden;
+  padding: var(--space-section) 1rem;
+}
+.hero__glow {
+  position: absolute; inset: 0;
+  background:
+    radial-gradient(ellipse 70% 50% at 50% -5%, color-mix(in oklab, var(--magenta) 40%, transparent), transparent 60%),
+    radial-gradient(ellipse 60% 45% at 50% 8%, color-mix(in oklab, var(--cyan) 28%, transparent), transparent 65%),
+    radial-gradient(circle at 12% 95%, color-mix(in oklab, var(--magenta) 32%, transparent), transparent 45%),
+    radial-gradient(circle at 90% 100%, color-mix(in oklab, var(--cyan) 30%, transparent), transparent 45%);
+}
+.hero__beams {
+  position: absolute; top: -20px; left: 50%; width: 2px; height: 180px;
+  background: linear-gradient(color-mix(in oklab, var(--magenta) 75%, transparent), transparent);
+  transform: rotate(-18deg); transform-origin: top;
+  box-shadow: 60px 0 color-mix(in oklab, var(--cyan) 60%, transparent);
+}
+.hero__content { position: relative; }
+.hero__eyebrow { font-size: 0.75rem; letter-spacing: 0.55em; color: var(--violet); margin: 0 0 0.5rem; }
+.hero__logo {
+  margin: 0;
+  white-space: nowrap;
+  font-size: var(--text-logo);
+  font-style: italic;
+  font-weight: 900;
+  letter-spacing: 0.02em;
+  line-height: 0.9;
+  background: linear-gradient(180deg, #ffffff 0%, var(--cyan) 45%, var(--magenta) 100%);
+  -webkit-background-clip: text; background-clip: text; color: transparent;
+  filter: drop-shadow(0 0 14px color-mix(in oklab, var(--magenta) 55%, transparent))
+          drop-shadow(0 0 30px color-mix(in oklab, var(--cyan) 40%, transparent));
+}
+.hero__tagline { margin: 0.75rem 0 0; font-size: 0.8rem; letter-spacing: 0.4em; color: var(--cyan); text-shadow: 0 0 8px color-mix(in oklab, var(--cyan) 60%, transparent); }
+.hero__cta { display: flex; flex-wrap: wrap; gap: 0.75rem; justify-content: center; margin-top: 1.5rem; }
+.hero__btn { display: inline-flex; align-items: center; justify-content: center; min-height: 44px; border-radius: 999px; padding: 0.7rem 1.4rem; font-weight: 700; cursor: pointer; font-size: 0.85rem; border: 1px solid transparent; }
+.hero__btn--primary { color: #0b0813; background: linear-gradient(90deg, var(--cyan), var(--magenta)); box-shadow: 0 0 18px color-mix(in oklab, var(--magenta) 50%, transparent); }
+.hero__btn--ghost { color: var(--text); background: transparent; border-color: color-mix(in oklab, var(--cyan) 50%, transparent); }
+.hero__btn:hover { filter: brightness(1.1); }

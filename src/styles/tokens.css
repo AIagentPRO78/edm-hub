@@ -1,0 +1,25 @@
+:root {
+  /* neon palette */
+  --bg: #07060f;
+  --bg-raise: #0e0a1c;
+  --magenta: #ff2bd6;
+  --cyan: #19f0ff;
+  --violet: #b14bff;
+  --text: #f3f0ff;
+  --text-dim: #9a8fb5;
+  --text-faint: #5e5775;
+
+  /* type scale */
+  --text-base: clamp(1rem, 0.92rem + 0.4vw, 1.125rem);
+  --text-logo: clamp(3rem, 1rem + 11vw, 9rem);
+
+  /* spacing + rhythm */
+  --space-section: clamp(3rem, 2rem + 5vw, 7rem);
+  --gap-wall: clamp(0.5rem, 0.3rem + 0.6vw, 0.85rem);
+  --deck-h: 76px;
+
+  /* motion */
+  --dur-fast: 150ms;
+  --dur-normal: 320ms;
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+}

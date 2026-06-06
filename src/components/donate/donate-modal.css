@@ -1,0 +1,112 @@
+.donate {
+  position: fixed;
+  inset: 0;
+  z-index: 80;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  background: rgba(4, 3, 10, 0.66);
+  backdrop-filter: blur(6px);
+  opacity: 1;
+  transition: opacity var(--dur-normal) var(--ease-out-expo);
+}
+.donate[aria-hidden='true'] {
+  opacity: 0;
+  pointer-events: none;
+}
+.donate__panel {
+  width: min(420px, 100%);
+  max-height: 90dvh;
+  overflow-y: auto;
+  background: linear-gradient(160deg, var(--bg-raise), #08060f);
+  border: 1px solid color-mix(in oklab, var(--magenta) 55%, transparent);
+  border-radius: 16px;
+  box-shadow: 0 0 40px color-mix(in oklab, var(--magenta) 30%, transparent);
+  padding: 1.25rem;
+}
+.donate__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.35rem;
+}
+.donate__title {
+  margin: 0;
+  font-size: 1.3rem;
+  background: linear-gradient(180deg, #ffffff, var(--cyan), var(--magenta));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.donate__close {
+  background: none;
+  border: none;
+  color: var(--text-dim);
+  font-size: 1.1rem;
+  cursor: pointer;
+  min-height: 44px;
+  min-width: 44px;
+}
+.donate__blurb {
+  font-size: 0.8rem;
+  color: var(--text-dim);
+  margin: 0 0 1rem;
+}
+.donate__chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.donate__chip {
+  flex: 1 1 auto;
+  min-width: 60px;
+  min-height: 44px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 800;
+  font-size: 0.95rem;
+  color: var(--text);
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  transition: border-color var(--dur-fast), background var(--dur-fast), box-shadow var(--dur-fast);
+}
+.donate__chip[aria-pressed='true'] {
+  border-color: var(--magenta);
+  background: color-mix(in oklab, var(--magenta) 16%, transparent);
+  box-shadow: 0 0 14px color-mix(in oklab, var(--magenta) 40%, transparent);
+}
+.donate__custom {
+  flex: 1 1 90px;
+  min-width: 90px;
+  min-height: 44px;
+  border-radius: 10px;
+  padding: 0 0.75rem;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  color: var(--text);
+  font-size: 0.95rem;
+}
+.donate__error {
+  color: #ff6b8a;
+  font-size: 0.75rem;
+  margin: 0 0 0.5rem;
+  min-height: 1rem;
+}
+.donate__paypal {
+  margin-top: 0.5rem;
+  min-height: 50px;
+}
+.donate__success {
+  text-align: center;
+  padding: 1.5rem 0;
+  font-weight: 800;
+  font-size: 1.05rem;
+  color: var(--cyan);
+}
+.donate__fatal {
+  text-align: center;
+  padding: 1rem 0;
+  color: var(--text-dim);
+}
