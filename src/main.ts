@@ -7,6 +7,7 @@ import { createArtistDrawer } from './components/artist-drawer/drawer';
 import { createDeckBar } from './components/deck-bar/deck-bar';
 import { createDonateModal } from './components/donate/donate-modal';
 import { createFooter } from './components/footer/footer';
+import { pickRandomTrack } from './lib/shuffle';
 import type { Artist, Track } from './types';
 
 export function mountApp(root: HTMLElement): void {
@@ -29,10 +30,17 @@ export function mountApp(root: HTMLElement): void {
     }
   };
   const randomArtist = (): Artist => ARTISTS[Math.floor(Math.random() * ARTISTS.length)]!;
+  const playRandom = (): void => {
+    const sel = pickRandomTrack(ARTISTS, player.state.artist?.id ?? undefined);
+    if (sel) {
+      player.play(sel.artist, sel.track);
+      wall.setActive(sel.artist.id);
+    }
+  };
 
   const hero = createHero({
     onStart: () => playFirst(ARTISTS[0] ?? randomArtist()),
-    onShuffle: () => playFirst(randomArtist()),
+    onShuffle: playRandom,
   });
 
   const donate = createDonateModal();
@@ -40,7 +48,8 @@ export function mountApp(root: HTMLElement): void {
     void donate.open();
   };
 
-  const deck = createDeckBar(player, { onTip: openDonate });
+  // Continuous shuffle: when a track ends, advance to another random track.
+  const deck = createDeckBar(player, { onTip: openDonate, onEnded: playRandom });
   const footer = createFooter(openDonate);
 
   root.append(hero, wall, footer, drawer.el, deck, donate.el);

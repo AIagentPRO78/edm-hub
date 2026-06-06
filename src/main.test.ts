@@ -32,4 +32,10 @@ describe('mountApp', () => {
     expect(document.querySelector('.deck .tip-button')).not.toBeNull();
     expect(document.querySelector('.donate')).not.toBeNull();
   });
+
+  it('Shuffle all starts playback (mounts the deck iframe)', () => {
+    mountApp(document.querySelector('#app')!);
+    (document.querySelector('[data-action="shuffle"]') as HTMLButtonElement).click();
+    expect(document.querySelector('.deck iframe')).not.toBeNull();
+  });
 });

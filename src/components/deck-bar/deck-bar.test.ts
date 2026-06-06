@@ -27,15 +27,15 @@ describe('createDeckBar', () => {
     expect(el.textContent).toContain('Animals');
   });
 
-  it('reuses the same iframe element across track changes (keeps it alive)', () => {
+  it('swaps in a fresh iframe with the new embed on track change', () => {
     const player = createPlayer();
     const el = createDeckBar(player);
     player.play(artist, artist.tracks[0]!);
-    const first = el.querySelector('iframe');
+    expect(el.querySelector('iframe')!.src).toContain('gCYcHz2k5x0');
     player.play(artist, { title: 'Scared', platform: 'youtube', ref: 'abc123', kind: 'track' });
-    const second = el.querySelector('iframe');
-    expect(second).toBe(first); // same node, only src changed
-    expect(second!.src).toContain('abc123');
+    const iframes = el.querySelectorAll('iframe');
+    expect(iframes.length).toBe(1); // old torn down, one mounted
+    expect(iframes[0]!.src).toContain('abc123');
   });
 
   it('renders a tip button when an onTip handler is provided', () => {
