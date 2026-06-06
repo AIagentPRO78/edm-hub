@@ -94,9 +94,27 @@
   margin: 0 0 0.5rem;
   min-height: 1rem;
 }
-.donate__paypal {
+.donate__pay {
+  width: 100%;
   margin-top: 0.5rem;
-  min-height: 50px;
+  min-height: 48px;
+  border: none;
+  border-radius: 999px;
+  cursor: pointer;
+  font-weight: 800;
+  font-size: 1rem;
+  color: #0b0813;
+  background: linear-gradient(90deg, var(--cyan), var(--magenta));
+  box-shadow: 0 0 18px color-mix(in oklab, var(--magenta) 50%, transparent);
+  transition: filter var(--dur-fast);
+}
+.donate__pay:hover:not(:disabled) { filter: brightness(1.08); }
+.donate__pay:disabled { opacity: 0.7; cursor: default; }
+.donate__secure {
+  margin: 0.6rem 0 0;
+  text-align: center;
+  font-size: 0.68rem;
+  color: var(--text-faint);
 }
 .donate__success {
   text-align: center;

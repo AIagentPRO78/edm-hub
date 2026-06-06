@@ -53,6 +53,20 @@ export function mountApp(root: HTMLElement): void {
   const footer = createFooter(openDonate);
 
   root.append(hero, wall, footer, drawer.el, deck, donate.el);
+
+  // Stripe redirects back to /?tip=success after a completed donation.
+  if (new URLSearchParams(window.location.search).get('tip') === 'success') {
+    showTipThanks();
+  }
+}
+
+function showTipThanks(): void {
+  const toast = document.createElement('div');
+  toast.className = 'tip-toast';
+  toast.setAttribute('role', 'status');
+  toast.textContent = 'Thank you — the music plays on 🔊';
+  document.body.append(toast);
+  window.setTimeout(() => toast.remove(), 6000);
 }
 
 const rootEl = document.querySelector<HTMLElement>('#app');

@@ -4,14 +4,14 @@ export const MAX_AMOUNT = 1000;
 
 export interface NormalizedAmount {
   ok: boolean;
-  /** PayPal-ready 2-decimal string, e.g. "3.00". Empty when !ok. */
+  /** 2-decimal string for the payment processor, e.g. "3.00". Empty when !ok. */
   value: string;
   error?: string;
 }
 
 /**
  * Validate and normalize a donation amount (preset or custom) into the
- * 2-decimal string PayPal expects. Never trust raw input — clamp the range.
+ * 2-decimal string the payment processor expects. Never trust raw input — clamp the range.
  */
 export function normalizeAmount(input: number | string): NormalizedAmount {
   const n = typeof input === 'string' ? Number(input.trim()) : input;
