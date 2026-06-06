@@ -1,0 +1,27 @@
+// src/components/wall/tile.test.ts
+import { describe, it, expect, vi } from 'vitest';
+import { createTile } from './tile';
+import type { Artist } from '../../types';
+
+const artist: Artist = {
+  id: 'tiesto', name: 'Tiësto', genres: ['Big Room'], accent: '#ff2bd6',
+  tracks: [{ title: 'Red Lights', platform: 'youtube', ref: 'abc', kind: 'track' }],
+};
+
+describe('createTile', () => {
+  it('renders the artist name and is a button for a11y', () => {
+    const el = createTile(artist, () => {});
+    expect(el.tagName).toBe('BUTTON');
+    expect(el.textContent).toContain('Tiësto');
+  });
+  it('applies the accent as a CSS custom property', () => {
+    const el = createTile(artist, () => {});
+    expect(el.style.getPropertyValue('--accent')).toBe('#ff2bd6');
+  });
+  it('invokes the callback with the artist on click', () => {
+    const onSelect = vi.fn();
+    const el = createTile(artist, onSelect);
+    el.click();
+    expect(onSelect).toHaveBeenCalledWith(artist);
+  });
+});
