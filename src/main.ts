@@ -5,6 +5,8 @@ import { createHero } from './components/hero/hero';
 import { createWall } from './components/wall/wall';
 import { createArtistDrawer } from './components/artist-drawer/drawer';
 import { createDeckBar } from './components/deck-bar/deck-bar';
+import { createDonateModal } from './components/donate/donate-modal';
+import { createFooter } from './components/footer/footer';
 import type { Artist, Track } from './types';
 
 export function mountApp(root: HTMLElement): void {
@@ -33,9 +35,15 @@ export function mountApp(root: HTMLElement): void {
     onShuffle: () => playFirst(randomArtist()),
   });
 
-  const deck = createDeckBar(player);
+  const donate = createDonateModal();
+  const openDonate = (): void => {
+    void donate.open();
+  };
 
-  root.append(hero, wall, drawer.el, deck);
+  const deck = createDeckBar(player, { onTip: openDonate });
+  const footer = createFooter(openDonate);
+
+  root.append(hero, wall, footer, drawer.el, deck, donate.el);
 }
 
 const rootEl = document.querySelector<HTMLElement>('#app');

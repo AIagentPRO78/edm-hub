@@ -239,3 +239,33 @@ deepfakes — tiles are typographic neon instead).
 - Whether to add genre-filter chips in v2.
 - Whether the deck bar should expose a YouTube video panel by default or on
   demand.
+
+---
+
+## 13. Donations layer (added 2026-06-06)
+
+A "support / keep the music playing" tip feature, layered on without breaking the
+static architecture.
+
+- **Processor:** PayPal **Smart Buttons** (JS SDK, client-side only). Chosen over
+  Braintree (which needs full merchant underwriting + a serverless backend) and
+  over the PayPal Donate SDK (which needs a hosted button and is nonprofit-
+  oriented). Smart Buttons use the public PayPal **Client ID** directly, so the
+  site stays 100% static — no backend, no secrets.
+- **Modes:** PayPal balance, Debit/Credit card (guest), Pay Later where eligible.
+- **Model:** one-time tips, USD, preset chips **$1 / $3 / $5 + custom** (clamped
+  $1–$1000, validated client-side), default $3.
+- **Entry points:** a persistent **♥ Tip** button in the deck bar (collapses to
+  the heart icon under 560px) and a footer link, both opening a neon Drop-in modal.
+- **Config:** `VITE_PAYPAL_CLIENT_ID`, `VITE_PAYPAL_CURRENCY` (public client id,
+  safe in the bundle); sandbox now, swap to the Live client id in Vercel env for
+  production.
+- **Files:** `src/lib/donate/{amount,paypal}.ts`,
+  `src/components/donate/{tip-button,donate-modal}.ts`,
+  `src/components/footer/footer.ts`.
+- **CSP:** `frame-src`/`script-src`/`connect-src` extended to PayPal origins
+  (`www.paypal.com`, `*.paypal.com`, `www.paypalobjects.com`, sandbox host).
+- **Copy:** framed as a voluntary tip for hosting, not a charitable donation
+  (the site owner is not a registered charity).
+- **Verified 2026-06-06:** 23 unit tests; live render confirmed — real PayPal
+  sandbox button + card option load in the modal; mobile-clean at 390px.

@@ -1,10 +1,11 @@
 import type { Player } from '../../lib/player';
 import { embedSrc } from '../../lib/embeds';
+import { createTipButton } from '../donate/tip-button';
 import './deck-bar.css';
 
 const SOURCE_LABEL = { soundcloud: 'SoundCloud', youtube: 'YouTube', mixcloud: 'Mixcloud' } as const;
 
-export function createDeckBar(player: Player): HTMLElement {
+export function createDeckBar(player: Player, options: { onTip?: () => void } = {}): HTMLElement {
   const bar = document.createElement('div');
   bar.className = 'deck';
   bar.setAttribute('role', 'region');
@@ -30,6 +31,10 @@ export function createDeckBar(player: Player): HTMLElement {
   let iframe: HTMLIFrameElement | null = null;
 
   bar.append(meta, playerSlot);
+
+  if (options.onTip) {
+    bar.append(createTipButton(options.onTip, 'deck'));
+  }
 
   player.subscribe(({ artist, track }) => {
     if (!artist || !track) {

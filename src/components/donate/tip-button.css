@@ -1,0 +1,37 @@
+.tip-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  min-height: 44px;
+  padding: 0 0.95rem;
+  border-radius: 999px;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 0.8rem;
+  color: var(--text);
+  background: color-mix(in oklab, var(--magenta) 14%, transparent);
+  border: 1px solid color-mix(in oklab, var(--magenta) 55%, transparent);
+  transition: box-shadow var(--dur-fast) var(--ease-out-expo), transform var(--dur-fast);
+}
+.tip-button__heart { color: var(--magenta); }
+.tip-button:hover,
+.tip-button:focus-visible {
+  box-shadow: 0 0 16px color-mix(in oklab, var(--magenta) 50%, transparent);
+  transform: translateY(-1px);
+}
+.tip-button--deck { flex: 0 0 auto; }
+.tip-button--footer { font-size: 0.9rem; padding: 0 1.4rem; }
+
+/* On narrow screens the deck tip collapses to the heart only to save space. */
+@media (max-width: 560px) {
+  .tip-button--deck .tip-button__label {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+  }
+  .tip-button--deck { padding: 0 0.7rem; }
+}

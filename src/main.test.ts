@@ -25,4 +25,11 @@ describe('mountApp', () => {
     (document.querySelector('.drawer__row') as HTMLButtonElement).click();
     expect(document.querySelector('.deck iframe')).not.toBeNull();
   });
+
+  it('renders the footer, a deck tip button, and the donate modal', () => {
+    mountApp(document.querySelector('#app')!);
+    expect(document.querySelector('.site-footer')).not.toBeNull();
+    expect(document.querySelector('.deck .tip-button')).not.toBeNull();
+    expect(document.querySelector('.donate')).not.toBeNull();
+  });
 });

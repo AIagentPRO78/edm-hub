@@ -1,4 +1,4 @@
-import { describe, it, expect } from 'vitest';
+import { describe, it, expect, vi } from 'vitest';
 import { createDeckBar } from './deck-bar';
 import { createPlayer } from '../../lib/player';
 import type { Artist } from '../../types';
@@ -36,5 +36,20 @@ describe('createDeckBar', () => {
     const second = el.querySelector('iframe');
     expect(second).toBe(first); // same node, only src changed
     expect(second!.src).toContain('abc123');
+  });
+
+  it('renders a tip button when an onTip handler is provided', () => {
+    const player = createPlayer();
+    const onTip = vi.fn();
+    const el = createDeckBar(player, { onTip });
+    const tip = el.querySelector('.tip-button') as HTMLButtonElement | null;
+    expect(tip).not.toBeNull();
+    tip!.click();
+    expect(onTip).toHaveBeenCalledTimes(1);
+  });
+
+  it('omits the tip button when no handler is given', () => {
+    const el = createDeckBar(createPlayer());
+    expect(el.querySelector('.tip-button')).toBeNull();
   });
 });
