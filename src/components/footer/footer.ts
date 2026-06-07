@@ -17,7 +17,11 @@ export function createFooter(onTip: () => void): HTMLElement {
   note.textContent =
     'Music streams via official SoundCloud, YouTube, and Mixcloud embeds. Not affiliated with the artists. Tips are voluntary support for hosting, not a charitable donation.';
 
-  inner.append(heading, createTipButton(onTip, 'footer'), note);
+  const signoff = document.createElement('p');
+  signoff.className = 'site-footer__signoff';
+  signoff.textContent = 'This Set is brought to you by DJ Algorythm';
+
+  inner.append(heading, createTipButton(onTip, 'footer'), note, signoff);
   footer.append(inner);
   return footer;
 }

@@ -10,6 +10,11 @@ describe('createFooter', () => {
     expect(el.textContent).toContain('not a charitable donation');
   });
 
+  it('shows the DJ Algorythm sign-off', () => {
+    const el = createFooter(() => {});
+    expect(el.textContent).toContain('This Set is brought to you by DJ Algorythm');
+  });
+
   it('forwards tip clicks', () => {
     const onTip = vi.fn();
     const el = createFooter(onTip);
