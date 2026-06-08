@@ -26,7 +26,12 @@ export default async function handler(req: VercelRequest, res: VercelResponse): 
 
   const unitAmount = Math.round(raw * 100); // smallest currency unit
   const currency = (process.env.STRIPE_CURRENCY ?? 'usd').toLowerCase();
-  const origin = req.headers.origin ?? `https://${req.headers.host ?? 'edm-hub.vercel.app'}`;
+  // Only reflect the request's Origin/Host into the Stripe redirect URLs when it
+  // matches the canonical site; otherwise fall back. This stops a client-supplied
+  // Origin/Host header from steering the post-payment redirect to any domain.
+  const canonical = process.env.CANONICAL_ORIGIN ?? 'https://djset.club';
+  const requested = req.headers.origin ?? (req.headers.host ? `https://${req.headers.host}` : canonical);
+  const origin = requested === canonical ? requested : canonical;
 
   try {
     const stripe = new Stripe(key);
