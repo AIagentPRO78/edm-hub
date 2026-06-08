@@ -16,6 +16,23 @@ body {
 
 a { color: inherit; }
 
+.skip-link {
+  position: fixed;
+  top: 0;
+  left: 0.75rem;
+  z-index: 100;
+  padding: 0.6rem 1rem;
+  border-radius: 0 0 10px 10px;
+  background: var(--cyan);
+  color: #06121a;
+  font-weight: 800;
+  text-decoration: none;
+  /* Off-screen until focused; transform keeps it compositor-friendly. */
+  transform: translateY(-130%);
+  transition: transform var(--dur-fast) var(--ease-out-expo);
+}
+.skip-link:focus { transform: translateY(0); }
+
 :focus-visible {
   outline: 2px solid var(--cyan);
   outline-offset: 3px;

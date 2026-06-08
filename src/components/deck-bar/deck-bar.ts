@@ -10,6 +10,8 @@ export interface DeckOptions {
   onTip?: () => void;
   /** Called when the current track finishes (used for continuous shuffle). */
   onEnded?: () => void;
+  /** Called when the user taps the deck's skip control — advance to the next track. */
+  onSkip?: () => void;
 }
 
 export function createDeckBar(player: Player, options: DeckOptions = {}): HTMLElement {
@@ -38,6 +40,18 @@ export function createDeckBar(player: Player, options: DeckOptions = {}): HTMLEl
   let detach: (() => void) | null = null;
 
   bar.append(meta, playerSlot);
+  if (options.onSkip) {
+    const skip = document.createElement('button');
+    skip.type = 'button';
+    skip.className = 'deck__skip';
+    skip.setAttribute('aria-label', 'Skip to next track');
+    const glyph = document.createElement('span');
+    glyph.setAttribute('aria-hidden', 'true');
+    glyph.textContent = '⏭';
+    skip.append(glyph);
+    skip.addEventListener('click', () => options.onSkip!());
+    bar.append(skip);
+  }
   if (options.onTip) bar.append(createTipButton(options.onTip, 'deck'));
 
   // The deck is fixed to the bottom and its height varies (slim when idle, a

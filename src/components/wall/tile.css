@@ -42,11 +42,14 @@
   border-radius: inherit;
   pointer-events: none;
   z-index: 1;
+  /* Denser at the bottom where the name + genre sit, so the text keeps >=4.5:1
+     contrast even over the brightest artist artwork (WCAG 1.4.3). */
   background: linear-gradient(
     to top,
-    rgba(7, 6, 15, 0.92) 0%,
-    rgba(7, 6, 15, 0.5) 45%,
-    rgba(7, 6, 15, 0.12) 100%
+    rgba(7, 6, 15, 0.97) 0%,
+    rgba(7, 6, 15, 0.86) 30%,
+    rgba(7, 6, 15, 0.45) 62%,
+    rgba(7, 6, 15, 0.1) 100%
   );
 }
 .tile:hover, .tile:focus-visible {

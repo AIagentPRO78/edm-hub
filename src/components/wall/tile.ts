@@ -1,11 +1,13 @@
 import type { Artist } from '../../types';
+import { avatarSrc } from '../../lib/image';
 import './tile.css';
 
 export function createTile(artist: Artist, onSelect: (a: Artist) => void): HTMLButtonElement {
   const el = document.createElement('button');
   el.className = 'tile';
   el.style.setProperty('--accent', artist.accent);
-  el.setAttribute('aria-label', `Play ${artist.name}`);
+  // Clicking opens the artist's track list (drawer); it does not play directly.
+  el.setAttribute('aria-label', `Open ${artist.name}'s tracks`);
   el.dataset.artistId = artist.id;
 
   if (artist.image) {
@@ -15,7 +17,7 @@ export function createTile(artist: Artist, onSelect: (a: Artist) => void): HTMLB
     img.loading = 'lazy';
     img.decoding = 'async';
     img.alt = '';
-    img.src = artist.image;
+    img.src = avatarSrc(artist.image);
     scrim.className = 'tile__scrim';
     // If the official artwork fails to load, drop it and fall back to the
     // typographic neon tile.

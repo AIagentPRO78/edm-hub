@@ -7,7 +7,8 @@
   --violet: #b14bff;
   --text: #f3f0ff;
   --text-dim: #9a8fb5;
-  --text-faint: #5e5775;
+  /* >=4.5:1 on both --bg (6.93:1) and --bg-raise (6.69:1) — WCAG 1.4.3. */
+  --text-faint: #9b93b3;
 
   /* type scale */
   --text-base: clamp(1rem, 0.92rem + 0.4vw, 1.125rem);
@@ -16,8 +17,8 @@
   /* spacing + rhythm */
   --space-section: clamp(3rem, 2rem + 5vw, 7rem);
   --gap-wall: clamp(0.5rem, 0.3rem + 0.6vw, 0.85rem);
-  /* Idle deck height. JS (syncDeckHeight) raises this to the deck's real height
-     once a track is playing so the fixed deck never occludes page content. */
+  /* Idle deck height. A ResizeObserver in deck-bar.ts mirrors the deck's real
+     height into --deck-h so the fixed deck never occludes page content. */
   --deck-h: 60px;
 
   /* motion */

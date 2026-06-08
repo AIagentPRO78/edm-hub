@@ -39,7 +39,9 @@ export function mountApp(root: HTMLElement): void {
   };
 
   const hero = createHero({
-    onStart: () => playFirst(ARTISTS[0] ?? randomArtist()),
+    // Start on a random artist's signature (first) track so the first
+    // impression varies between visits instead of always artist #0.
+    onStart: () => playFirst(randomArtist()),
     onShuffle: playRandom,
   });
 
@@ -49,10 +51,23 @@ export function mountApp(root: HTMLElement): void {
   };
 
   // Continuous shuffle: when a track ends, advance to another random track.
-  const deck = createDeckBar(player, { onTip: openDonate, onEnded: playRandom });
+  // onSkip wires the deck's "next" control to the same advance.
+  const deck = createDeckBar(player, { onTip: openDonate, onEnded: playRandom, onSkip: playRandom });
   const footer = createFooter(openDonate);
 
-  root.append(hero, wall, footer, drawer.el, deck, donate.el);
+  // Skip link + a real <main> landmark so keyboard / screen-reader users can
+  // jump past the full-height hero straight to the wall (WCAG 2.4.1).
+  const skip = document.createElement('a');
+  skip.className = 'skip-link';
+  skip.href = '#main';
+  skip.textContent = 'Skip to the wall';
+
+  const main = document.createElement('main');
+  main.id = 'main';
+  main.tabIndex = -1;
+  main.append(wall);
+
+  root.append(skip, hero, main, footer, drawer.el, deck, donate.el);
 
   // Stripe redirects back to /?tip=success after a completed donation.
   if (new URLSearchParams(window.location.search).get('tip') === 'success') {

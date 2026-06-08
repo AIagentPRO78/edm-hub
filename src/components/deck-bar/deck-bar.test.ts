@@ -53,6 +53,20 @@ describe('createDeckBar', () => {
     expect(el.querySelector('.tip-button')).toBeNull();
   });
 
+  it('renders a skip button that calls onSkip', () => {
+    const onSkip = vi.fn();
+    const el = createDeckBar(createPlayer(), { onSkip });
+    const skip = el.querySelector('.deck__skip') as HTMLButtonElement | null;
+    expect(skip).not.toBeNull();
+    skip!.click();
+    expect(onSkip).toHaveBeenCalledTimes(1);
+  });
+
+  it('omits the skip button when no onSkip handler is given', () => {
+    const el = createDeckBar(createPlayer());
+    expect(el.querySelector('.deck__skip')).toBeNull();
+  });
+
   it('flags the deck for the tall visual player only while a SoundCloud track plays', () => {
     const player = createPlayer();
     const el = createDeckBar(player);
