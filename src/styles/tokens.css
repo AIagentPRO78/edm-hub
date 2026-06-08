@@ -16,7 +16,9 @@
   /* spacing + rhythm */
   --space-section: clamp(3rem, 2rem + 5vw, 7rem);
   --gap-wall: clamp(0.5rem, 0.3rem + 0.6vw, 0.85rem);
-  --deck-h: 76px;
+  /* Idle deck height. JS (syncDeckHeight) raises this to the deck's real height
+     once a track is playing so the fixed deck never occludes page content. */
+  --deck-h: 60px;
 
   /* motion */
   --dur-fast: 150ms;

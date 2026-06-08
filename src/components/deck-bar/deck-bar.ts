@@ -20,6 +20,10 @@ export function createDeckBar(player: Player, options: DeckOptions = {}): HTMLEl
 
   const meta = document.createElement('div');
   meta.className = 'deck__meta';
+  // Announce track changes to screen readers — continuous shuffle auto-advances
+  // with no user action, so a polite live region is the only signal (WCAG 4.1.3).
+  meta.setAttribute('aria-live', 'polite');
+  meta.setAttribute('aria-atomic', 'true');
   const title = document.createElement('div');
   title.className = 'deck__title';
   title.textContent = 'Nothing playing';
@@ -36,15 +40,28 @@ export function createDeckBar(player: Player, options: DeckOptions = {}): HTMLEl
   bar.append(meta, playerSlot);
   if (options.onTip) bar.append(createTipButton(options.onTip, 'deck'));
 
+  // The deck is fixed to the bottom and its height varies (slim when idle, a
+  // tall player panel on phones, taller still for SoundCloud's waveform).
+  // A ResizeObserver mirrors its real height into --deck-h on EVERY size change
+  // — track change, breakpoint flip, or device rotation — so body padding and
+  // the tip toast always reserve the right space even when the viewport changes
+  // mid-track (a single rAF on track-change would leave --deck-h stale on resize).
+  const deckResize = new ResizeObserver(() => {
+    document.documentElement.style.setProperty('--deck-h', `${bar.offsetHeight}px`);
+  });
+  deckResize.observe(bar);
+
   player.subscribe(({ artist, track }) => {
     if (!artist || !track) {
       title.textContent = 'Nothing playing';
       sub.textContent = 'Pick an artist to start the set';
+      // --deck-h follows the deck's real size via the ResizeObserver; as the
+      // deck shrinks back to idle height the observer reports it automatically.
       return;
     }
     bar.style.setProperty('--accent', artist.accent);
     title.textContent = `${artist.name} — ${track.title}`;
-    sub.textContent = `▶ now playing · via ${SOURCE_LABEL[track.platform]}`;
+    sub.textContent = `Now playing · via ${SOURCE_LABEL[track.platform]}`;
     bar.classList.toggle('deck--sc', track.platform === 'soundcloud');
 
     // Mount a fresh player for the new track (tearing down the previous one).

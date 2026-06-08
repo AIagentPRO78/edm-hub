@@ -1,7 +1,7 @@
 .deck {
   position: fixed;
   left: 0; right: 0; bottom: 0;
-  min-height: var(--deck-h);
+  min-height: 60px;
   display: flex; align-items: center; gap: 1rem;
   padding: 0.5rem clamp(0.75rem, 0.5rem + 1vw, 1.25rem);
   background: linear-gradient(90deg, #0c0a18, #120a1f);
@@ -18,8 +18,22 @@
 /* SoundCloud visual waveform — a big, obvious click-to-seek surface. */
 .deck--sc .deck__iframe { height: 152px; }
 
+/*
+ * Phones block autoplay-with-sound for cross-origin embeds, so the user must
+ * tap the player's OWN play button. At 48px that button is unhittable, so the
+ * deck becomes a stacked "now playing" panel with a thumb-sized player. The
+ * deck's real height is mirrored into --deck-h from JS so it never occludes
+ * page content (see syncDeckHeight in deck-bar.ts).
+ */
 @media (max-width: 560px) {
-  .deck__meta { max-width: 46vw; }
-  .deck__iframe { height: 48px; }
-  .deck--sc .deck__iframe { height: 120px; }
+  .deck {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.5rem;
+    padding: 0.5rem 0.75rem calc(0.6rem + env(safe-area-inset-bottom, 0px));
+  }
+  .deck__meta { max-width: none; }
+  .deck__player { width: 100%; }
+  .deck__iframe { height: 180px; }
+  .deck--sc .deck__iframe { height: 140px; }
 }
