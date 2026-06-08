@@ -13,6 +13,10 @@ dist/
 .env.*
 !.env.example
 
+# python (dev-only data-prep scripts)
+__pycache__/
+*.pyc
+
 # os / editor
 .DS_Store
 *.log
