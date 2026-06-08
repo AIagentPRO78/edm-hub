@@ -72,7 +72,10 @@ export function createDeckBar(player: Player, options: DeckOptions = {}): HTMLEl
     iframe = document.createElement('iframe');
     iframe.className = 'deck__iframe';
     iframe.allow = 'autoplay; encrypted-media; fullscreen';
-    iframe.setAttribute('sandbox', 'allow-scripts allow-same-origin allow-presentation allow-popups');
+    // No allow-presentation: WebKit rejects it as an invalid sandbox flag (logs
+    // on every iOS load) and it is not needed for playback; fullscreen comes
+    // from the allow attribute above.
+    iframe.setAttribute('sandbox', 'allow-scripts allow-same-origin allow-popups');
     iframe.setAttribute('loading', 'eager');
     playerSlot.append(iframe);
     iframe.src = embedSrc(track, true);
