@@ -42,10 +42,17 @@
 }
 .filter__genres {
   display: flex;
+  flex-wrap: wrap; /* desktop: show every genre, never clip the last chip */
   gap: 0.4rem;
-  overflow-x: auto;
   padding-bottom: 0.2rem;
-  scrollbar-width: thin;
+}
+/* Mobile: a single compact, swipeable row instead of many wrapped rows. */
+@media (max-width: 560px) {
+  .filter__genres {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scrollbar-width: thin;
+  }
 }
 .filter__chip {
   flex: 0 0 auto;
