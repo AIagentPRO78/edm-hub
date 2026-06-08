@@ -10,6 +10,8 @@ interface SeedArtist {
   name: string;
   genres: string[];
   image?: string;
+  /** Authoritative entity URLs (Wikipedia / Wikidata / official) for Knowledge Graph linking. */
+  sameAs?: string[];
 }
 
 function loadArtists(): SeedArtist[] {
@@ -97,6 +99,15 @@ function seoPlugin(): PluginOption {
             name: 'DJ SET',
             description: SITE_DESC,
             inLanguage: 'en',
+            // The ?q= param drives the client-side artist filter (Sitelinks Search Box).
+            potentialAction: {
+              '@type': 'SearchAction',
+              target: {
+                '@type': 'EntryPoint',
+                urlTemplate: `${SITE_URL}/?q={search_term_string}`,
+              },
+              'query-input': 'required name=search_term_string',
+            },
           },
           {
             '@type': 'CollectionPage',
@@ -120,7 +131,8 @@ function seoPlugin(): PluginOption {
                 '@id': `${SITE_URL}/#artist-${a.id}`,
                 name: a.name,
                 ...(a.genres.length ? { genre: a.genres } : {}),
-                ...(a.image ? { image: a.image } : {}),
+                ...(a.image ? { image: { '@type': 'ImageObject', url: a.image, width: 400, height: 400 } } : {}),
+                ...(a.sameAs?.length ? { sameAs: a.sameAs } : {}),
               },
             })),
           },
