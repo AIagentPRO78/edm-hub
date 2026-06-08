@@ -3,25 +3,24 @@ import seed from './artists.seed.json';
 
 const ACCENTS = ['#ff2bd6', '#19f0ff', '#b14bff', '#ff5ab1', '#2bff9e', '#ffd23d', '#ff7a3d', '#5a8cff'] as const;
 
+// The runtime seed is slimmed at build time (slimSeedPlugin in vite.config.ts):
+// curator-only fields (notes, sourceUrl, verified) are stripped and only
+// verified tracks survive, so the shape consumed here is the lean one.
 interface SeedTrack {
   title: string;
   platform: string;
   ref: string;
-  sourceUrl: string;
   kind: string;
-  verified: boolean;
 }
 interface SeedArtist {
   id: string;
   name: string;
   genres: string[];
   tracks: SeedTrack[];
-  notes: string;
   image?: string;
 }
 
 function toTrack(s: SeedTrack): Track | null {
-  if (!s.verified) return null;
   if (!PLATFORMS.has(s.platform) || !KINDS.has(s.kind)) return null;
   return {
     title: s.title,

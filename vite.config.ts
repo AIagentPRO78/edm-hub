@@ -35,6 +35,46 @@ function escapeHtml(s: string): string {
 }
 
 /**
+ * Strip curator-only fields from the artists seed before it is bundled. The
+ * source seed carries notes (per artist) and sourceUrl + verified (per track)
+ * for auditing, but none are read at runtime — shipping them inlines ~30KB of
+ * dead JSON into the JS bundle. This load hook returns a lean module: only
+ * verified tracks, only the fields the runtime Artist/Track use. enforce:'pre'
+ * runs it ahead of Vite's built-in JSON handling.
+ */
+function slimSeedPlugin(): PluginOption {
+  return {
+    name: 'djset-slim-seed',
+    enforce: 'pre',
+    // Rewrite the seed's JSON *content* to the lean shape, then let Vite's
+    // built-in vite:json turn it into an ES module. (Returning JS from a load
+    // hook collides with vite:json, which still parses the file as JSON.)
+    transform(code, id) {
+      if (!id.includes('artists.seed.json')) return null;
+      const raw = JSON.parse(code) as Array<{
+        id: string;
+        name: string;
+        genres: string[];
+        image?: string;
+        tracks: Array<{ title: string; platform: string; ref: string; kind: string; verified: boolean }>;
+      }>;
+      const slim = raw
+        .filter((a) => typeof a?.name === 'string' && a.name.length > 0)
+        .map((a) => ({
+          id: a.id,
+          name: a.name,
+          genres: a.genres,
+          ...(a.image ? { image: a.image } : {}),
+          tracks: (a.tracks ?? [])
+            .filter((t) => t.verified)
+            .map((t) => ({ title: t.title, platform: t.platform, ref: t.ref, kind: t.kind })),
+        }));
+      return { code: JSON.stringify(slim), map: null };
+    },
+  };
+}
+
+/**
  * SEO plugin: this is a client-rendered SPA, so without help a crawler that
  * skips JS sees an empty <div id="app">. We inject (a) JSON-LD describing the
  * site and the full artist roster as MusicGroup entities, and (b) a <noscript>
@@ -111,7 +151,7 @@ function seoPlugin(): PluginOption {
 }
 
 export default defineConfig({
-  plugins: [seoPlugin()],
+  plugins: [slimSeedPlugin(), seoPlugin()],
   test: {
     environment: 'jsdom',
     globals: true,
