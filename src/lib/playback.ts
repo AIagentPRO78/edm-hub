@@ -110,7 +110,7 @@ export function bindEnded(
       player = new YT.Player(iframe, {
         events: {
           onReady: () => { if (!cancelled) hooks.onReady?.(); },
-          onStateChange: (e) => { if (e.data === 0) onEnded(); },
+          onStateChange: (e) => { if (e.data === 0 && !cancelled) onEnded(); },
           onError: () => { if (!cancelled) hooks.onError?.(); },
         },
       });

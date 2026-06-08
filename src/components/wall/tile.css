@@ -62,3 +62,5 @@
 }
 .tile__name { position: relative; z-index: 2; font-weight: 800; font-size: 0.95rem; line-height: 1.1; text-shadow: 0 1px 6px rgba(0, 0, 0, 0.7); }
 .tile__genre { position: relative; z-index: 2; font-size: 0.65rem; letter-spacing: 0.18em; text-transform: uppercase; color: var(--text-dim); text-shadow: 0 1px 4px rgba(0, 0, 0, 0.7); }
+/* Filtered-out tiles (overrides the .tile display:flex). */
+.tile[hidden] { display: none; }

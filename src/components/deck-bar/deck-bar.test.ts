@@ -95,6 +95,27 @@ describe('createDeckBar', () => {
     }
   });
 
+  it('advances on a natural track end when auto-play is on', () => {
+    let handler: ((e: { data: number }) => void) | null = null;
+    class FakePlayer {
+      constructor(_el: unknown, opts: { events: { onStateChange: (e: { data: number }) => void } }) {
+        handler = opts.events.onStateChange;
+      }
+      destroy(): void {}
+    }
+    (window as unknown as { YT: unknown }).YT = { Player: FakePlayer };
+    try {
+      const onEnded = vi.fn();
+      const player = createPlayer();
+      createDeckBar(player, { onEnded });
+      player.play(artist, artist.tracks[0]!); // youtube
+      handler!({ data: 0 }); // natural end
+      expect(onEnded).toHaveBeenCalledTimes(1);
+    } finally {
+      delete (window as unknown as { YT?: unknown }).YT;
+    }
+  });
+
   it('auto-advances when the embed reports a terminal error', () => {
     const handlers: Record<string, () => void> = {};
     const bind = vi.fn((e: string, c: () => void) => { handlers[e] = c; });
@@ -116,5 +137,72 @@ describe('createDeckBar', () => {
     } finally {
       delete (window as unknown as { SC?: unknown }).SC;
     }
+  });
+
+  it('renders a previous button that calls onPrev', () => {
+    const onPrev = vi.fn();
+    const el = createDeckBar(createPlayer(), { onPrev });
+    const prev = el.querySelector('.deck__prev') as HTMLButtonElement | null;
+    expect(prev).not.toBeNull();
+    prev!.click();
+    expect(onPrev).toHaveBeenCalledTimes(1);
+  });
+
+  // Force auto-play OFF via the prefers-reduced-motion default (jsdom has no
+  // matchMedia/localStorage, so we stub matchMedia to report reduced motion).
+  const withReducedMotion = (fn: () => void): void => {
+    const orig = window.matchMedia;
+    window.matchMedia = ((q: string) => ({
+      matches: true, media: q, onchange: null,
+      addEventListener() {}, removeEventListener() {},
+      addListener() {}, removeListener() {}, dispatchEvent() { return false; },
+    })) as unknown as typeof window.matchMedia;
+    try { fn(); } finally { window.matchMedia = orig; }
+  };
+
+  it('does NOT auto-advance on a natural end when auto-play is off (WCAG 2.2.2)', () => {
+    withReducedMotion(() => {
+      let onState: ((e: { data: number }) => void) | null = null;
+      class FakePlayer {
+        constructor(_el: unknown, opts: { events: { onStateChange: (e: { data: number }) => void } }) {
+          onState = opts.events.onStateChange;
+        }
+        destroy(): void {}
+      }
+      (window as unknown as { YT: unknown }).YT = { Player: FakePlayer };
+      try {
+        const onEnded = vi.fn();
+        const player = createPlayer();
+        createDeckBar(player, { onEnded });
+        player.play(artist, artist.tracks[0]!);
+        onState!({ data: 0 }); // natural end while auto-play OFF
+        expect(onEnded).not.toHaveBeenCalled();
+      } finally {
+        delete (window as unknown as { YT?: unknown }).YT;
+      }
+    });
+  });
+
+  it('still recovers from a failed embed even when auto-play is off', () => {
+    withReducedMotion(() => {
+      let onError: ((e: { data: number }) => void) | null = null;
+      class FakePlayer {
+        constructor(_el: unknown, opts: { events: { onError: (e: { data: number }) => void } }) {
+          onError = opts.events.onError;
+        }
+        destroy(): void {}
+      }
+      (window as unknown as { YT: unknown }).YT = { Player: FakePlayer };
+      try {
+        const onEnded = vi.fn();
+        const player = createPlayer();
+        createDeckBar(player, { onEnded });
+        player.play(artist, artist.tracks[0]!);
+        onError!({ data: 100 }); // terminal embed error -> recover regardless of auto-play
+        expect(onEnded).toHaveBeenCalledTimes(1);
+      } finally {
+        delete (window as unknown as { YT?: unknown }).YT;
+      }
+    });
   });
 });

@@ -38,4 +38,14 @@ describe('createTile', () => {
     const el = createTile(artist, () => {});
     expect(el.querySelector('img.tile__img')).toBeNull();
   });
+
+  it('drops the image and scrim if the artwork fails to load', () => {
+    const withImg: Artist = { ...artist, image: 'https://yt3.googleusercontent.com/x=s400-c-k' };
+    const el = createTile(withImg, () => {});
+    const img = el.querySelector('img.tile__img') as HTMLImageElement;
+    expect(img).not.toBeNull();
+    img.dispatchEvent(new Event('error'));
+    expect(el.querySelector('img.tile__img')).toBeNull();
+    expect(el.querySelector('.tile__scrim')).toBeNull();
+  });
 });

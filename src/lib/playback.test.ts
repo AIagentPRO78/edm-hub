@@ -4,6 +4,7 @@ import { bindEnded } from './playback';
 afterEach(() => {
   delete (window as unknown as { SC?: unknown }).SC;
   delete (window as unknown as { YT?: unknown }).YT;
+  delete (window as unknown as { Mixcloud?: unknown }).Mixcloud;
 });
 
 describe('bindEnded', () => {
@@ -85,5 +86,22 @@ describe('bindEnded', () => {
     handlers['ready']!();
     expect(onErr).toHaveBeenCalledTimes(1);
     expect(ready).toHaveBeenCalledTimes(1);
+  });
+
+  it('fires onEnded when the Mixcloud widget ends, and unbinds on cleanup', async () => {
+    let endedCb: (() => void) | null = null;
+    const on = vi.fn((c: () => void) => { endedCb = c; });
+    const off = vi.fn();
+    const widget = { ready: Promise.resolve(), events: { ended: { on, off } } };
+    (window as unknown as { Mixcloud: unknown }).Mixcloud = { PlayerWidget: () => widget };
+
+    const onEnded = vi.fn();
+    const cleanup = bindEnded(document.createElement('iframe'), 'mixcloud', onEnded);
+    await new Promise((r) => setTimeout(r, 0)); // let widget.ready resolve
+    expect(on).toHaveBeenCalledTimes(1);
+    endedCb!();
+    expect(onEnded).toHaveBeenCalledTimes(1);
+    cleanup();
+    expect(off).toHaveBeenCalledTimes(1);
   });
 });

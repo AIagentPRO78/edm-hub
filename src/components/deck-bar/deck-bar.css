@@ -14,7 +14,8 @@
 .deck__sub { font-size: 0.7rem; color: var(--cyan); }
 .deck__player { flex: 1 1 auto; display: flex; align-items: center; }
 .deck__iframe { width: 100%; height: 56px; border: 0; border-radius: 8px; }
-.deck__skip {
+.deck__controls { display: flex; align-items: center; gap: 0.5rem; flex: 0 0 auto; }
+.deck__ctl {
   flex: 0 0 auto;
   width: 44px; height: 44px;
   border-radius: 999px;
@@ -27,11 +28,14 @@
   transition: background var(--dur-fast), box-shadow var(--dur-fast),
     transform var(--dur-fast) var(--ease-out-expo);
 }
-.deck__skip:hover, .deck__skip:focus-visible {
+.deck__ctl:hover, .deck__ctl:focus-visible {
   background: color-mix(in oklab, var(--accent, var(--cyan)) 26%, transparent);
   box-shadow: 0 0 14px color-mix(in oklab, var(--accent, var(--cyan)) 45%, transparent);
 }
-.deck__skip:active { transform: scale(0.94); }
+.deck__ctl:active { transform: scale(0.94); }
+/* Auto-play toggle: dimmed when off, accent-filled when on. */
+.deck__autoplay { opacity: 0.5; }
+.deck__autoplay.is-on { opacity: 1; background: color-mix(in oklab, var(--accent, var(--cyan)) 30%, transparent); }
 
 /* SoundCloud visual waveform — a big, obvious click-to-seek surface. */
 .deck--sc .deck__iframe { height: 152px; }
@@ -54,5 +58,5 @@
   .deck__player { width: 100%; }
   .deck__iframe { height: 180px; }
   .deck--sc .deck__iframe { height: 140px; }
-  .deck__skip { align-self: center; }
+  .deck__controls { justify-content: center; flex-wrap: wrap; }
 }

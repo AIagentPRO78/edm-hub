@@ -1,0 +1,70 @@
+.filter {
+  position: sticky;
+  top: 0;
+  z-index: 40;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  padding: 0.75rem clamp(0.75rem, 0.5rem + 1vw, 1.25rem);
+  background: color-mix(in oklab, var(--bg) 96%, transparent);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid color-mix(in oklab, var(--violet) 30%, transparent);
+}
+.filter__row { display: flex; align-items: center; gap: 0.75rem; }
+.filter__search {
+  flex: 1 1 auto;
+  min-width: 0;
+  padding: 0.6rem 0.9rem;
+  border-radius: 999px;
+  border: 1px solid color-mix(in oklab, var(--cyan) 55%, transparent);
+  background: var(--bg-raise);
+  color: var(--text);
+  font-size: 0.95rem;
+}
+.filter__search::placeholder { color: var(--text-faint); }
+.filter__clear {
+  flex: 0 0 auto;
+  padding: 0.5rem 0.9rem;
+  border-radius: 999px;
+  border: 1px solid color-mix(in oklab, var(--magenta) 75%, transparent);
+  background: transparent;
+  color: var(--text);
+  cursor: pointer;
+  font-size: 0.8rem;
+}
+.filter__status {
+  flex: 0 0 auto;
+  margin: 0;
+  font-size: 0.78rem;
+  color: var(--text-dim);
+  white-space: nowrap;
+}
+.filter__genres {
+  display: flex;
+  gap: 0.4rem;
+  overflow-x: auto;
+  padding-bottom: 0.2rem;
+  scrollbar-width: thin;
+}
+.filter__chip {
+  flex: 0 0 auto;
+  padding: 0.35rem 0.7rem;
+  border-radius: 999px;
+  border: 1px solid color-mix(in oklab, var(--violet) 80%, transparent);
+  background: transparent;
+  color: var(--text-dim);
+  cursor: pointer;
+  font-size: 0.72rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  transition: background var(--dur-fast), color var(--dur-fast), border-color var(--dur-fast);
+}
+.filter__chip:hover,
+.filter__chip:focus-visible { color: var(--text); border-color: var(--violet); }
+.filter__chip[aria-pressed='true'] {
+  background: color-mix(in oklab, var(--violet) 30%, transparent);
+  color: var(--text);
+  border-color: var(--violet);
+}

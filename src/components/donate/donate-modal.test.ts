@@ -81,4 +81,12 @@ describe('createDonateModal', () => {
     m.close();
     expect(m.el.getAttribute('aria-hidden')).toBe('true');
   });
+
+  it('closes when the scrim (overlay) itself is clicked', () => {
+    const { m } = withSpy();
+    m.open();
+    expect(m.el.getAttribute('aria-hidden')).toBe('false');
+    m.el.dispatchEvent(new MouseEvent('click', { bubbles: true })); // target === overlay
+    expect(m.el.getAttribute('aria-hidden')).toBe('true');
+  });
 });
