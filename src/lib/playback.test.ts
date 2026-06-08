@@ -40,4 +40,50 @@ describe('bindEnded', () => {
     handler!({ data: 0 }); // ended
     expect(onEnded).toHaveBeenCalledTimes(1);
   });
+
+  it('fires hooks.onError when the YouTube player reports an error', () => {
+    let onError: (() => void) | null = null;
+    class FakePlayer {
+      constructor(_el: unknown, opts: { events: { onError?: () => void } }) {
+        onError = opts.events.onError ?? null;
+      }
+      destroy(): void {}
+    }
+    (window as unknown as { YT: unknown }).YT = { Player: FakePlayer };
+    const onErr = vi.fn();
+    bindEnded(document.createElement('iframe'), 'youtube', vi.fn(), { onError: onErr });
+    onError!();
+    expect(onErr).toHaveBeenCalledTimes(1);
+  });
+
+  it('fires hooks.onReady when the YouTube player attaches', () => {
+    let onReady: (() => void) | null = null;
+    class FakePlayer {
+      constructor(_el: unknown, opts: { events: { onReady?: () => void } }) {
+        onReady = opts.events.onReady ?? null;
+      }
+      destroy(): void {}
+    }
+    (window as unknown as { YT: unknown }).YT = { Player: FakePlayer };
+    const ready = vi.fn();
+    bindEnded(document.createElement('iframe'), 'youtube', vi.fn(), { onReady: ready });
+    onReady!();
+    expect(ready).toHaveBeenCalledTimes(1);
+  });
+
+  it('binds SoundCloud ERROR and READY to the matching hooks', () => {
+    const handlers: Record<string, () => void> = {};
+    const bind = vi.fn((e: string, c: () => void) => { handlers[e] = c; });
+    const Widget = Object.assign(() => ({ bind, unbind: vi.fn() }), {
+      Events: { FINISH: 'finish', READY: 'ready', ERROR: 'error' },
+    });
+    (window as unknown as { SC: unknown }).SC = { Widget };
+    const onErr = vi.fn();
+    const ready = vi.fn();
+    bindEnded(document.createElement('iframe'), 'soundcloud', vi.fn(), { onError: onErr, onReady: ready });
+    handlers['error']!();
+    handlers['ready']!();
+    expect(onErr).toHaveBeenCalledTimes(1);
+    expect(ready).toHaveBeenCalledTimes(1);
+  });
 });

@@ -3,18 +3,22 @@ import type { Platform } from '../types';
 interface YTPlayer {
   destroy(): void;
 }
+interface YTPlayerEvents {
+  onReady?: () => void;
+  onStateChange?: (e: { data: number }) => void;
+  onError?: (e: { data: number }) => void;
+}
 interface YTNamespace {
-  Player: new (
-    el: HTMLIFrameElement,
-    opts: { events: { onStateChange: (e: { data: number }) => void } },
-  ) => YTPlayer;
+  Player: new (el: HTMLIFrameElement, opts: { events: YTPlayerEvents }) => YTPlayer;
 }
 interface SCWidget {
   bind(event: unknown, cb: () => void): void;
   unbind(event: unknown): void;
 }
 interface SCNamespace {
-  Widget: ((el: HTMLIFrameElement) => SCWidget) & { Events: { FINISH: unknown } };
+  Widget: ((el: HTMLIFrameElement) => SCWidget) & {
+    Events: { FINISH: unknown; READY: unknown; ERROR: unknown };
+  };
 }
 interface MixWidget {
   ready: Promise<void>;
@@ -61,25 +65,41 @@ let ytReady: Promise<YTNamespace> | null = null;
 function loadYT(): Promise<YTNamespace> {
   if (window.YT?.Player) return Promise.resolve(window.YT);
   if (ytReady) return ytReady;
-  ytReady = new Promise<YTNamespace>((resolve) => {
+  ytReady = new Promise<YTNamespace>((resolve, reject) => {
     const prev = window.onYouTubeIframeAPIReady;
     window.onYouTubeIframeAPIReady = () => {
       if (typeof prev === 'function') prev();
       if (window.YT) resolve(window.YT);
     };
-    void loadScript(YT_API).catch(() => {});
+    void loadScript(YT_API).catch((err) => {
+      // Don't leave a permanently-pending promise: reset so a later track can
+      // retry, and reject so callers can fall back to skipping.
+      ytReady = null;
+      reject(err);
+    });
   });
   return ytReady;
 }
 
+/** Optional robustness hooks for {@link bindEnded}. */
+export interface PlaybackHooks {
+  /** The embed reported a terminal error — removed / private / blocked / embedding-disabled. */
+  onError?: () => void;
+  /** The player API attached to the iframe — used to disarm a load watchdog. */
+  onReady?: () => void;
+}
+
 /**
  * Call `onEnded` when the track in `iframe` finishes, using each platform's
- * official widget API. Returns a cleanup function to detach the listener.
+ * official widget API. `hooks.onError` fires when the embed reports a terminal
+ * error and `hooks.onReady` when the player API attaches. Returns a cleanup
+ * function to detach the listeners.
  */
 export function bindEnded(
   iframe: HTMLIFrameElement,
   platform: Platform,
   onEnded: () => void,
+  hooks: PlaybackHooks = {},
 ): () => void {
   let cancelled = false;
 
@@ -88,11 +108,16 @@ export function bindEnded(
     const attach = (YT: YTNamespace) => {
       if (cancelled) return;
       player = new YT.Player(iframe, {
-        events: { onStateChange: (e) => { if (e.data === 0) onEnded(); } },
+        events: {
+          onReady: () => { if (!cancelled) hooks.onReady?.(); },
+          onStateChange: (e) => { if (e.data === 0) onEnded(); },
+          onError: () => { if (!cancelled) hooks.onError?.(); },
+        },
       });
     };
     if (window.YT?.Player) attach(window.YT);
-    else void loadYT().then(attach).catch(() => {});
+    // A failed API load means we can't observe this track — skip it.
+    else void loadYT().then(attach).catch(() => { if (!cancelled) hooks.onError?.(); });
     return () => {
       cancelled = true;
       try { player?.destroy(); } catch { /* iframe already gone */ }
@@ -105,12 +130,18 @@ export function bindEnded(
       if (cancelled) return;
       widget = SC.Widget(iframe);
       widget.bind(SC.Widget.Events.FINISH, onEnded);
+      if (hooks.onReady) widget.bind(SC.Widget.Events.READY, hooks.onReady);
+      if (hooks.onError) widget.bind(SC.Widget.Events.ERROR, hooks.onError);
     };
     if (window.SC) attach(window.SC);
-    else void loadScript(SC_API).then(() => { if (window.SC) attach(window.SC); }).catch(() => {});
+    else void loadScript(SC_API).then(() => { if (window.SC) attach(window.SC); }).catch(() => { if (!cancelled) hooks.onError?.(); });
     return () => {
       cancelled = true;
-      try { widget?.unbind(window.SC?.Widget.Events.FINISH); } catch { /* noop */ }
+      try {
+        widget?.unbind(window.SC?.Widget.Events.FINISH);
+        if (hooks.onReady) widget?.unbind(window.SC?.Widget.Events.READY);
+        if (hooks.onError) widget?.unbind(window.SC?.Widget.Events.ERROR);
+      } catch { /* noop */ }
     };
   }
 
@@ -121,12 +152,13 @@ export function bindEnded(
     const w = Mix.PlayerWidget(iframe);
     void w.ready.then(() => {
       if (cancelled) return;
+      hooks.onReady?.();
       w.events.ended.on(onEnded);
       off = () => w.events.ended.off(onEnded);
     });
   };
   if (window.Mixcloud) attach(window.Mixcloud);
-  else void loadScript(MIX_API).then(() => { if (window.Mixcloud) attach(window.Mixcloud); }).catch(() => {});
+  else void loadScript(MIX_API).then(() => { if (window.Mixcloud) attach(window.Mixcloud); }).catch(() => { if (!cancelled) hooks.onError?.(); });
   return () => {
     cancelled = true;
     try { off?.(); } catch { /* noop */ }

@@ -6,6 +6,11 @@ import './deck-bar.css';
 
 const SOURCE_LABEL = { soundcloud: 'SoundCloud', youtube: 'YouTube', mixcloud: 'Mixcloud' } as const;
 
+// If a freshly-mounted player never even attaches its API within this window
+// (dead iframe / blocked script), skip to the next track. Disarmed on attach,
+// so a loaded-but-not-yet-tapped player is never wrongly skipped.
+const WATCHDOG_MS = 15000;
+
 export interface DeckOptions {
   onTip?: () => void;
   /** Called when the current track finishes (used for continuous shuffle). */
@@ -38,6 +43,10 @@ export function createDeckBar(player: Player, options: DeckOptions = {}): HTMLEl
   playerSlot.className = 'deck__player';
   let iframe: HTMLIFrameElement | null = null;
   let detach: (() => void) | null = null;
+  let watchdog: number | null = null;
+  const clearWatchdog = (): void => {
+    if (watchdog !== null) { clearTimeout(watchdog); watchdog = null; }
+  };
 
   bar.append(meta, playerSlot);
   if (options.onSkip) {
@@ -66,6 +75,10 @@ export function createDeckBar(player: Player, options: DeckOptions = {}): HTMLEl
   deckResize.observe(bar);
 
   player.subscribe(({ artist, track }) => {
+    // Tear down the previous track's listeners + watchdog before anything else.
+    if (detach) { detach(); detach = null; }
+    clearWatchdog();
+
     if (!artist || !track) {
       title.textContent = 'Nothing playing';
       sub.textContent = 'Pick an artist to start the set';
@@ -78,10 +91,9 @@ export function createDeckBar(player: Player, options: DeckOptions = {}): HTMLEl
     sub.textContent = `Now playing · via ${SOURCE_LABEL[track.platform]}`;
     bar.classList.toggle('deck--sc', track.platform === 'soundcloud');
 
-    // Mount a fresh player for the new track (tearing down the previous one).
-    // The iframe is only recreated on a TRACK CHANGE — scrolling/browsing the
-    // wall never touches it, so playback continues uninterrupted.
-    if (detach) { detach(); detach = null; }
+    // Mount a fresh player for the new track. The iframe is only recreated on a
+    // TRACK CHANGE — scrolling/browsing the wall never touches it, so playback
+    // continues uninterrupted.
     if (iframe?.parentNode) iframe.remove();
     iframe = document.createElement('iframe');
     iframe.className = 'deck__iframe';
@@ -94,8 +106,25 @@ export function createDeckBar(player: Player, options: DeckOptions = {}): HTMLEl
     playerSlot.append(iframe);
     iframe.src = embedSrc(track, true);
 
-    // Continuous play: when this track finishes, advance to the next.
-    if (options.onEnded) detach = bindEnded(iframe, track.platform, options.onEnded);
+    // Auto-advance on a natural finish, a terminal embed error (removed /
+    // private / region-blocked / embedding-disabled), or if the player never
+    // even attaches. With 1300+ third-party refs some will rot; this keeps
+    // continuous shuffle from dead-ending on a black frame.
+    const advance = options.onEnded;
+    if (advance) {
+      let settled = false;
+      const skipOnce = (): void => {
+        if (settled) return;
+        settled = true;
+        clearWatchdog();
+        advance();
+      };
+      detach = bindEnded(iframe, track.platform, skipOnce, {
+        onError: skipOnce,
+        onReady: clearWatchdog,
+      });
+      watchdog = window.setTimeout(skipOnce, WATCHDOG_MS);
+    }
   });
 
   return bar;

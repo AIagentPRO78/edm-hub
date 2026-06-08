@@ -79,4 +79,42 @@ describe('createDeckBar', () => {
     player.play(artist, artist.tracks[0]!); // youtube
     expect(el.classList.contains('deck--sc')).toBe(false);
   });
+
+  it('auto-advances via the watchdog when the player never attaches', () => {
+    vi.useFakeTimers();
+    try {
+      const onEnded = vi.fn();
+      const player = createPlayer();
+      createDeckBar(player, { onEnded });
+      player.play(artist, artist.tracks[0]!); // youtube; no window.YT -> never attaches
+      expect(onEnded).not.toHaveBeenCalled();
+      vi.advanceTimersByTime(15000);
+      expect(onEnded).toHaveBeenCalledTimes(1);
+    } finally {
+      vi.useRealTimers();
+    }
+  });
+
+  it('auto-advances when the embed reports a terminal error', () => {
+    const handlers: Record<string, () => void> = {};
+    const bind = vi.fn((e: string, c: () => void) => { handlers[e] = c; });
+    const Widget = Object.assign(() => ({ bind, unbind: vi.fn() }), {
+      Events: { FINISH: 'finish', READY: 'ready', ERROR: 'error' },
+    });
+    (window as unknown as { SC: unknown }).SC = { Widget };
+    try {
+      const onEnded = vi.fn();
+      const player = createPlayer();
+      createDeckBar(player, { onEnded });
+      const sc: Artist = {
+        id: 'sc', name: 'SC', genres: ['Trance'], accent: '#19f0ff',
+        tracks: [{ title: 't', platform: 'soundcloud', ref: 'https://soundcloud.com/a/b', kind: 'track' }],
+      };
+      player.play(sc, sc.tracks[0]!);
+      handlers['error']!(); // embed failed -> skip to next
+      expect(onEnded).toHaveBeenCalledTimes(1);
+    } finally {
+      delete (window as unknown as { SC?: unknown }).SC;
+    }
+  });
 });
