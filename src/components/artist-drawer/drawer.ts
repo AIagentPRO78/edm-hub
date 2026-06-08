@@ -1,4 +1,5 @@
 import type { Artist, Track } from '../../types';
+import { createDialog } from '../../lib/a11y/dialog';
 import './drawer.css';
 
 export interface ArtistDrawer {
@@ -16,20 +17,20 @@ const SOURCE_LABEL: Record<Track['platform'], string> = {
 export function createArtistDrawer(onPick: (artist: Artist, track: Track) => void): ArtistDrawer {
   const el = document.createElement('aside');
   el.className = 'drawer';
-  el.setAttribute('aria-hidden', 'true');
   el.setAttribute('role', 'dialog');
+  el.setAttribute('aria-modal', 'true');
   el.setAttribute('aria-label', 'Artist tracks');
 
   const panel = document.createElement('div');
   panel.className = 'drawer__panel';
   el.append(panel);
 
+  // Focus trap, inert-when-closed, focus restore and Escape are all handled here.
+  const dialog = createDialog(el);
+
   // click on the scrim closes
   el.addEventListener('click', (e) => {
-    if (e.target === el) close();
-  });
-  document.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape') close();
+    if (e.target === el) dialog.close();
   });
 
   function render(artist: Artist): void {
@@ -45,7 +46,7 @@ export function createArtistDrawer(onPick: (artist: Artist, track: Track) => voi
     close.className = 'drawer__close';
     close.setAttribute('aria-label', 'Close');
     close.textContent = '✕';
-    close.addEventListener('click', () => closeDrawer());
+    close.addEventListener('click', () => dialog.close());
     header.append(h, close);
     panel.append(header);
 
@@ -69,12 +70,8 @@ export function createArtistDrawer(onPick: (artist: Artist, track: Track) => voi
 
   function openDrawer(artist: Artist): void {
     render(artist);
-    el.setAttribute('aria-hidden', 'false');
+    dialog.open();
   }
-  function closeDrawer(): void {
-    el.setAttribute('aria-hidden', 'true');
-  }
-  const close = closeDrawer;
 
-  return { el, open: openDrawer, close: closeDrawer };
+  return { el, open: openDrawer, close: dialog.close };
 }

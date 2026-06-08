@@ -1,6 +1,7 @@
 import './donate-modal.css';
 import { DONATION_PRESETS, normalizeAmount } from '../../lib/donate/amount';
 import { startCheckout as defaultStartCheckout } from '../../lib/donate/stripe-client';
+import { createDialog } from '../../lib/a11y/dialog';
 
 export interface DonateModal {
   el: HTMLElement;
@@ -27,11 +28,13 @@ export function createDonateModal(config: DonateModalConfig = {}): DonateModal {
   el.setAttribute('role', 'dialog');
   el.setAttribute('aria-modal', 'true');
   el.setAttribute('aria-label', 'Support the site');
-  el.setAttribute('aria-hidden', 'true');
 
   const panel = document.createElement('div');
   panel.className = 'donate__panel';
   el.append(panel);
+
+  // Focus trap, inert-when-closed, focus restore and Escape are handled here.
+  const dialog = createDialog(el);
 
   const header = document.createElement('div');
   header.className = 'donate__header';
@@ -43,7 +46,7 @@ export function createDonateModal(config: DonateModalConfig = {}): DonateModal {
   closeBtn.className = 'donate__close';
   closeBtn.setAttribute('aria-label', 'Close');
   closeBtn.textContent = '✕';
-  closeBtn.addEventListener('click', () => close());
+  closeBtn.addEventListener('click', () => dialog.close());
   header.append(title, closeBtn);
 
   const blurb = document.createElement('p');
@@ -151,18 +154,8 @@ export function createDonateModal(config: DonateModalConfig = {}): DonateModal {
   });
 
   el.addEventListener('click', (e) => {
-    if (e.target === el) close();
-  });
-  document.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape' && el.getAttribute('aria-hidden') === 'false') close();
+    if (e.target === el) dialog.close();
   });
 
-  function open(): void {
-    el.setAttribute('aria-hidden', 'false');
-  }
-  function close(): void {
-    el.setAttribute('aria-hidden', 'true');
-  }
-
-  return { el, open, close };
+  return { el, open: dialog.open, close: dialog.close };
 }
