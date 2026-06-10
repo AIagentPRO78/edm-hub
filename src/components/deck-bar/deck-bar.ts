@@ -1,6 +1,6 @@
 import type { Player } from '../../lib/player';
 import { embedSrc } from '../../lib/embeds';
-import { bindEnded } from '../../lib/playback';
+import { bindEnded, type PlaybackBinding } from '../../lib/playback';
 import { createTipButton } from '../donate/tip-button';
 import { avatarSrc } from '../../lib/image';
 import './deck-bar.css';
@@ -52,11 +52,39 @@ export function createDeckBar(player: Player, options: DeckOptions = {}): HTMLEl
   const playerSlot = document.createElement('div');
   playerSlot.className = 'deck__player';
   let iframe: HTMLIFrameElement | null = null;
-  let detach: (() => void) | null = null;
+  let binding: PlaybackBinding | null = null;
   let watchdog: number | null = null;
+
+  // Mobile autoplay-block recovery. Phones block gesture-less playback, so an
+  // auto-advanced track loads but stays paused. When that's detected this
+  // overlay gives a full, thumb-sized "tap to keep playing" target that resumes
+  // the already-cued player from inside the tap gesture (which the browser
+  // allows). It never appears on desktop, where playback starts on its own.
+  const resume = document.createElement('button');
+  resume.type = 'button';
+  resume.className = 'deck__resume';
+  resume.hidden = true;
+  resume.setAttribute('aria-label', 'Tap to keep playing');
+  const resumeIcon = glyphSpan('▶');
+  resumeIcon.classList.add('deck__resume-icon');
+  const resumeLabel = document.createElement('span');
+  resumeLabel.className = 'deck__resume-label';
+  resumeLabel.textContent = 'Tap to keep playing';
+  resume.append(resumeIcon, resumeLabel);
+  const hideResume = (): void => { resume.hidden = true; };
+  const showResume = (): void => { resume.hidden = false; };
+  resume.addEventListener('click', () => { binding?.play(); hideResume(); });
+  playerSlot.append(resume);
   const clearWatchdog = (): void => {
     if (watchdog !== null) { clearTimeout(watchdog); watchdog = null; }
   };
+
+  // Guard against a silent skip-storm: if the reachable pool (often a narrow
+  // filter, or a run of rotted embeds) keeps failing, stop auto-advancing after
+  // a few consecutive failures and tell the listener, instead of flickering
+  // through dead frames forever. Any successful attach resets the count.
+  const MAX_CONSECUTIVE_FAILURES = 6;
+  let consecutiveFailures = 0;
 
   // Auto-play (continuous shuffle) preference. Default on, but OFF when the user
   // prefers reduced motion; persisted so the choice sticks. This toggle is the
@@ -146,8 +174,9 @@ export function createDeckBar(player: Player, options: DeckOptions = {}): HTMLEl
 
   player.subscribe(({ artist, track }) => {
     // Tear down the previous track's listeners + watchdog before anything else.
-    if (detach) { detach(); detach = null; }
+    if (binding) { binding.detach(); binding = null; }
     clearWatchdog();
+    hideResume(); // a fresh track starts without the prior block overlay
 
     if (!artist || !track) {
       title.textContent = 'Nothing playing';
@@ -202,10 +231,24 @@ export function createDeckBar(player: Player, options: DeckOptions = {}): HTMLEl
       const onNaturalEnd = (): void => { if (settled) return; finalize(); if (autoplayOn()) advance(); };
       // A dead/blocked embed (or one that never attaches) always skips, so the
       // deck never strands the user on a black frame — independent of auto-play.
-      const onFailure = (): void => { if (settled) return; finalize(); advance(); };
-      detach = bindEnded(iframe, track.platform, onNaturalEnd, {
+      // But cap consecutive failures so an all-broken pool can't loop silently.
+      const onFailure = (): void => {
+        if (settled) return;
+        finalize();
+        consecutiveFailures += 1;
+        if (consecutiveFailures >= MAX_CONSECUTIVE_FAILURES) {
+          title.textContent = 'No playable track found';
+          sub.textContent = 'Try another genre or search, or pick an artist';
+          return;
+        }
+        advance();
+      };
+      binding = bindEnded(iframe, track.platform, onNaturalEnd, {
         onError: onFailure,
-        onReady: clearWatchdog,
+        // A successful attach means the pool isn't dead — reset the failure run.
+        onReady: () => { consecutiveFailures = 0; clearWatchdog(); },
+        // Attached but autoplay was blocked (mobile) — offer a one-tap resume.
+        onBlocked: showResume,
       });
       watchdog = window.setTimeout(onFailure, WATCHDOG_MS);
     }

@@ -183,6 +183,54 @@ describe('createDeckBar', () => {
     });
   });
 
+  it('stops auto-advancing and announces after consecutive failures (skip-storm cap)', () => {
+    let onErr: (() => void) | null = null;
+    class FakePlayer {
+      constructor(_el: unknown, opts: { events: { onError: () => void } }) { onErr = opts.events.onError; }
+      destroy(): void {}
+    }
+    (window as unknown as { YT: unknown }).YT = { Player: FakePlayer };
+    try {
+      const onEnded = vi.fn();
+      const player = createPlayer();
+      const el = createDeckBar(player, { onEnded });
+      // Six embeds in a row report a terminal error with no successful attach.
+      for (let i = 0; i < 6; i++) {
+        player.play(artist, artist.tracks[0]!);
+        onErr!();
+      }
+      // First five skip onward; the sixth trips the cap and stops the storm.
+      expect(onEnded).toHaveBeenCalledTimes(5);
+      expect(el.querySelector('.deck__title')!.textContent).toContain('No playable track');
+    } finally {
+      delete (window as unknown as { YT?: unknown }).YT;
+    }
+  });
+
+  it('resets the failure count after a successful attach (onReady)', () => {
+    let onErr: (() => void) | null = null;
+    let onReady: (() => void) | null = null;
+    class FakePlayer {
+      constructor(_el: unknown, opts: { events: { onError: () => void; onReady: () => void } }) {
+        onErr = opts.events.onError; onReady = opts.events.onReady;
+      }
+      destroy(): void {}
+    }
+    (window as unknown as { YT: unknown }).YT = { Player: FakePlayer };
+    try {
+      const onEnded = vi.fn();
+      const player = createPlayer();
+      const el = createDeckBar(player, { onEnded });
+      for (let i = 0; i < 5; i++) { player.play(artist, artist.tracks[0]!); onErr!(); } // 5 skips
+      player.play(artist, artist.tracks[0]!); onReady!(); // success -> count resets
+      player.play(artist, artist.tracks[0]!); onErr!(); // would have been the 6th, but count was reset
+      expect(onEnded).toHaveBeenCalledTimes(6);
+      expect(el.querySelector('.deck__title')!.textContent).not.toContain('No playable track');
+    } finally {
+      delete (window as unknown as { YT?: unknown }).YT;
+    }
+  });
+
   it('still recovers from a failed embed even when auto-play is off', () => {
     withReducedMotion(() => {
       let onError: ((e: { data: number }) => void) | null = null;
@@ -204,5 +252,34 @@ describe('createDeckBar', () => {
         delete (window as unknown as { YT?: unknown }).YT;
       }
     });
+  });
+
+  it('shows the resume overlay when autoplay is blocked and resumes on tap', () => {
+    vi.useFakeTimers();
+    const playVideo = vi.fn();
+    let onReady: (() => void) | null = null;
+    class FakePlayer {
+      playVideo = playVideo;
+      constructor(_el: unknown, opts: { events: { onReady: () => void } }) { onReady = opts.events.onReady; }
+      destroy(): void {}
+    }
+    (window as unknown as { YT: unknown }).YT = { Player: FakePlayer };
+    try {
+      const player = createPlayer();
+      const el = createDeckBar(player, { onEnded: vi.fn() });
+      player.play(artist, artist.tracks[0]!);
+      const overlay = el.querySelector('.deck__resume') as HTMLButtonElement;
+      expect(overlay).not.toBeNull();
+      expect(overlay.hidden).toBe(true); // nothing wrong yet
+      onReady!(); // attaches, arms the autoplay-block grace timer
+      vi.advanceTimersByTime(2500); // never started playing -> blocked
+      expect(overlay.hidden).toBe(false); // overlay surfaces
+      overlay.click(); // user taps -> resume inside the gesture
+      expect(playVideo).toHaveBeenCalledTimes(1);
+      expect(overlay.hidden).toBe(true); // overlay dismissed
+    } finally {
+      vi.useRealTimers();
+      delete (window as unknown as { YT?: unknown }).YT;
+    }
   });
 });

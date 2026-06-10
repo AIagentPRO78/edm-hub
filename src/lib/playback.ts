@@ -2,6 +2,7 @@ import type { Platform } from '../types';
 
 interface YTPlayer {
   destroy(): void;
+  playVideo(): void;
 }
 interface YTPlayerEvents {
   onReady?: () => void;
@@ -14,15 +15,20 @@ interface YTNamespace {
 interface SCWidget {
   bind(event: unknown, cb: () => void): void;
   unbind(event: unknown): void;
+  play(): void;
 }
 interface SCNamespace {
   Widget: ((el: HTMLIFrameElement) => SCWidget) & {
-    Events: { FINISH: unknown; READY: unknown; ERROR: unknown };
+    Events: { FINISH: unknown; READY: unknown; ERROR: unknown; PLAY: unknown };
   };
 }
 interface MixWidget {
   ready: Promise<void>;
-  events: { ended: { on(cb: () => void): void; off(cb: () => void): void } };
+  play(): void;
+  events: {
+    ended: { on(cb: () => void): void; off(cb: () => void): void };
+    play?: { on(cb: () => void): void; off(cb: () => void): void };
+  };
 }
 interface MixNamespace {
   PlayerWidget(el: HTMLIFrameElement): MixWidget;
@@ -40,6 +46,11 @@ declare global {
 const SC_API = 'https://w.soundcloud.com/player/api.js';
 const MIX_API = 'https://widget.mixcloud.com/media/js/widgetApi.js';
 const YT_API = 'https://www.youtube.com/iframe_api';
+
+// After a player attaches, if it hasn't begun playing within this window we treat
+// autoplay as blocked (the mobile gesture wall) and surface hooks.onBlocked. A
+// successful start (PLAYING/BUFFERING on YT, the PLAY event on SC/MC) cancels it.
+const AUTOPLAY_GRACE_MS = 2500;
 
 const scripts = new Map<string, Promise<void>>();
 function loadScript(src: string): Promise<void> {
@@ -69,7 +80,11 @@ function loadYT(): Promise<YTNamespace> {
     const prev = window.onYouTubeIframeAPIReady;
     window.onYouTubeIframeAPIReady = () => {
       if (typeof prev === 'function') prev();
+      // The API occasionally fires ready before populating window.YT. Don't
+      // leave a permanently-pending promise that would hang every later track:
+      // reset so a future track retries, and reject so this caller skips now.
       if (window.YT) resolve(window.YT);
+      else { ytReady = null; reject(new Error('YT namespace missing after ready callback')); }
     };
     void loadScript(YT_API).catch((err) => {
       // Don't leave a permanently-pending promise: reset so a later track can
@@ -87,21 +102,44 @@ export interface PlaybackHooks {
   onError?: () => void;
   /** The player API attached to the iframe — used to disarm a load watchdog. */
   onReady?: () => void;
+  /**
+   * The player attached but autoplay never started within {@link AUTOPLAY_GRACE_MS}
+   * — i.e. the mobile browser blocked gesture-less playback. The deck shows a
+   * "tap to keep playing" affordance and resumes via {@link PlaybackBinding.play}.
+   */
+  onBlocked?: () => void;
+}
+
+/** Handle returned by {@link bindEnded}. */
+export interface PlaybackBinding {
+  /** Detach all listeners and tear down the player. */
+  detach: () => void;
+  /** Start/resume playback. Call inside a user gesture to defeat the mobile autoplay block. */
+  play: () => void;
 }
 
 /**
  * Call `onEnded` when the track in `iframe` finishes, using each platform's
- * official widget API. `hooks.onError` fires when the embed reports a terminal
- * error and `hooks.onReady` when the player API attaches. Returns a cleanup
- * function to detach the listeners.
+ * official widget API. `hooks.onError` fires on a terminal embed error,
+ * `hooks.onReady` when the player attaches, and `hooks.onBlocked` when autoplay
+ * is prevented. Returns a {@link PlaybackBinding} to resume or tear down.
  */
 export function bindEnded(
   iframe: HTMLIFrameElement,
   platform: Platform,
   onEnded: () => void,
   hooks: PlaybackHooks = {},
-): () => void {
+): PlaybackBinding {
   let cancelled = false;
+  // Shared autoplay-block detection: armed on ready, disarmed on first playback.
+  let started = false;
+  let grace: number | null = null;
+  const clearGrace = (): void => { if (grace !== null) { clearTimeout(grace); grace = null; } };
+  const markStarted = (): void => { started = true; clearGrace(); };
+  const armGrace = (): void => {
+    clearGrace();
+    grace = window.setTimeout(() => { if (!started && !cancelled) hooks.onBlocked?.(); }, AUTOPLAY_GRACE_MS);
+  };
 
   if (platform === 'youtube') {
     let player: YTPlayer | null = null;
@@ -109,58 +147,78 @@ export function bindEnded(
       if (cancelled) return;
       player = new YT.Player(iframe, {
         events: {
-          onReady: () => { if (!cancelled) hooks.onReady?.(); },
-          onStateChange: (e) => { if (e.data === 0 && !cancelled) onEnded(); },
-          onError: () => { if (!cancelled) hooks.onError?.(); },
+          onReady: () => { if (cancelled) return; hooks.onReady?.(); armGrace(); },
+          onStateChange: (e) => {
+            if (cancelled) return;
+            if (e.data === 1 || e.data === 3) markStarted(); // PLAYING / BUFFERING -> autoplay allowed
+            if (e.data === 0) onEnded(); // ENDED
+          },
+          onError: () => { clearGrace(); if (!cancelled) hooks.onError?.(); },
         },
       });
     };
     if (window.YT?.Player) attach(window.YT);
     // A failed API load means we can't observe this track — skip it.
     else void loadYT().then(attach).catch(() => { if (!cancelled) hooks.onError?.(); });
-    return () => {
-      cancelled = true;
-      try { player?.destroy(); } catch { /* iframe already gone */ }
+    return {
+      detach: () => { cancelled = true; clearGrace(); try { player?.destroy(); } catch { /* iframe already gone */ } },
+      play: () => { try { player?.playVideo(); } catch { /* not ready */ } },
     };
   }
 
   if (platform === 'soundcloud') {
     let widget: SCWidget | null = null;
+    // Capture the event constants at bind time so teardown always unbinds the
+    // exact listeners, even if window.SC is gone by cleanup.
+    let evts: { FINISH: unknown; READY: unknown; ERROR: unknown; PLAY: unknown } | null = null;
     const attach = (SC: SCNamespace) => {
       if (cancelled) return;
       widget = SC.Widget(iframe);
-      widget.bind(SC.Widget.Events.FINISH, onEnded);
-      if (hooks.onReady) widget.bind(SC.Widget.Events.READY, hooks.onReady);
-      if (hooks.onError) widget.bind(SC.Widget.Events.ERROR, hooks.onError);
+      evts = SC.Widget.Events;
+      widget.bind(evts.FINISH, onEnded);
+      widget.bind(evts.PLAY, markStarted);
+      widget.bind(evts.READY, () => { if (cancelled) return; hooks.onReady?.(); armGrace(); });
+      if (hooks.onError) widget.bind(evts.ERROR, () => { clearGrace(); if (!cancelled) hooks.onError?.(); });
     };
     if (window.SC) attach(window.SC);
     else void loadScript(SC_API).then(() => { if (window.SC) attach(window.SC); }).catch(() => { if (!cancelled) hooks.onError?.(); });
-    return () => {
-      cancelled = true;
-      try {
-        widget?.unbind(window.SC?.Widget.Events.FINISH);
-        if (hooks.onReady) widget?.unbind(window.SC?.Widget.Events.READY);
-        if (hooks.onError) widget?.unbind(window.SC?.Widget.Events.ERROR);
-      } catch { /* noop */ }
+    return {
+      detach: () => {
+        cancelled = true;
+        clearGrace();
+        try {
+          if (widget && evts) {
+            widget.unbind(evts.FINISH);
+            widget.unbind(evts.PLAY);
+            widget.unbind(evts.READY);
+            if (hooks.onError) widget.unbind(evts.ERROR);
+          }
+        } catch { /* noop */ }
+      },
+      play: () => { try { widget?.play(); } catch { /* not ready */ } },
     };
   }
 
   // mixcloud
   let off: (() => void) | null = null;
+  let mix: MixWidget | null = null;
   const attach = (Mix: MixNamespace) => {
     if (cancelled) return;
     const w = Mix.PlayerWidget(iframe);
+    mix = w;
     void w.ready.then(() => {
       if (cancelled) return;
       hooks.onReady?.();
+      armGrace();
       w.events.ended.on(onEnded);
-      off = () => w.events.ended.off(onEnded);
-    });
+      w.events.play?.on(markStarted);
+      off = () => { w.events.ended.off(onEnded); w.events.play?.off(markStarted); };
+    }).catch(() => { clearGrace(); if (!cancelled) hooks.onError?.(); }); // embed 404 / CSP / widget reject -> skip
   };
   if (window.Mixcloud) attach(window.Mixcloud);
   else void loadScript(MIX_API).then(() => { if (window.Mixcloud) attach(window.Mixcloud); }).catch(() => { if (!cancelled) hooks.onError?.(); });
-  return () => {
-    cancelled = true;
-    try { off?.(); } catch { /* noop */ }
+  return {
+    detach: () => { cancelled = true; clearGrace(); try { off?.(); } catch { /* noop */ } },
+    play: () => { try { mix?.play(); } catch { /* not ready */ } },
   };
 }

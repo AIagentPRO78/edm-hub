@@ -23,7 +23,9 @@ export function createDonateModal(config: DonateModalConfig = {}): DonateModal {
 
   let currentAmount: number = DEFAULT_AMOUNT;
 
-  const el = document.createElement('aside');
+  // Neutral <div> for role="dialog"; <aside> implies "complementary" and trips
+  // axe's aria-allowed-role when overridden (matches the artist drawer).
+  const el = document.createElement('div');
   el.className = 'donate';
   el.setAttribute('role', 'dialog');
   el.setAttribute('aria-modal', 'true');

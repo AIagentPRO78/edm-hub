@@ -33,5 +33,6 @@
     clip: rect(0 0 0 0);
     white-space: nowrap;
   }
-  .tip-button--deck { padding: 0 0.7rem; }
+  /* Heart-only: keep a full 44px round tap target, matching the deck controls. */
+  .tip-button--deck { min-width: 44px; padding: 0 0.7rem; }
 }

@@ -1,5 +1,6 @@
 import { defineConfig, type HtmlTagDescriptor, type PluginOption } from 'vite';
-import { readFileSync } from 'node:fs';
+import { readFileSync, writeFileSync, readdirSync } from 'node:fs';
+import { createHash } from 'node:crypto';
 import { resolve } from 'node:path';
 
 const SITE_URL = 'https://djset.club';
@@ -163,8 +164,35 @@ function seoPlugin(): PluginOption {
   };
 }
 
+/**
+ * Stamp the built service worker's cache name with the bundle's content hash so
+ * every deploy that changes assets activates a fresh cache (and the activate
+ * handler evicts the old one). Without this the hard-coded cache name would
+ * serve a stale app shell after a deploy until manually bumped.
+ */
+function swVersionPlugin(): PluginOption {
+  return {
+    name: 'djset-sw-version',
+    apply: 'build',
+    closeBundle() {
+      const dist = resolve(process.cwd(), 'dist');
+      try {
+        const assets = readdirSync(resolve(dist, 'assets')).sort();
+        const js = assets.find((f) => /^index-.*\.js$/.test(f));
+        const m = js?.match(/index-([A-Za-z0-9_-]+)\.js$/);
+        const ver = m ? m[1] : createHash('sha256').update(assets.join(',')).digest('hex').slice(0, 8);
+        const swPath = resolve(dist, 'sw.js');
+        const src = readFileSync(swPath, 'utf-8');
+        writeFileSync(swPath, src.replace(/__BUILD_HASH__/g, ver));
+      } catch {
+        // sw.js not emitted (e.g. test build) — nothing to stamp.
+      }
+    },
+  };
+}
+
 export default defineConfig({
-  plugins: [slimSeedPlugin(), seoPlugin()],
+  plugins: [slimSeedPlugin(), seoPlugin(), swVersionPlugin()],
   test: {
     environment: 'jsdom',
     globals: true,

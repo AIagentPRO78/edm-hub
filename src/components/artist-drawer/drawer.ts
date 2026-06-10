@@ -15,7 +15,9 @@ const SOURCE_LABEL: Record<Track['platform'], string> = {
 };
 
 export function createArtistDrawer(onPick: (artist: Artist, track: Track) => void): ArtistDrawer {
-  const el = document.createElement('aside');
+  // A neutral <div> carries role="dialog" cleanly; <aside> implies role
+  // "complementary", so overriding it to "dialog" trips axe's aria-allowed-role.
+  const el = document.createElement('div');
   el.className = 'drawer';
   el.setAttribute('role', 'dialog');
   el.setAttribute('aria-modal', 'true');

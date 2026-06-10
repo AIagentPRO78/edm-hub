@@ -3,7 +3,10 @@
 // navigations are network-first, falling back to the cached shell when offline.
 // Cross-origin requests (the YouTube/SoundCloud/Mixcloud embeds and the
 // googleusercontent avatars) are left untouched and go straight to the network.
-const CACHE = 'djset-v1';
+// __BUILD_HASH__ is replaced at build time with the bundle's content hash so a
+// new deploy always activates a fresh cache and evicts the stale shell. In dev
+// the literal placeholder is used (harmless — it's just a cache name).
+const CACHE = 'djset-__BUILD_HASH__';
 const SHELL = ['/', '/favicon.svg', '/manifest.webmanifest', '/og.jpg'];
 
 self.addEventListener('install', (event) => {
