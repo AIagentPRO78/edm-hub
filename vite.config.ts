@@ -153,9 +153,10 @@ function seoPlugin(): PluginOption {
         `<h2>Featured artists</h2><ul>${roster}</ul></main>`;
 
       return [
-        // head-prepend puts the structured data ahead of Vite's render-blocking
-        // asset tags; body-prepend puts the no-JS roster before the empty #app.
-        { tag: 'script', attrs: { type: 'application/ld+json' }, children: jsonLdStr, injectTo: 'head-prepend' },
+        // Append (not head-prepend) so the static <meta charset> stays within the
+        // first 1024 bytes; prepending this ~36KB blob pushed charset past that
+        // limit. body-prepend puts the no-JS roster before the empty #app.
+        { tag: 'script', attrs: { type: 'application/ld+json' }, children: jsonLdStr, injectTo: 'head' },
         { tag: 'noscript', children: noscript, injectTo: 'body-prepend' },
       ];
     },

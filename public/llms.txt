@@ -1,0 +1,16 @@
+# DJ SET — The Legends Wall
+
+> The world's EDM and Trance legends on one neon wall. A single-page directory of
+> 78 artists; each tile opens that artist's top tracks and sets, played in place
+> via embedded YouTube, SoundCloud, and Mixcloud. No login, no tracking.
+
+## Site
+
+- [Home](https://djset.club/): The legends wall — browse, search, and filter all artists by genre, then press play.
+- [Sitemap](https://djset.club/sitemap.xml): Canonical URL list.
+
+## About
+
+- Genres: Trance, EDM, Big Room, Progressive House, Techno, Hardstyle, Drum & Bass.
+- Playback: Embeds only — DJ SET hosts no audio or video files itself.
+- Support: A built-in tip jar (Stripe) helps cover hosting; the site is free to use.

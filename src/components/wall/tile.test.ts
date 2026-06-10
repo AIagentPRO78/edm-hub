@@ -14,6 +14,17 @@ describe('createTile', () => {
     expect(el.tagName).toBe('BUTTON');
     expect(el.textContent).toContain('Tiësto');
   });
+  it('leads its accessible name with the visible text (WCAG 2.5.3)', () => {
+    const el = createTile(artist, () => {});
+    // No aria-label override that would hide the visible label from the a11y name.
+    expect(el.getAttribute('aria-label')).toBeNull();
+    // Visible name/genre come before the hidden affordance, so the accessible
+    // name leads with the visible text instead of contradicting it.
+    const text = el.textContent ?? '';
+    expect(text.indexOf(artist.name)).toBeLessThan(text.indexOf('Open tracks'));
+    expect(text.indexOf(artist.genres[0]!)).toBeLessThan(text.indexOf('Open tracks'));
+    expect(el.querySelector('.sr-only')?.textContent).toBe('Open tracks');
+  });
   it('applies the accent as a CSS custom property', () => {
     const el = createTile(artist, () => {});
     expect(el.style.getPropertyValue('--accent')).toBe('#ff2bd6');
