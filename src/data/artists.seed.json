@@ -12682,5 +12682,1124 @@
       "https://en.wikipedia.org/wiki/Timmy_Trumpet",
       "https://www.youtube.com/@TimmyTrumpet"
     ]
+  },
+  {
+    "id": "fisher",
+    "name": "FISHER",
+    "genres": [
+      "Tech House"
+    ],
+    "notes": "Tech-house gap addition (2026-06-12 Ultra Europe batch). Tracks resolved to official channels and verified embeddable via oEmbed + embed-playability.",
+    "tracks": [
+      {
+        "title": "Losing It",
+        "platform": "youtube",
+        "ref": "u31thuMehjM",
+        "sourceUrl": "https://www.youtube.com/watch?v=u31thuMehjM",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "You Little Beauty",
+        "platform": "youtube",
+        "ref": "X4xF5ymdQG8",
+        "sourceUrl": "https://www.youtube.com/watch?v=X4xF5ymdQG8",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Stop It",
+        "platform": "youtube",
+        "ref": "diU6mVGAzxw",
+        "sourceUrl": "https://www.youtube.com/watch?v=diU6mVGAzxw",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Just Feels Tight",
+        "platform": "youtube",
+        "ref": "DZQoELxGsy0",
+        "sourceUrl": "https://www.youtube.com/watch?v=DZQoELxGsy0",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Atmosphere (with Kita Alexander)",
+        "platform": "youtube",
+        "ref": "MlwBZ2MSNtE",
+        "sourceUrl": "https://www.youtube.com/watch?v=MlwBZ2MSNtE",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Take It Off (with Aatig)",
+        "platform": "youtube",
+        "ref": "jWVNji4yYsw",
+        "sourceUrl": "https://www.youtube.com/watch?v=jWVNji4yYsw",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Yeah The Girls (feat. MERYLL)",
+        "platform": "youtube",
+        "ref": "lBl4ixOWUX0",
+        "sourceUrl": "https://www.youtube.com/watch?v=lBl4ixOWUX0",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Palm Beach Banga",
+        "platform": "youtube",
+        "ref": "UQP8BBLpadU",
+        "sourceUrl": "https://www.youtube.com/watch?v=UQP8BBLpadU",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Wanna Go Dancin'",
+        "platform": "youtube",
+        "ref": "1ULfSL-HztE",
+        "sourceUrl": "https://www.youtube.com/watch?v=1ULfSL-HztE",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "It's A Killa (with Shermanology)",
+        "platform": "youtube",
+        "ref": "uhvrT1rTRQ0",
+        "sourceUrl": "https://www.youtube.com/watch?v=uhvrT1rTRQ0",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Stay",
+        "platform": "youtube",
+        "ref": "wUvrLsPVRss",
+        "sourceUrl": "https://www.youtube.com/watch?v=wUvrLsPVRss",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Crowd Control",
+        "platform": "youtube",
+        "ref": "SpM6zxi84R8",
+        "sourceUrl": "https://www.youtube.com/watch?v=SpM6zxi84R8",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Ya Kidding",
+        "platform": "youtube",
+        "ref": "1hwc6w1mgPI",
+        "sourceUrl": "https://www.youtube.com/watch?v=1hwc6w1mgPI",
+        "kind": "track",
+        "verified": true
+      }
+    ],
+    "image": "https://yt3.googleusercontent.com/GiXMdbhveU2cyqYYn1I2noFAiAdpXo8t6BmA71T2KRllbrrbKv5AKDPMg5Lg-0jW_NUoyim2VKk=s400-c-k-c0x00ffffff-no-rj",
+    "sameAs": [
+      "https://en.wikipedia.org/wiki/Fisher_(musician)",
+      "https://www.youtube.com/@fisher"
+    ]
+  },
+  {
+    "id": "john-summit",
+    "name": "John Summit",
+    "genres": [
+      "Tech House"
+    ],
+    "notes": "Tech-house gap addition (2026-06-12 Ultra Europe batch). Tracks resolved to official channels and verified embeddable via oEmbed + embed-playability.",
+    "tracks": [
+      {
+        "title": "Where You Are (with Hayla)",
+        "platform": "youtube",
+        "ref": "5BqjhUmldDc",
+        "sourceUrl": "https://www.youtube.com/watch?v=5BqjhUmldDc",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Deep End",
+        "platform": "youtube",
+        "ref": "yY3LswOelEA",
+        "sourceUrl": "https://www.youtube.com/watch?v=yY3LswOelEA",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "La Danza",
+        "platform": "youtube",
+        "ref": "9Mv4ogXpjCM",
+        "sourceUrl": "https://www.youtube.com/watch?v=9Mv4ogXpjCM",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Shiver (with Hayla)",
+        "platform": "youtube",
+        "ref": "LlTkluUkbLk",
+        "sourceUrl": "https://www.youtube.com/watch?v=LlTkluUkbLk",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Eat The Bass",
+        "platform": "youtube",
+        "ref": "fORtaB4MalY",
+        "sourceUrl": "https://www.youtube.com/watch?v=fORtaB4MalY",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Human (feat. Echoes)",
+        "platform": "youtube",
+        "ref": "6mn7OonJfk4",
+        "sourceUrl": "https://www.youtube.com/watch?v=6mn7OonJfk4",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "What A Life (with Guz feat. Stevie Appleton)",
+        "platform": "youtube",
+        "ref": "a6nw8XxdDu4",
+        "sourceUrl": "https://www.youtube.com/watch?v=a6nw8XxdDu4",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Beauty Sleep",
+        "platform": "youtube",
+        "ref": "4D9tYDuczFo",
+        "sourceUrl": "https://www.youtube.com/watch?v=4D9tYDuczFo",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Revolution",
+        "platform": "youtube",
+        "ref": "NstpBi_4PnA",
+        "sourceUrl": "https://www.youtube.com/watch?v=NstpBi_4PnA",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Focus (feat. CLOVES)",
+        "platform": "youtube",
+        "ref": "hizmDQ83kRI",
+        "sourceUrl": "https://www.youtube.com/watch?v=hizmDQ83kRI",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "palm of my hands (with venbee)",
+        "platform": "youtube",
+        "ref": "d2jQjvNtawA",
+        "sourceUrl": "https://www.youtube.com/watch?v=d2jQjvNtawA",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Make Me Feel",
+        "platform": "youtube",
+        "ref": "ExUdTsQ-mes",
+        "sourceUrl": "https://www.youtube.com/watch?v=ExUdTsQ-mes",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Tears (with Paige Cavell)",
+        "platform": "youtube",
+        "ref": "e_ecxFG1LEM",
+        "sourceUrl": "https://www.youtube.com/watch?v=e_ecxFG1LEM",
+        "kind": "track",
+        "verified": true
+      }
+    ],
+    "image": "https://yt3.googleusercontent.com/IWcB5DCXdpbaEV5h9i419X2PfLz9l66Ndjpawogp18BwRsc1sVMfonntVaJAPWVPNTs7KKBkqLE=s400-c-k-c0x00ffffff-no-rj",
+    "sameAs": [
+      "https://en.wikipedia.org/wiki/John_Summit",
+      "https://www.youtube.com/@JohnSummit"
+    ]
+  },
+  {
+    "id": "dom-dolla",
+    "name": "Dom Dolla",
+    "genres": [
+      "Tech House"
+    ],
+    "notes": "Tech-house gap addition (2026-06-12 Ultra Europe batch). Tracks resolved to official channels and verified embeddable via oEmbed + embed-playability.",
+    "tracks": [
+      {
+        "title": "Take It",
+        "platform": "youtube",
+        "ref": "uluaU17xFkc",
+        "sourceUrl": "https://www.youtube.com/watch?v=uluaU17xFkc",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "San Frandisco",
+        "platform": "youtube",
+        "ref": "VFQ87_g41ZA",
+        "sourceUrl": "https://www.youtube.com/watch?v=VFQ87_g41ZA",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Pump The Brakes",
+        "platform": "youtube",
+        "ref": "_q3lFjLxP7U",
+        "sourceUrl": "https://www.youtube.com/watch?v=_q3lFjLxP7U",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Miracle Maker (feat. Clementine Douglas)",
+        "platform": "youtube",
+        "ref": "U6Xz8foh7XQ",
+        "sourceUrl": "https://www.youtube.com/watch?v=U6Xz8foh7XQ",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Rhyme Dust (with MK)",
+        "platform": "youtube",
+        "ref": "OvW5y3lZ7rc",
+        "sourceUrl": "https://www.youtube.com/watch?v=OvW5y3lZ7rc",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Eat Your Man (with Nelly Furtado)",
+        "platform": "youtube",
+        "ref": "4qS9JUnTwww",
+        "sourceUrl": "https://www.youtube.com/watch?v=4qS9JUnTwww",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Saving Up",
+        "platform": "youtube",
+        "ref": "5sgc8RJezrE",
+        "sourceUrl": "https://www.youtube.com/watch?v=5sgc8RJezrE",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "girl$",
+        "platform": "youtube",
+        "ref": "rNU5vsJmMIY",
+        "sourceUrl": "https://www.youtube.com/watch?v=rNU5vsJmMIY",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Dreamin (feat. Daya)",
+        "platform": "youtube",
+        "ref": "C3uhKNDCbZA",
+        "sourceUrl": "https://www.youtube.com/watch?v=C3uhKNDCbZA",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Strangers (with Mansionair)",
+        "platform": "youtube",
+        "ref": "1gAatA_SWdA",
+        "sourceUrl": "https://www.youtube.com/watch?v=1gAatA_SWdA",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Moving Blind (with Sonny Fodera)",
+        "platform": "youtube",
+        "ref": "4hvnplawPhQ",
+        "sourceUrl": "https://www.youtube.com/watch?v=4hvnplawPhQ",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "You",
+        "platform": "youtube",
+        "ref": "AzSgKbqaL_Y",
+        "sourceUrl": "https://www.youtube.com/watch?v=AzSgKbqaL_Y",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Define (with Go Freek) (Club Mix)",
+        "platform": "youtube",
+        "ref": "zJZaRWIhhI0",
+        "sourceUrl": "https://www.youtube.com/watch?v=zJZaRWIhhI0",
+        "kind": "track",
+        "verified": true
+      }
+    ],
+    "image": "https://yt3.googleusercontent.com/u1WvuCZ7PuxCnFW458mzP5p38_E2EHvc3YI5LozMpQFML7sF7XCeBaX9uXzDb9QCC2nsil-YR14=s400-c-k-c0x00ffffff-no-rj",
+    "sameAs": [
+      "https://en.wikipedia.org/wiki/Dom_Dolla",
+      "https://www.youtube.com/channel/UCUPWpXNpsqc0A_IWvBZRSOw"
+    ]
+  },
+  {
+    "id": "jamie-jones",
+    "name": "Jamie Jones",
+    "genres": [
+      "Tech House"
+    ],
+    "notes": "Tech-house gap addition (2026-06-12 Ultra Europe batch). Tracks resolved to official channels and verified embeddable via oEmbed + embed-playability.",
+    "tracks": [
+      {
+        "title": "My Paradise",
+        "platform": "youtube",
+        "ref": "oO38vewDRxU",
+        "sourceUrl": "https://www.youtube.com/watch?v=oO38vewDRxU",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Lose My Mind",
+        "platform": "youtube",
+        "ref": "ZhSXf804NAM",
+        "sourceUrl": "https://www.youtube.com/watch?v=ZhSXf804NAM",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Summertime (feat. Ost & Kjex)",
+        "platform": "youtube",
+        "ref": "QNn5pUhFr-E",
+        "sourceUrl": "https://www.youtube.com/watch?v=QNn5pUhFr-E",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Hungry for the Power (Azari & III, Jamie Jones Ridge Street Remix)",
+        "platform": "youtube",
+        "ref": "UUeftmVOOq4",
+        "sourceUrl": "https://www.youtube.com/watch?v=UUeftmVOOq4",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Planets, Spaceships (feat. Digitaria)",
+        "platform": "youtube",
+        "ref": "BF_7gTXSuGc",
+        "sourceUrl": "https://www.youtube.com/watch?v=BF_7gTXSuGc",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Laser Lass",
+        "platform": "youtube",
+        "ref": "WkBhK2JYYa4",
+        "sourceUrl": "https://www.youtube.com/watch?v=WkBhK2JYYa4",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Tonight in Tokyo (feat. Luca C)",
+        "platform": "youtube",
+        "ref": "dZh4fSJVLH0",
+        "sourceUrl": "https://www.youtube.com/watch?v=dZh4fSJVLH0",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Sundancing (with Alan Fitzpatrick)",
+        "platform": "youtube",
+        "ref": "5pEMHmHq8hY",
+        "sourceUrl": "https://www.youtube.com/watch?v=5pEMHmHq8hY",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Bappi (with The Martinez Brothers)",
+        "platform": "youtube",
+        "ref": "V3SUpYYuw2A",
+        "sourceUrl": "https://www.youtube.com/watch?v=V3SUpYYuw2A",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Forward Motion (Hot Natured feat. Ali Love)",
+        "platform": "youtube",
+        "ref": "SkWW_fIkrMw",
+        "sourceUrl": "https://www.youtube.com/watch?v=SkWW_fIkrMw",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Benediction (Hot Natured & Ali Love)",
+        "platform": "youtube",
+        "ref": "PXx1CLAJ-OA",
+        "sourceUrl": "https://www.youtube.com/watch?v=PXx1CLAJ-OA",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Reverse Skydiving (Hot Natured feat. Anabel Englund)",
+        "platform": "youtube",
+        "ref": "KPKf-Cf5IEg",
+        "sourceUrl": "https://www.youtube.com/watch?v=KPKf-Cf5IEg",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Isis (Magic Carpet Ride) (Hot Natured feat. The Egyptian Lover)",
+        "platform": "youtube",
+        "ref": "9qMQkQG9-U0",
+        "sourceUrl": "https://www.youtube.com/watch?v=9qMQkQG9-U0",
+        "kind": "track",
+        "verified": true
+      }
+    ],
+    "image": "https://yt3.googleusercontent.com/W7Fj3JTO7deKcSlkqXlXvY27IILvu9oGzmwlMLlv6i_EznOblFe30vJf5lau3yNJR7VKg3K3CcI=s400-c-k-c0x00ffffff-no-rj",
+    "sameAs": [
+      "https://en.wikipedia.org/wiki/Jamie_Jones_(DJ)",
+      "https://www.youtube.com/channel/UCrj3oAIA8BijBvjlT93JSIA"
+    ]
+  },
+  {
+    "id": "camelphat",
+    "name": "CamelPhat",
+    "genres": [
+      "Melodic House"
+    ],
+    "notes": "Melodic-house gap addition (2026-06-12 Ultra Europe batch). Tracks resolved to official channels and verified embeddable via oEmbed + embed-playability.",
+    "tracks": [
+      {
+        "title": "Cola (with Elderbrook)",
+        "platform": "youtube",
+        "ref": "LcNXG-6SqWA",
+        "sourceUrl": "https://www.youtube.com/watch?v=LcNXG-6SqWA",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Panic Room (with Au/Ra)",
+        "platform": "youtube",
+        "ref": "pYwXhXuA3Hc",
+        "sourceUrl": "https://www.youtube.com/watch?v=pYwXhXuA3Hc",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Breathe (with Cristoph feat. Jem Cooke)",
+        "platform": "youtube",
+        "ref": "DKRcqtNSP-4",
+        "sourceUrl": "https://www.youtube.com/watch?v=DKRcqtNSP-4",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Be Someone (with Jake Bugg)",
+        "platform": "youtube",
+        "ref": "sSJ-jfKaE4g",
+        "sourceUrl": "https://www.youtube.com/watch?v=sSJ-jfKaE4g",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Rabbit Hole (with Jem Cooke)",
+        "platform": "youtube",
+        "ref": "ehP8B6ZNT9Y",
+        "sourceUrl": "https://www.youtube.com/watch?v=ehP8B6ZNT9Y",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Easier (with LOWES)",
+        "platform": "youtube",
+        "ref": "uMd-zfBecQ4",
+        "sourceUrl": "https://www.youtube.com/watch?v=uMd-zfBecQ4",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Hypercolour (with Yannis of Foals)",
+        "platform": "youtube",
+        "ref": "hBaYYHAU_tg",
+        "sourceUrl": "https://www.youtube.com/watch?v=hBaYYHAU_tg",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Witching Hour (with Will Easton)",
+        "platform": "youtube",
+        "ref": "XY1OsHNwSCc",
+        "sourceUrl": "https://www.youtube.com/watch?v=XY1OsHNwSCc",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Compute (with Ali Love)",
+        "platform": "youtube",
+        "ref": "F7EAtQeQ900",
+        "sourceUrl": "https://www.youtube.com/watch?v=F7EAtQeQ900",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Spektrum (feat. Ali Love)",
+        "platform": "youtube",
+        "ref": "MLtdvs3Pbc8",
+        "sourceUrl": "https://www.youtube.com/watch?v=MLtdvs3Pbc8",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "The Sign (with Anyma)",
+        "platform": "youtube",
+        "ref": "LHaJ3McS_gY",
+        "sourceUrl": "https://www.youtube.com/watch?v=LHaJ3McS_gY",
+        "kind": "track",
+        "verified": true
+      }
+    ],
+    "image": "https://yt3.googleusercontent.com/ytc/AIdro_lMFzSIWXg4PF7sQ8OuAr2UTyHSMX2I9gIg3hcQUUapDQ=s400-c-k-c0x00ffffff-no-rj",
+    "sameAs": [
+      "https://en.wikipedia.org/wiki/CamelPhat",
+      "https://www.youtube.com/channel/UCpm-eB6U_qtPYYQC7kjlNIA"
+    ]
+  },
+  {
+    "id": "mau-p",
+    "name": "Mau P",
+    "genres": [
+      "Tech House"
+    ],
+    "notes": "Tech-house gap addition (2026-06-12 Ultra Europe batch). Tracks resolved to official channels and verified embeddable via oEmbed + embed-playability.",
+    "tracks": [
+      {
+        "title": "Drugs From Amsterdam",
+        "platform": "youtube",
+        "ref": "juuIhW8V1Xw",
+        "sourceUrl": "https://www.youtube.com/watch?v=juuIhW8V1Xw",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Gimme That Bounce",
+        "platform": "youtube",
+        "ref": "Y-iVeTyn7n0",
+        "sourceUrl": "https://www.youtube.com/watch?v=Y-iVeTyn7n0",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Your Mind Is Dirty",
+        "platform": "youtube",
+        "ref": "UwdnkomvFVk",
+        "sourceUrl": "https://www.youtube.com/watch?v=UwdnkomvFVk",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Metro (Kevin de Vries & Mau P)",
+        "platform": "youtube",
+        "ref": "Db4hVWCh4zk",
+        "sourceUrl": "https://www.youtube.com/watch?v=Db4hVWCh4zk",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "BEATS FOR THE UNDERGROUND",
+        "platform": "youtube",
+        "ref": "Nf1jbEftlPM",
+        "sourceUrl": "https://www.youtube.com/watch?v=Nf1jbEftlPM",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Dress Code",
+        "platform": "youtube",
+        "ref": "WKgygiDnDj8",
+        "sourceUrl": "https://www.youtube.com/watch?v=WKgygiDnDj8",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Like I Like It (Live from Coachella 2025)",
+        "platform": "youtube",
+        "ref": "rSiHmtZbG-s",
+        "sourceUrl": "https://www.youtube.com/watch?v=rSiHmtZbG-s",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "On Again",
+        "platform": "youtube",
+        "ref": "OsYwX5WSj0w",
+        "sourceUrl": "https://www.youtube.com/watch?v=OsYwX5WSj0w",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Merther",
+        "platform": "youtube",
+        "ref": "IhMw2BE1Vls",
+        "sourceUrl": "https://www.youtube.com/watch?v=IhMw2BE1Vls",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "People Talk People Sing (Live from Coachella 2025)",
+        "platform": "youtube",
+        "ref": "3blDpR80s6Q",
+        "sourceUrl": "https://www.youtube.com/watch?v=3blDpR80s6Q",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "TESLA",
+        "platform": "youtube",
+        "ref": "rVp454wjqls",
+        "sourceUrl": "https://www.youtube.com/watch?v=rVp454wjqls",
+        "kind": "track",
+        "verified": true
+      }
+    ],
+    "image": "https://yt3.googleusercontent.com/tAmfY2uy58yFlqIudSnJLvdrkBqkTVL8bzTqnRkDaNDce3l-4JaGxdwEQxp8wr2oHNfumbkAyg=s400-c-k-c0x00ffffff-no-rj",
+    "sameAs": [
+      "https://en.wikipedia.org/wiki/Mau_P",
+      "https://www.youtube.com/@maupmusic"
+    ]
+  },
+  {
+    "id": "sara-landry",
+    "name": "Sara Landry",
+    "genres": [
+      "Hard Techno"
+    ],
+    "notes": "Hard-techno addition (2026-06-12 Ultra Europe batch). Tracks resolved to official channels and verified embeddable via oEmbed + embed-playability.",
+    "tracks": [
+      {
+        "title": "Heaven (with Alt8)",
+        "platform": "youtube",
+        "ref": "Qy6othaPI80",
+        "sourceUrl": "https://www.youtube.com/watch?v=Qy6othaPI80",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Hands Up (with Alt8)",
+        "platform": "youtube",
+        "ref": "j8VRLPa1za4",
+        "sourceUrl": "https://www.youtube.com/watch?v=j8VRLPa1za4",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Play With Me (with Shlømo)",
+        "platform": "youtube",
+        "ref": "J1Lqu_uTg_Y",
+        "sourceUrl": "https://www.youtube.com/watch?v=J1Lqu_uTg_Y",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Hekataia (with Godtripper)",
+        "platform": "youtube",
+        "ref": "wo2PsG9snWE",
+        "sourceUrl": "https://www.youtube.com/watch?v=wo2PsG9snWE",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Nonhuman (with Godtripper)",
+        "platform": "youtube",
+        "ref": "SaWEgEPEWHs",
+        "sourceUrl": "https://www.youtube.com/watch?v=SaWEgEPEWHs",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Chaos Magicka (Sara's VIP Mix) (with Godtripper)",
+        "platform": "youtube",
+        "ref": "-HqaJzZ3M_8",
+        "sourceUrl": "https://www.youtube.com/watch?v=-HqaJzZ3M_8",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Pressure (with LEGZDINA)",
+        "platform": "youtube",
+        "ref": "z8YFoNaDdco",
+        "sourceUrl": "https://www.youtube.com/watch?v=z8YFoNaDdco",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "GIRLBOSS",
+        "platform": "youtube",
+        "ref": "EPCu7vvS2uY",
+        "sourceUrl": "https://www.youtube.com/watch?v=EPCu7vvS2uY",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Act of God",
+        "platform": "youtube",
+        "ref": "JMwiP-PCI4c",
+        "sourceUrl": "https://www.youtube.com/watch?v=JMwiP-PCI4c",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Agent of Chaos",
+        "platform": "youtube",
+        "ref": "2QlLlBPIHLQ",
+        "sourceUrl": "https://www.youtube.com/watch?v=2QlLlBPIHLQ",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Because They Want Our Seat (with Nico Moreno)",
+        "platform": "youtube",
+        "ref": "YFwqr_TTtKY",
+        "sourceUrl": "https://www.youtube.com/watch?v=YFwqr_TTtKY",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Wait",
+        "platform": "youtube",
+        "ref": "O7ihSzl6veY",
+        "sourceUrl": "https://www.youtube.com/watch?v=O7ihSzl6veY",
+        "kind": "track",
+        "verified": true
+      }
+    ],
+    "image": "https://yt3.googleusercontent.com/RQ3aW4mdTqKl82_BWVjp51wk9VraGdBEsyW3oHSq4rm_SntBfag2tP5hIiE6RJ7VaP-V13bzRw=s400-c-k-c0x00ffffff-no-rj",
+    "sameAs": [
+      "https://en.wikipedia.org/wiki/Sara_Landry",
+      "https://www.youtube.com/@saralandry922"
+    ]
+  },
+  {
+    "id": "maddix",
+    "name": "Maddix",
+    "genres": [
+      "Hard Techno",
+      "Big Room"
+    ],
+    "notes": "Hard-techno addition (2026-06-12 Ultra Europe batch). Tracks resolved to official channels and verified embeddable via oEmbed + embed-playability.",
+    "tracks": [
+      {
+        "title": "Heute Nacht",
+        "platform": "youtube",
+        "ref": "BOs6CbzDvow",
+        "sourceUrl": "https://www.youtube.com/watch?v=BOs6CbzDvow",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Home",
+        "platform": "youtube",
+        "ref": "GIWbC1gU084",
+        "sourceUrl": "https://www.youtube.com/watch?v=GIWbC1gU084",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Bella Ciao (Hardwell & Maddix)",
+        "platform": "youtube",
+        "ref": "rGHwJ0RSBIY",
+        "sourceUrl": "https://www.youtube.com/watch?v=rGHwJ0RSBIY",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Satisfaction (Hardwell & Maddix Remix)",
+        "platform": "youtube",
+        "ref": "lpV5UZaiq3s",
+        "sourceUrl": "https://www.youtube.com/watch?v=lpV5UZaiq3s",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Lethal Industry (Maddix Remix)",
+        "platform": "youtube",
+        "ref": "v_rSDizM-RU",
+        "sourceUrl": "https://www.youtube.com/watch?v=v_rSDizM-RU",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Rave Till My Grave (Hardwell & Maddix feat. Villain)",
+        "platform": "youtube",
+        "ref": "BXtaE9tQdus",
+        "sourceUrl": "https://www.youtube.com/watch?v=BXtaE9tQdus",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "The Underground",
+        "platform": "youtube",
+        "ref": "gctWuC4D9M8",
+        "sourceUrl": "https://www.youtube.com/watch?v=gctWuC4D9M8",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Sound Of The Underground",
+        "platform": "youtube",
+        "ref": "SH7Cm4DNa34",
+        "sourceUrl": "https://www.youtube.com/watch?v=SH7Cm4DNa34",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Late At Night (Lilly Palmer & Maddix)",
+        "platform": "youtube",
+        "ref": "zbbeDJ1PE2c",
+        "sourceUrl": "https://www.youtube.com/watch?v=zbbeDJ1PE2c",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Technology",
+        "platform": "youtube",
+        "ref": "78O8AN-YE5U",
+        "sourceUrl": "https://www.youtube.com/watch?v=78O8AN-YE5U",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "The Kingdom (Maddix & Radical Redemption)",
+        "platform": "youtube",
+        "ref": "0Q85c8GbdFo",
+        "sourceUrl": "https://www.youtube.com/watch?v=0Q85c8GbdFo",
+        "kind": "track",
+        "verified": true
+      }
+    ],
+    "image": "https://yt3.googleusercontent.com/oNItDZAmDCDWfIEb18luH-ThbyNvZaePmgB327A-wqlHaENI56fY4AOur0PO-cXMZeWbCnLOCw=s400-c-k-c0x00ffffff-no-rj",
+    "sameAs": [
+      "https://www.youtube.com/@maddixmusic"
+    ]
+  },
+  {
+    "id": "miss-monique",
+    "name": "Miss Monique",
+    "genres": [
+      "Melodic Techno",
+      "Progressive House"
+    ],
+    "notes": "Melodic-techno addition (2026-06-12 Ultra Europe batch). Tracks resolved to official channels and verified embeddable via oEmbed + embed-playability.",
+    "tracks": [
+      {
+        "title": "Concorde",
+        "platform": "youtube",
+        "ref": "4165ZXMUwWQ",
+        "sourceUrl": "https://www.youtube.com/watch?v=4165ZXMUwWQ",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Subterranean (with AVIRA feat. LUNA)",
+        "platform": "youtube",
+        "ref": "M6Z8E2cI0Q8",
+        "sourceUrl": "https://www.youtube.com/watch?v=M6Z8E2cI0Q8",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "City Nights, City Lights",
+        "platform": "youtube",
+        "ref": "hiaZCcQ4bZI",
+        "sourceUrl": "https://www.youtube.com/watch?v=hiaZCcQ4bZI",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Veselka",
+        "platform": "youtube",
+        "ref": "NndKsRHr4PY",
+        "sourceUrl": "https://www.youtube.com/watch?v=NndKsRHr4PY",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Helios",
+        "platform": "youtube",
+        "ref": "EdUnfUgpTv8",
+        "sourceUrl": "https://www.youtube.com/watch?v=EdUnfUgpTv8",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Lost On A Dancefloor (with Glowal)",
+        "platform": "youtube",
+        "ref": "9DX52Ge6Fo8",
+        "sourceUrl": "https://www.youtube.com/watch?v=9DX52Ge6Fo8",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Electric (with Asher Swissa & Sandhaus)",
+        "platform": "youtube",
+        "ref": "is3VYANNyDs",
+        "sourceUrl": "https://www.youtube.com/watch?v=is3VYANNyDs",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Elamy",
+        "platform": "youtube",
+        "ref": "PowKDo9lxWQ",
+        "sourceUrl": "https://www.youtube.com/watch?v=PowKDo9lxWQ",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Train Of Thought",
+        "platform": "youtube",
+        "ref": "UwfKctNmMxo",
+        "sourceUrl": "https://www.youtube.com/watch?v=UwfKctNmMxo",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Look At You",
+        "platform": "youtube",
+        "ref": "fPXdiEbeTtM",
+        "sourceUrl": "https://www.youtube.com/watch?v=fPXdiEbeTtM",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Million Miles Away (with P.O.U & Susie Ledge)",
+        "platform": "youtube",
+        "ref": "_OqlusWRYIw",
+        "sourceUrl": "https://www.youtube.com/watch?v=_OqlusWRYIw",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Nomacita (with GENESI & Carl Bee)",
+        "platform": "youtube",
+        "ref": "Qfk7I978-rU",
+        "sourceUrl": "https://www.youtube.com/watch?v=Qfk7I978-rU",
+        "kind": "track",
+        "verified": true
+      }
+    ],
+    "image": "https://yt3.googleusercontent.com/UoreRULqR3Ufobtr_Ysxqd-MFOpZ5jF6dYDVqonenu9me_GGXD2B3Jp97in8X5ME60X0EkGh=s400-c-k-c0x00ffffff-no-rj",
+    "sameAs": [
+      "https://en.wikipedia.org/wiki/Miss_Monique",
+      "https://www.youtube.com/@djmissmonique"
+    ]
+  },
+  {
+    "id": "subtronics",
+    "name": "Subtronics",
+    "genres": [
+      "Dubstep"
+    ],
+    "notes": "Bass/dubstep addition (2026-06-12 Ultra Europe batch). Tracks resolved to official channels and verified embeddable via oEmbed + embed-playability.",
+    "tracks": [
+      {
+        "title": "Griztronics (with GRiZ)",
+        "platform": "youtube",
+        "ref": "46wcq-aiyv0",
+        "sourceUrl": "https://www.youtube.com/watch?v=46wcq-aiyv0",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Griztronics II (Another Level) (with GRiZ)",
+        "platform": "youtube",
+        "ref": "4fNk2Ya_HSA",
+        "sourceUrl": "https://www.youtube.com/watch?v=4fNk2Ya_HSA",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Scream Saver",
+        "platform": "youtube",
+        "ref": "SUraMSU-N2I",
+        "sourceUrl": "https://www.youtube.com/watch?v=SUraMSU-N2I",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Spacetime (feat. NEVVE)",
+        "platform": "youtube",
+        "ref": "bdpv-wuY9qo",
+        "sourceUrl": "https://www.youtube.com/watch?v=bdpv-wuY9qo",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Wook Laser",
+        "platform": "youtube",
+        "ref": "haL1ICYCrfo",
+        "sourceUrl": "https://www.youtube.com/watch?v=haL1ICYCrfo",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Gassed Up (with Zeds Dead feat. Flowdan)",
+        "platform": "youtube",
+        "ref": "WiUdWyyvmpQ",
+        "sourceUrl": "https://www.youtube.com/watch?v=WiUdWyyvmpQ",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Bunker Buster (with Excision)",
+        "platform": "youtube",
+        "ref": "xsII_xFfJlQ",
+        "sourceUrl": "https://www.youtube.com/watch?v=xsII_xFfJlQ",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Nuclear Bass Face (with NGHTMRE feat. Boogie T)",
+        "platform": "youtube",
+        "ref": "a2EqgYaL9y4",
+        "sourceUrl": "https://www.youtube.com/watch?v=a2EqgYaL9y4",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Black Ice (with REZZ feat. Phantogram)",
+        "platform": "youtube",
+        "ref": "uA05p1Z7Z1U",
+        "sourceUrl": "https://www.youtube.com/watch?v=uA05p1Z7Z1U",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Infinity (feat. Grabbitz)",
+        "platform": "youtube",
+        "ref": "sxQ3P71kFXg",
+        "sourceUrl": "https://www.youtube.com/watch?v=sxQ3P71kFXg",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Omnidirectional",
+        "platform": "youtube",
+        "ref": "2nDcTCowH1M",
+        "sourceUrl": "https://www.youtube.com/watch?v=2nDcTCowH1M",
+        "kind": "track",
+        "verified": true
+      },
+      {
+        "title": "Gummy Worm (feat. Boogie T)",
+        "platform": "youtube",
+        "ref": "DgUZyewg1bk",
+        "sourceUrl": "https://www.youtube.com/watch?v=DgUZyewg1bk",
+        "kind": "track",
+        "verified": true
+      }
+    ],
+    "image": "https://yt3.googleusercontent.com/Li_1lQLfKkXubfPSJR27bzNYU-MugjhKP3qXsRYC1udvdw52XI-Nn_FJpfdzXEUPt3AwpOaWjA=s400-c-k-c0x00ffffff-no-rj",
+    "sameAs": [
+      "https://en.wikipedia.org/wiki/Subtronics",
+      "https://www.youtube.com/@OfficialSubtronics"
+    ]
   }
 ]
