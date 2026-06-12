@@ -1,4 +1,5 @@
 import './styles/global.css';
+import { inject } from '@vercel/analytics';
 import { ARTISTS } from './data/artists';
 import { createPlayer } from './lib/player';
 import { createHero } from './components/hero/hero';
@@ -132,6 +133,11 @@ function showTipThanks(): void {
 
 const rootEl = document.querySelector<HTMLElement>('#app');
 if (rootEl) mountApp(rootEl);
+
+// Privacy-friendly, cookieless visitor counts. First-party only: the script and
+// beacons stay same-origin under /_vercel/insights, so the strict CSP needs no
+// change. Production builds only — keeps dev and the jsdom test run silent.
+if (import.meta.env.PROD) inject();
 
 // Service worker: offline app shell + fast repeat loads. Guarded so it never
 // runs under tests / SSR.
