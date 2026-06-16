@@ -21,6 +21,10 @@ __pycache__/
 .DS_Store
 *.log
 
+# local seed backups (curator scratch, not source)
+*.bak
+*.bak.*
+
 # playwright
 /test-results/
 /playwright-report/
