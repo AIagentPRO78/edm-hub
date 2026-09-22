@@ -3617,7 +3617,7 @@
     "genres": [
       "Progressive House"
     ],
-    "notes": "All 10 candidates verified via YouTube oEmbed (200 + valid title, none 'Video unavailable'). Titles updated to cleaner oEmbed values. First 8 confirmed on SHMVEVO / TheWeekndVEVO (Moth To A Flame collab). #9 and #10 are Axwell /\\ Ingrosso (AxwellIngrossoVEVO) per the candidate note — kept since they verified; drop if strict-SHM-only is required. No drops; exactly 10 verified so no capping needed.",
+    "notes": "All 10 candidates verified via YouTube oEmbed (200 + valid title, none 'Video unavailable'). Titles updated to cleaner oEmbed values. First 8 confirmed on SHMVEVO / TheWeekndVEVO (Moth To A Flame collab). #9 and #10 are Axwell /\\ Ingrosso (AxwellIngrossoVEVO) per the candidate note — kept since they verified; drop if strict-SHM-only is required. No drops; exactly 10 verified so no capping needed. 2026-09-22 re-link: full-catalog oEmbed sweep found Miami 2 Ibiza + Greyhound dead (404). Replaced with the official-channel lyrics video (khVcJLLPPwA) and the SHM Topic radio edit (JZ_TDayvsI0); both oEmbed-200 + embeddable.",
     "tracks": [
       {
         "title": "Don't You Worry Child",
@@ -3654,16 +3654,16 @@
       {
         "title": "Miami 2 Ibiza ft. Tinie Tempah",
         "platform": "youtube",
-        "ref": "LCH1AsUydSc",
-        "sourceUrl": "https://www.youtube.com/watch?v=LCH1AsUydSc",
+        "ref": "khVcJLLPPwA",
+        "sourceUrl": "https://www.youtube.com/watch?v=khVcJLLPPwA",
         "kind": "track",
         "verified": true
       },
       {
         "title": "Greyhound",
         "platform": "youtube",
-        "ref": "PDboaDrHGbA",
-        "sourceUrl": "https://www.youtube.com/watch?v=PDboaDrHGbA",
+        "ref": "JZ_TDayvsI0",
+        "sourceUrl": "https://www.youtube.com/watch?v=JZ_TDayvsI0",
         "kind": "track",
         "verified": true
       },
@@ -5785,53 +5785,53 @@
     "genres": [
       "Progressive House"
     ],
-    "notes": "All 8 candidate embeds verified via YouTube oEmbed. Titles refreshed from oEmbed where cleaner (oEmbed renders the duo's logo variously as 'Λ' or '/\\'). No drops. Fewer than 10 (8) per candidate set; capping not triggered.",
+    "notes": "All 8 candidate embeds verified via YouTube oEmbed. Titles refreshed from oEmbed where cleaner (oEmbed renders the duo's logo variously as 'Λ' or '/\\'). No drops. Fewer than 10 (8) per candidate set; capping not triggered. 2026-09-22 re-link: the duo's original official-channel upload set was taken down (11 of 12 refs 404). Replaced after a full-catalog oEmbed sweep: 8x Axwell /\\ Ingrosso - Topic audio, Dreamer + Dancing Alone via the canonical Proximity lyric videos (56.9M / 3.1M views), On My Way via the top embeddable upload (9qw2P8NUlb0, 1.75M views — no rights-holder upload remains on YouTube). All oEmbed-200 + embeddable.",
     "tracks": [
       {
         "title": "More Than You Know",
         "platform": "youtube",
-        "ref": "Py9paavgZ-0",
-        "sourceUrl": "https://www.youtube.com/watch?v=Py9paavgZ-0",
+        "ref": "jMhnv346Yb4",
+        "sourceUrl": "https://www.youtube.com/watch?v=jMhnv346Yb4",
         "kind": "track",
         "verified": true
       },
       {
         "title": "Sun Is Shining",
         "platform": "youtube",
-        "ref": "nbXgHAzUWB0",
-        "sourceUrl": "https://www.youtube.com/watch?v=nbXgHAzUWB0",
+        "ref": "B4rQ_CA2Yy0",
+        "sourceUrl": "https://www.youtube.com/watch?v=B4rQ_CA2Yy0",
         "kind": "track",
         "verified": true
       },
       {
         "title": "Something New",
         "platform": "youtube",
-        "ref": "QwaVVsvLlc4",
-        "sourceUrl": "https://www.youtube.com/watch?v=QwaVVsvLlc4",
+        "ref": "jRzyE4pEMnA",
+        "sourceUrl": "https://www.youtube.com/watch?v=jRzyE4pEMnA",
         "kind": "track",
         "verified": true
       },
       {
         "title": "On My Way",
         "platform": "youtube",
-        "ref": "opxhEVjNvdk",
-        "sourceUrl": "https://www.youtube.com/watch?v=opxhEVjNvdk",
+        "ref": "9qw2P8NUlb0",
+        "sourceUrl": "https://www.youtube.com/watch?v=9qw2P8NUlb0",
         "kind": "track",
         "verified": true
       },
       {
         "title": "Dreamer",
         "platform": "youtube",
-        "ref": "yl2GaxVGUaI",
-        "sourceUrl": "https://www.youtube.com/watch?v=yl2GaxVGUaI",
+        "ref": "Odum0r9gxA8",
+        "sourceUrl": "https://www.youtube.com/watch?v=Odum0r9gxA8",
         "kind": "track",
         "verified": true
       },
       {
         "title": "Thinking About You",
         "platform": "youtube",
-        "ref": "nw_YLrre4fU",
-        "sourceUrl": "https://www.youtube.com/watch?v=nw_YLrre4fU",
+        "ref": "-tG9iEbaQgk",
+        "sourceUrl": "https://www.youtube.com/watch?v=-tG9iEbaQgk",
         "kind": "track",
         "verified": true
       },
@@ -5846,40 +5846,40 @@
       {
         "title": "Renegade",
         "platform": "youtube",
-        "ref": "GnUCM1VfQro",
-        "sourceUrl": "https://www.youtube.com/watch?v=GnUCM1VfQro",
+        "ref": "vEE_C_EuiXk",
+        "sourceUrl": "https://www.youtube.com/watch?v=vEE_C_EuiXk",
         "kind": "track",
         "verified": true
       },
       {
         "title": "Dancing Alone",
         "platform": "youtube",
-        "ref": "3QRHbjIVtsI",
-        "sourceUrl": "https://www.youtube.com/watch?v=3QRHbjIVtsI",
+        "ref": "je8VXDBUqK8",
+        "sourceUrl": "https://www.youtube.com/watch?v=je8VXDBUqK8",
         "kind": "track",
         "verified": true
       },
       {
         "title": "I Love You (feat. Kid Ink)",
         "platform": "youtube",
-        "ref": "2JzttfbZWpQ",
-        "sourceUrl": "https://www.youtube.com/watch?v=2JzttfbZWpQ",
+        "ref": "-xFD4FEqhd4",
+        "sourceUrl": "https://www.youtube.com/watch?v=-xFD4FEqhd4",
         "kind": "track",
         "verified": true
       },
       {
         "title": "This Time",
         "platform": "youtube",
-        "ref": "LcuIyGefjfA",
-        "sourceUrl": "https://www.youtube.com/watch?v=LcuIyGefjfA",
+        "ref": "QdTcOHnlaiY",
+        "sourceUrl": "https://www.youtube.com/watch?v=QdTcOHnlaiY",
         "kind": "track",
         "verified": true
       },
       {
         "title": "Dawn",
         "platform": "youtube",
-        "ref": "jrrfu1BWpBg",
-        "sourceUrl": "https://www.youtube.com/watch?v=jrrfu1BWpBg",
+        "ref": "ZVmjh9TJWB0",
+        "sourceUrl": "https://www.youtube.com/watch?v=ZVmjh9TJWB0",
         "kind": "track",
         "verified": true
       }
@@ -7454,14 +7454,6 @@
         "verified": true
       },
       {
-        "title": "More Than You Know",
-        "platform": "youtube",
-        "ref": "GsF05B8TFWg",
-        "sourceUrl": "https://www.youtube.com/watch?v=GsF05B8TFWg",
-        "kind": "track",
-        "verified": true
-      },
-      {
         "title": "One (Your Name) (Radio Edit)",
         "platform": "youtube",
         "ref": "M81MK-j1id4",
@@ -7542,7 +7534,7 @@
         "verified": true
       }
     ],
-    "notes": "Official channels: YouTube @ingrosso (avatar source); SoundCloud soundcloud.com/ingrosso (user ID 300697, confirmed via oEmbed, all SoundCloud tracks author \"Sebastian Ingrosso\").\n\n10 tracks, all oEmbed-verified (HTTP 200 + title), all from official channels: 7 YouTube + 3 SoundCloud (mix requirement and 3+ SoundCloud requirement both met).\n\nRanking by all-time popularity uses kworb Spotify stream totals as primary signal: More Than You Know (1.6B) >> Sun Is Shining (431M) > Reload (308M) > Dreamer (299M) > Calling (249M) > Something New (134M) > On My Way (86M). SoundCloud-only originals (Calling preview, Kidsos, Dark River) ranked last since they have far lower reach than the charting singles.\n\nYouTube official-channel notes: More Than You Know / Sun Is Shining / Dreamer / Something New / On My Way are on AxwellIngrossoVEVO (the duo's official VEVO; Ingrosso is half of Axwell Λ Ingrosso). Calling is on IngrossoAlessoVEVO (official collab VEVO). Reload is on Vevo (official, Refune/Universal). These are official artist/VEVO uploads, not fan re-uploads.\n\nDROPPED fan re-uploads found during search: \"More Than You Know\" GsF... was kept (VEVO) but 3EoSIbu7-nk dropped (author \"Bad Boy Edd\"); \"Leave The World Behind\" iY-kzN646MU dropped (author \"KanonVidz\"). A valid official Leave The World Behind exists at 9xjkBpore34 (author \"Axwell\", SHM member) but was not needed for the top 10.\n\nAvatar: og:image from @ingrosso channel page, raised from s900 to s400, verified HTTP 200 image/jpeg (20KB). URL: yt3.googleusercontent.com/DsMpvek21Qkh...=s400-c-k-c0x00ffffff-no-rj\n\nNote: Most of Ingrosso's biggest tracks are released under the duo \"Axwell Λ Ingrosso\" or with collaborators (Alesso, Swedish House Mafia), so official uploads live on the respective collaboration VEVO channels rather than the solo @ingrosso channel.",
+    "notes": "Official channels: YouTube @ingrosso (avatar source); SoundCloud soundcloud.com/ingrosso (user ID 300697, confirmed via oEmbed, all SoundCloud tracks author \"Sebastian Ingrosso\").\n\n10 tracks, all oEmbed-verified (HTTP 200 + title), all from official channels: 7 YouTube + 3 SoundCloud (mix requirement and 3+ SoundCloud requirement both met).\n\nRanking by all-time popularity uses kworb Spotify stream totals as primary signal: More Than You Know (1.6B) >> Sun Is Shining (431M) > Reload (308M) > Dreamer (299M) > Calling (249M) > Something New (134M) > On My Way (86M). SoundCloud-only originals (Calling preview, Kidsos, Dark River) ranked last since they have far lower reach than the charting singles.\n\nYouTube official-channel notes: More Than You Know / Sun Is Shining / Dreamer / Something New / On My Way are on AxwellIngrossoVEVO (the duo's official VEVO; Ingrosso is half of Axwell Λ Ingrosso). Calling is on IngrossoAlessoVEVO (official collab VEVO). Reload is on Vevo (official, Refune/Universal). These are official artist/VEVO uploads, not fan re-uploads.\n\nDROPPED fan re-uploads found during search: \"More Than You Know\" GsF... was kept (VEVO) but 3EoSIbu7-nk dropped (author \"Bad Boy Edd\"); \"Leave The World Behind\" iY-kzN646MU dropped (author \"KanonVidz\"). A valid official Leave The World Behind exists at 9xjkBpore34 (author \"Axwell\", SHM member) but was not needed for the top 10.\n\nAvatar: og:image from @ingrosso channel page, raised from s900 to s400, verified HTTP 200 image/jpeg (20KB). URL: yt3.googleusercontent.com/DsMpvek21Qkh...=s400-c-k-c0x00ffffff-no-rj\n\nNote: Most of Ingrosso's biggest tracks are released under the duo \"Axwell Λ Ingrosso\" or with collaborators (Alesso, Swedish House Mafia), so official uploads live on the respective collaboration VEVO channels rather than the solo @ingrosso channel. 2026-09-22 re-link: More Than You Know (GsF05B8TFWg) 404; dropped here because the same verified track lives on the Axwell /\\ Ingrosso entry (cross-artist ref dedup convention). 12 tracks remain.",
     "image": "https://yt3.googleusercontent.com/DsMpvek21QkhZA-1L0kuqwBDXoV0SQ1-OBpTPKxAkloMvpD7kcOoMSab6wYi8NVB1J06FZjOjsM=s400-c-k-c0x00ffffff-no-rj",
     "sameAs": [
       "https://en.wikipedia.org/wiki/Sebastian_Ingrosso",
@@ -10674,8 +10666,8 @@
       {
         "title": "Dirty Love ft. Talay Riley",
         "platform": "youtube",
-        "ref": "rKUbBcEz3XQ",
-        "sourceUrl": "https://www.youtube.com/watch?v=rKUbBcEz3XQ",
+        "ref": "UCHQC4gR--0",
+        "sourceUrl": "https://www.youtube.com/watch?v=UCHQC4gR--0",
         "kind": "track",
         "verified": true
       },
@@ -10760,7 +10752,7 @@
         "verified": true
       }
     ],
-    "notes": "All 10 tracks verified via oEmbed (HTTP 200 + valid title + official author). Sources: YouTube items are on Wilkinson's official channels (WilkinsonVEVO / WilkinsonMusic, channel UCtaTjkogAC3Xh5J-ZPdX0BQ); SoundCloud items are on the official profile soundcloud.com/wilkinsonuk (author \"Wilkinson UK\"). Platform mix: 7 YouTube + 3 SoundCloud (meets 3+ SoundCloud requirement). No track is duplicated across platforms.\n\nRanking is by popularity/iconic status: Afterglow (3x platinum, UK #8 — his signature track), Sweet Lies (14M+ views), Half Light, then the two Sub Focus collabs (Air I Breathe, Take It Up), Hopelessly Coping, Used To This, then the SoundCloud-only catalog tracks Take You Higher and Rush.\n\nDROPPED candidates flagged as NOT official during oEmbed verification: \"Breathe ft. Shannon Saunders\" (id AOQxejJ7BDM, author \"Yanislav\" — fan re-upload) and an alternate \"Air I Breathe\" upload (id 2ArpdPbB9Bk, author a non-official channel) — replaced the latter with the official WilkinsonVEVO upload rKWKopyC1GE. Afterglow and Dirty Love both exist on YouTube and SoundCloud; kept Afterglow on YouTube (official video) and Dirty Love on SoundCloud to maximize platform diversity without duplication.\n\nImage: official YouTube channel avatar (og:image) at s900 resolution, verified HTTP 200 image/jpeg (228 KB). The native channel avatar is already s900 (higher than s400), so kept the larger size; s400 variant also confirmed 200 if a smaller asset is preferred.",
+    "notes": "All 10 tracks verified via oEmbed (HTTP 200 + valid title + official author). Sources: YouTube items are on Wilkinson's official channels (WilkinsonVEVO / WilkinsonMusic, channel UCtaTjkogAC3Xh5J-ZPdX0BQ); SoundCloud items are on the official profile soundcloud.com/wilkinsonuk (author \"Wilkinson UK\"). Platform mix: 7 YouTube + 3 SoundCloud (meets 3+ SoundCloud requirement). No track is duplicated across platforms.\n\nRanking is by popularity/iconic status: Afterglow (3x platinum, UK #8 — his signature track), Sweet Lies (14M+ views), Half Light, then the two Sub Focus collabs (Air I Breathe, Take It Up), Hopelessly Coping, Used To This, then the SoundCloud-only catalog tracks Take You Higher and Rush.\n\nDROPPED candidates flagged as NOT official during oEmbed verification: \"Breathe ft. Shannon Saunders\" (id AOQxejJ7BDM, author \"Yanislav\" — fan re-upload) and an alternate \"Air I Breathe\" upload (id 2ArpdPbB9Bk, author a non-official channel) — replaced the latter with the official WilkinsonVEVO upload rKWKopyC1GE. Afterglow and Dirty Love both exist on YouTube and SoundCloud; kept Afterglow on YouTube (official video) and Dirty Love on SoundCloud to maximize platform diversity without duplication.\n\nImage: official YouTube channel avatar (og:image) at s900 resolution, verified HTTP 200 image/jpeg (228 KB). The native channel avatar is already s900 (higher than s400), so kept the larger size; s400 variant also confirmed 200 if a smaller asset is preferred. 2026-09-22 re-link: Dirty Love oEmbed flipped to 403 (embed-disabled). Replaced with the Wilkinson - Topic audio (UCHQC4gR--0), oEmbed-200 + embeddable.",
     "image": "https://yt3.googleusercontent.com/Pw7UdSuITOQFN5r9NThCZyA92EUIp7NKiWY0d-sK-jlerJ2S9wpcGvvT0UsAp2Kqp0jBrSJK=s400-c-k-c0x00ffffff-no-rj",
     "sameAs": [
       "https://en.wikipedia.org/wiki/Wilkinson_(musician)",
