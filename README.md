@@ -131,5 +131,5 @@ Stripe tip flow are implemented. The repository is intentionally small and
 static: the next product work is primarily catalog operations, playback
 quality, and audience discovery rather than backend infrastructure.
 
-The repository currently has no explicit open-source license. Add one before
-accepting outside contributions or granting reuse rights.
+The project is open source under the MIT License — see [LICENSE](LICENSE).
+© 2026 AIagentPRO78.
