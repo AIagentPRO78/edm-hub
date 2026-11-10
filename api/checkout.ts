@@ -1,5 +1,14 @@
-import type { VercelRequest, VercelResponse } from '@vercel/node';
+import type { IncomingMessage, ServerResponse } from 'node:http';
 import Stripe from 'stripe';
+
+// The request/response helpers Vercel's Node.js runtime adds, limited to what
+// this handler uses. Declared here so the project does not need @vercel/node,
+// whose dependency tree carries unpatched advisories.
+type VercelRequest = IncomingMessage & { body?: any };
+interface VercelResponse extends ServerResponse {
+  status(code: number): VercelResponse;
+  json(body: unknown): VercelResponse;
+}
 
 const MIN = 1;
 const MAX = 1000;
