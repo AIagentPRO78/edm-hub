@@ -197,6 +197,7 @@ export default defineConfig({
     environment: 'jsdom',
     globals: true,
     setupFiles: ['./src/test-setup.ts'],
-    include: ['src/**/*.test.ts'],
+    // tests/unit covers code outside src/: the checkout function, the service worker, vercel.json.
+    include: ['src/**/*.test.ts', 'tests/unit/**/*.test.ts'],
   },
 });

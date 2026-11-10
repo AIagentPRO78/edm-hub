@@ -90,7 +90,8 @@ npm run preview
 
 The test suite covers catalog validation, playback state, embed adapters,
 filtering, accessibility behavior, donation amount handling, the wall,
-drawers, the deck, and the main application mount.
+drawers, the deck, and the main application mount. `tests/unit/` covers the
+checkout function (Stripe stubbed), the service worker, and the CSP header.
 
 ## Deployment and configuration
 
@@ -103,13 +104,19 @@ npm run build
 The optional `/api/checkout` function needs these Vercel environment variables:
 
 - `STRIPE_SECRET_KEY` — server-side Stripe secret; never expose it to Vite
-- `STRIPE_CURRENCY` — optional currency override, default `usd`
+- `STRIPE_CURRENCY` — optional currency override, default `usd`; must be a
+  two-decimal currency (zero-decimal ones such as `jpy` or `krw` are refused)
 - `CANONICAL_ORIGIN` — optional canonical redirect origin, default
   `https://djset.club`
 
-The checkout endpoint accepts only `POST`, validates the amount again on the
-server between 1 and 1,000 currency units, and uses a canonical-origin
-allowlist for success and cancel redirects.
+The checkout endpoint accepts only `POST` with a JSON body, rejects requests
+whose `Origin` is neither the canonical origin nor the deployment's own host,
+validates the amount again on the server between 1 and 1,000 currency units,
+and uses a canonical-origin allowlist for success and cancel redirects.
+
+The endpoint has no rate limit of its own. Abuse protection belongs in the
+Vercel Firewall (a rate-limit rule on `/api/checkout`) and in Stripe Radar
+(card-testing protection), both configured in their dashboards.
 
 ## Repository map
 
