@@ -9,6 +9,14 @@
 const CACHE = 'djset-__BUILD_HASH__';
 const SHELL = ['/', '/favicon.svg', '/manifest.webmanifest', '/og.jpg'];
 
+// Only a successful, same-origin HTML response for the app's own URL may replace
+// the cached shell. Otherwise one visit to /robots.txt, /og.jpg or a hashed
+// asset would overwrite '/' and be served for every later offline navigation.
+function isShellResponse(url, res) {
+  const type = res.headers.get('content-type') || '';
+  return url.pathname === '/' && res.ok && res.type === 'basic' && /^text\/html\b/i.test(type);
+}
+
 self.addEventListener('install', (event) => {
   event.waitUntil(
     caches
@@ -38,7 +46,7 @@ self.addEventListener('fetch', (event) => {
     event.respondWith(
       fetch(req)
         .then((res) => {
-          if (res.ok) {
+          if (isShellResponse(url, res)) {
             const copy = res.clone();
             caches.open(CACHE).then((c) => c.put('/', copy)).catch(() => {});
           }
